@@ -1,6 +1,6 @@
 # RP_PCA
 
-<font size = 5> **Factors That Fit the Time Series and Cross-Section of Stock Returns**</font>
+<font size = 5> **Factors That Fit the Time Series and Cross-Section of Stock Returns.Review of Finanical Studies**</font>
 
 <font size = 5> **Authors:**</font>
 
@@ -18,12 +18,11 @@
 
 <font size = 5>We propose a new method for estimating $\text{\color{red}{latent}}$ asset pricing factors that fit the time series and cross-section of expected returns. Our estimator generalizes principal component analysis (PCA) by including a penalty on the pricing error in expected returns. Our approach finds $\text{\color{red}{weak factors}}$ with high Sharpe ratios that PCA cannot detect. We discover five factors with economic meaning that explain well the cross-section and time series of characteristicsorted portfolio returns. <mark>The out-of-sample maximum Sharpe ratio of our factors is twice as large as with PCA with substantially smaller pricing errors. Our factors imply that a significant amount of characteristic information is redundant. </mark></font>
 
-<font size = 5>
 <strong>“weak” factors:</strong>
 
 * factors that affect only a subset of the underlying assets
+
 * Weak factors are harder to detect than “strong” factors that affect all assets (“market” factor).
-</font>
 
 ## Introducion
 
@@ -35,8 +34,6 @@
 **APT认为: 系统的时间序列因素也决定了横截面风险溢价**
 
 ## 1. Methodology
-
-
 
 **假设:**
 
@@ -542,3 +539,6 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 ![](RP_PCA-figures/figure8.png)
 
 **Generalized correlations between loadings estimated on the whole sample and rolling windows with lengths of 240 months.**
+
+>[!NOTE|label:注意]
+>不是和真实因子的correlation
