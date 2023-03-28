@@ -13,7 +13,7 @@
 条件3(no)->输出2
 
 
-
+$\rho_{\theta e}$ 和 $\rho_{\theta M}$ 成比例，等式(9)可近似为 $\beta_{\theta}$
 
 
 
