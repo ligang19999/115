@@ -414,13 +414,13 @@ $$
 V &= E(\pi X) \\
 \\
 &= p_1 \pi_1 X_1 + p_2 \pi_2 X_2 \\
-\end{aligned} \tag{23}
+\end{aligned} \tag{26}
 $$
 
 根据随机折扣因子定义：$\pi_s = \frac{\psi_s}{p_s}$，上式变为：
 
 $$
-V = \psi_1X_1 + \psi_2X_2 \tag{24}
+V = \psi_1X_1 + \psi_2X_2 \tag{27}
 $$
 
 考虑两个资产的市场：
