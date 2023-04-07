@@ -9,7 +9,7 @@ Authors:
 
 ## Abstract
 
-We investigate $\text{\color{red}{how state ownership affects a firm’s term structure of yield spreads}}$  by examining SOEs in the Chinese bond market. Both $\text{\color{red}{Regular-SOEs}}$  and $\text{\color{red}{Policy-SOEs}}$ have substantially lower spreads than non-SOEs, and <mark>Policy-SOEs have even lower spreads than Regular-SOEs at shorter maturities, but their advantage disappears at longer maturities.</mark> $\text{\color{blue}{The shrinking borrowing advantage cannot be explained by}}$ firm credit profiles, market liquidity, or decreasing government support due to $\text{\color{blue}{local politician turnovers}}$ , while political uncertainty remains a possibility. Moreover, there is strong cross-sectional and causal evidence for a “window dressing” channel, where the government support for Policy-SOEs declines following bond issuance.
+We investigate $\text{\color{red}{how state ownership affects a firm’s term structure of yield spreads}}$  by examining SOEs in the Chinese bond market. Both $\text{\color{red}{Regular-SOEs}}$  and $\text{\color{red}{Policy-SOEs}}$ have substantially lower spreads than non-SOEs, and <mark>Policy-SOEs have even lower spreads than Regular-SOEs at shorter maturities, but their advantage disappears at longer maturities.</mark> $\text{\color{blue}{The shrinking borrowing advantage cannot be explained by}}$ firm credit profiles, market liquidity, or decreasing government support due to $\text{\color{blue}{local politician turnovers}}$ , while political uncertainty remains a possibility. Moreover, there is strong cross-sectional and causal evidence for a $\textcolor{purple}{“window \ dressing”}$ channel, where the government support for Policy-SOEs declines following bond issuance.
 
 >[!TIP|label:提示]
 >收益率差(Yield Spread)
@@ -23,6 +23,18 @@ We investigate $\text{\color{red}{how state ownership affects a firm’s term st
 
 作者以中国债券市场为研究对象，因为国有经济在中国经济中占据主导地位，国有企业数量庞大。此外，中国的国有企业可以分类为政府融资目的的政策性国有企业和常规业务的普通国有企业，这种分类有利于更深入研究国有制对企业资产价格的影响。
 
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
+政策性国有企业和普通国有企业的区别：
+
+* 政策性国有企业是为了一定的融资目的而创立的，例如为基建项目融资；普通国有企业通常有正常的业务，可能还会与非国有企业竞争
+
+* 由于主要以特定目的而设立，政策性国有企业的经营净现值很小，收益率很低
+
+* 政府对政策性国有企业的支持主要有：提供补贴，注资或给予特殊经营许可
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
 研究发现：
 
 * 与同一城市的非国有企业相比，在控制了信贷和流动性状况以及政策性国有企业发行摊余债券的趋势之后，政策性国有企业和普通国有企业的短期借贷成本分别降低了约125和100个基点
@@ -33,13 +45,7 @@ We investigate $\text{\color{red}{how state ownership affects a firm’s term st
 
 * 二级市场 (trade market) 的债券期限结构与一级市场 (issue market) 的情况非常相似
 
-政策性国有企业和普通国有企业的区别：
-
-* 政策性国有企业是为了一定的融资目的而创立的，例如为基建项目融资；普通国有企业通常有正常的业务，可能还会与非国有企业竞争
-
-* 由于主要以特定目的而设立，政策性国有企业的经营净现值很小，收益率很低
-
-* 政府对政策性国有企业的支持主要有：提供补贴，注资或给予特殊经营许可
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 由于与政府的关系更为紧密，因此政策性国有企业对政治不确定性的反应更为敏感。作者将不确定性的来源分为两类：政策的变动以及政府公职人员的变动。
 
@@ -56,6 +62,7 @@ We investigate $\text{\color{red}{how state ownership affects a firm’s term st
 2. 第43号指令
 
 2014年9月，国务院第43号指令加强了投资者对未来政府支持的预期。该指令要求地方政府将为公共项目筹集的债务纳入预算，并鼓励用省级政府发行的低收益长期市政债券取代高收益政策性国企债务。市场普遍将这一指令解读为未来政府更多支持的信号。
+
 在执行第43号指令后，在更广泛的期限范围内，政策性国企债券相对于普通国企债券的收益率利差优势既更大，也更持久。在此期间对政府补贴和股权注入的进一步研究表明，无论是从绝对水平还是相对于常规国有企业作为基准，在债券发行后，政府对政策性国有企业的支持下降幅度都要小得多。因此，第43号指令的执行对政策性国有企业的现金流产生了可衡量的影响，这对其债券定价产生了积极影响
 
 ## 2. Borrowing Cost Savings of Chinese SOEs
@@ -119,7 +126,7 @@ Hypothesis 4：2014年第43号指令执行后，“window dressing” 效应减�
 
 最后大约有12000只债券作为发行债券的研究对象，其中47%由政策性国有企业发行，29%由普通国有企业发行，剩下的24%由非国有企业发行
 
-## Results
+## 5. Results
 
 ### 5.1 Yield Spread Differences among PSOE, RSOE, and NSOE Bonds
 
@@ -155,7 +162,7 @@ $$
 
 文章将政府人员的调动分为两个维度：是否为主持发债的官员离职 (初次发行)，离开是否出于非正常原因
 
-文章考虑市长和市委书记的调动
+文章考虑债券的主持发行人、市长和市委书记的调动
 
 ![](figures/week6/table8-a.png)
 
@@ -182,3 +189,19 @@ Before是一个二元变量，政府支持对应的年份如果是在债券发�
 ![](figures/week6/table11.png)
 
 ![](figures/week6/table12.png)
+
+## 6. Comments
+
+1. Chengtou bonds are not equal to Policy-SOEs
+   - 一些政策性国有企业可能不发债，或不以城投债的形式融资
+   - 一些城投债以非公开定向的方式发行
+   - 普通国有企业也可以发城投债
+
+2. Missing variables about government’s support
+   - 实证部分考虑的政府支持的指标是股权注资和补贴，但还有很多形式，例如特许经营许可，准入门槛，技术人员的支持，这些都是政府支持的具体体现
+
+3. Deficiencies in analyzing local politician turnovers
+   - 应该准确定位负责掌管政策性国有企业的负责人或部门，而不一定是债券发行的主持人，市长或市委书记
+
+4. No effective policy suggestions
+   - 文章没有根据研究结论提出有效的政策建议，这些建议可以帮助投资者更好地投资决策，也可以帮助政府更好地实施相关政策

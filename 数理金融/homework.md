@@ -4,7 +4,7 @@
 
 根据所学知识，总结如下思维导图：
 
-![](figures/figure01.png)
+![](figures/figure000.png)
 
 ## 1. 基本定义
 

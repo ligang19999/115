@@ -1,6 +1,13 @@
 # RP_PCA
 
-<font size = 5> **Factors That Fit the Time Series and Cross-Section of Stock Returns.Review of Finanical Studies**</font>
+<font size = 5> **Factors That Fit the Time Series and Cross-Section of Stock Returns**</font>
+
+<font size = 5> **Journal:**</font>
+
+<font size = 4>
+
+Review of Finanical Studies
+</font>
 
 <font size = 5> **Authors:**</font>
 
