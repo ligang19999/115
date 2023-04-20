@@ -304,7 +304,7 @@ $$
 \end{array}
 $$
 
-这里的m-1其实就是RP_PCA的目标矩阵中的参数 $\gamma$，$\gamma$ = m-1
+这里的 m-1 其实就是RP_PCA的目标矩阵中的参数 $\gamma$，$\gamma$ = m-1
 由于RP_PCA想要在PCA的基础上再利用一阶矩的信息，因此给一阶矩的权重肯定为正，所以 $m \geqslant0$，所以 $\gamma \geqslant -1$
 
 >[!NOTE|label:特别注意]
