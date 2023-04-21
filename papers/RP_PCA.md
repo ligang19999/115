@@ -523,6 +523,8 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 
 ![](RP_PCA-figures/table2.png)
 
+之所以FF3和FF5模型在个股上表现得更好，是因为，PCA和RP_PCA都假定公司特征是不随时间变化的，而个股的特征变化非常大；FF模型则是直接将收益率回归到特征上来，其内在逻辑是个股收益率和特征都是随时间变化，因此需要找到它们之间的相关性，也即这些特征的 factor loading
+
 ### 2.3 Individual stocks
 
 数据：

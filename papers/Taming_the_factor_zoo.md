@@ -46,7 +46,15 @@ $g_t$ 和 $h_t$ 都是可交易或不可交易的
 
 Heston和Sadka(2008)提出了季节因子(seasonality factor)，在 FF3 模型评价体系下存在显著的alpha(t统计量为2.06)。如果根据此基准模型进行评估，则可以得出结论:季节性是一个有效的因子
 
-然而，季节因子和动量因子高度相关(例如，与Carhart 动量因子的相关性为0.63)，如果采用包含动量因子的基准模型进行评估，则alpha 会变小且在统计上不显著(t 统计量=-0.87)
+$$
+seasonality = \alpha + \beta_1\big(E(R_M)-R_F\big) + \beta_2\big(E(SMB)\big) + \beta_3\big(E(HML)\big)
+$$
+
+然而，季节因子和动量因子高度相关(例如，与 Carhart 动量因子的相关性为0.63)，如果采用包含动量因子的基准模型进行评估，则alpha 会变小且在统计上不显著(t 统计量=-0.87)
+
+$$
+seasonality = \alpha + \beta_1\big(E(R_M)-R_F\big) + \beta_2\big(E(SMB)\big) + \beta_3\big(E(HML)\big) + \beta_4\big(E(UMD)\big)
+$$
 
 这个例子说明基准模型的选择在评估新因子的有效性方面十分重要。然而，大多数关于新因子研究的文献，都存在潜在的数据挖掘偏差，即对于基准模型的选择具有一定随意性。而本文方法可以系统化构建最低维度的基准模型，用于评价新因子 $g_t$
 
@@ -102,6 +110,12 @@ $C_h: Cov(r_t,h_t)$
 
 $$
 r_t=\mathbf{E}(r_t)+\beta_g g_t+\beta_h h_t+u_t \tag{3}
+$$
+
+&nbsp;
+
+$$
+\mathbb{E}(r_t)=k\gamma_0+\beta_g\gamma_g+\beta_h\gamma_h \tag{4}
 $$
 
 >[!NOTE|label:risk premium 和 SDF loading 的区别]
@@ -171,7 +185,7 @@ $\{\widehat{I}_1\}$: the set of indices corresponding to the selected factors in
 >
 >$A_{\cdot,j}$：矩阵A的第j列
 
-向量的算子范数具有 OLS 作用，L1范数具有 LASSO 作用
+向量的算子范数具有 “OLS 作用”，L1范数具有 LASSO 作用，L2范数同样具有OLS 作用
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
@@ -198,7 +212,7 @@ $\widehat{I}_{2}= \bigcup_{j=1}^{d}\widehat{I}_{2,j}$
 Run an OLS cross-sectional regression using covariances between the selected factors from both steps and returns:
 
 $$
-(\widehat{\gamma}_0,\widehat{\lambda}_g,\widehat{\lambda}_h)=\text{arg}\operatorname*{min}_{\gamma_0,\lambda_g,\lambda_h}\left\{\left\|\bar{r}-\iota_n\gamma_0-\widehat{C}_g\lambda_g-\widehat{C}_h\lambda_h\right\|^2: \\ \lambda_{h,j}=0,\quad \forall j\notin\widehat{I}=\widehat{I}_1\bigcup\widehat{I}_2\right\} \tag{9}
+(\widehat{\gamma}_0,\widehat{\lambda}_g,\widehat{\lambda}_h)=\text{arg}\operatorname*{min}_{\gamma_0,\lambda_g,\lambda_h} \bigg\{\left\|\bar{r}-\iota_n\gamma_0-\widehat{C}_g\lambda_g-\widehat{C}_h\lambda_h\right\|^2: \\ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \lambda_{h,j}=0,\quad \forall j\notin\widehat{I}=\widehat{I}_1\bigcup\widehat{I}_2 \bigg\} \tag{9}
 $$
 
 这一步是最小化等式(2)的残差，OLS
