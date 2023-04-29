@@ -6,7 +6,7 @@ Author: Timothy M. Christensen
 
 ## Abstract
 
-Stochastic discount factor (SDF) processes in dynamic economies admit a permanent-transitory decomposition in which $\colorbox{aqua}{the permanent component characterizes pricing over long investment horizons.}$  This paper introduces an empirical framework to analyze the permanent-transitory decomposition of SDF processes. Specifically, we show how to estimate nonparametrically the solution to the Perron-Frobenius eigenfunction problem of Hansen and Scheinkman (2009). Our empirical framework allows researchers to (i) recover the time series of the estimated permanent and transitory components and (ii) estimate the yield and the change of measure which characterize pricing over long investment horizons. We also introduce nonparametric estimators of the continuation value function in a class of models with recursive preferences by reinterpreting the value function recursion as a nonlinear Perron-Frobenius problem. We establish consistency and convergence rates of the eigenfunction estimators and asymptotic normality of the eigenvalue estimator and estimators of related functionals. As an application, we study an economy where the representative agent is endowed with recursive preferences, allowing for general (nonlinear) consumption and earnings growth dynamics.
+Stochastic discount factor (SDF) processes in dynamic economies admit a permanent-transitory decomposition in which <mark>the permanent component characterizes pricing over long investment horizons</mark>. This paper introduces an empirical framework to analyze the permanent-transitory decomposition of SDF processes. Specifically, we show how to estimate nonparametrically the solution to the Perron-Frobenius eigenfunction problem of Hansen and Scheinkman (2009). Our empirical framework allows researchers to (i) recover the time series of the estimated permanent and transitory components and (ii) estimate the yield and the change of measure which characterize pricing over long investment horizons. We also introduce nonparametric estimators of the continuation value function in a class of models with recursive preferences by reinterpreting the value function recursion as a nonlinear Perron-Frobenius problem. We establish consistency and convergence rates of the eigenfunction estimators and asymptotic normality of the eigenvalue estimator and estimators of related functionals. As an application, we study an economy where the representative agent is endowed with recursive preferences, allowing for general (nonlinear) consumption and earnings growth dynamics.
 
 ## Theoretical framework
 
@@ -99,3 +99,101 @@ style="border-collapse:
  </tr>
 </table>
 
+* 转移概率：状态的改变叫做转移，与不同的状态改变相关的概率叫做转移概率
+$\text{Prob}(X_{t+1}=i\mid X_t=j)=P_{ij}$
+所有𝑃_𝑖𝑗组成的矩阵称为转移矩阵
+
+* 初始概率：t时刻各个状态的概率，并不一定等于转移概率，具有随机性
+
+状态转移概率矩阵与初始状态概率向量确定了隐藏的马尔科夫链
+
+上述例子的转移概率矩阵可以写为：
+
+$$
+\begin{bmatrix}
+0.1&0.5&0.4\\
+0.3&0.6&0.1\\
+0.4&0.1&0.5
+\end{bmatrix}
+$$
+
+若初始概率：（0.2，0.2，0.6）
+
+则连续三天下雨的概率为：0.2×0.6×0.6 = 0.072
+
+本文所假设的马尔可夫过程的性质:
+
+* time homogeneous（时间均匀的）：A Markov chain is called time homogeneous if and only if the transition probabilities are independent of the time t. 当转移概率不随时间变化时，这个马尔可夫过程便是时间均匀的
+
+* strictly stationary：这个概念想表达的意思与前一特性基本相同，即转移概率并不依赖于时间t
+https://math.stackexchange.com/questions/1288248/stationary-markov-process-properties
+
+https://encyclopediaofmath.org/wiki/Markov_process,_stationary
+这里有一个数学化的解释：当一个马尔可夫过程的转移概率满足时间均匀时，如果存在一个平稳的初始概率分布μ(A)，则这个马尔可夫过程是平稳的
+
+* ergodic：是指不管事物现在处于什么状态，在较长时间内，马尔可夫过程逐渐趋于稳定状态，而且与初始状态无关。遍历性定理讲的就是只要时间够长，什么状态都有可能到达，状态是由相互连接的环组成的
+
+stationary distribution of a Markov chain：
+
+给定一个马尔可夫链，其状态空间存在概率分布 $\pi=\pi(s)$，且转移矩阵和转移概率 $P=p(i,j)$，若满足：
+
+* $π=πP$（平衡方程）
+* $\sum\pi_i=1$
+
+则称 $\pi$ 是该马尔可夫链的平稳分布，或称为转移阵 P 的不变测度。这里的 $π_i$ 对应 SDF 的 s 种状态的发生的概率
+
+如果马尔可夫链的存在平稳分布，并且其初始分布也是平稳分布，则该马尔可夫链处于稳态
+
+马尔可夫半群(Markov semigroup)：
+
+半群是最简单、最自然的一类代数系统。一个非空集合S连同定义在它上面的一个结合的(即满足结合律的)二元运算“·”的代数系统(S，·)称为一个半群.半群(S，·)简记为S
+
+半群是抽象代数的概念，也可以理解为一类包含某种性质的集合，在本文中它的作用便是定义不同的连续两期之间的有界线性算子矩阵具有相同形式，因此有界线性算子满足：
+
+$$
+M_\tau=M^\tau
+$$
+
+有界线性算子：
+
+矩阵的本质就是一种映射，有限维度的向量空间之间的线性变换完全可以用矩阵来描述，对于无限维度的空间则并非如此。有界线性算子的本质也是一种映射，将X空间中的元素映射到 Y 空间，有界线性算子在有限维度下可以表示成为矩阵，在无穷维度下一般不能找到矩阵的表示形式，但也可以通过无穷矩阵来表示
+
+因此在本文有限维度的假设下，X 空间就是当期资产偿付（payoff） $X_t$ 元素的集合，Y 空间就是未来某期当期资产偿付（payoff） $X_{t+\tau}$ 元素的集合，而 M 就是将 X 空间元素映射到 Y 空间的映射矩阵，也就是我们之后要根据Perron-Frobenius问题分析其特征值、特征向量的那个矩阵。
+
+范数：
+
+是具有“长度”概念的函数。在线性代数、泛函分析及相关的数学领域，范数是一个函数，是矢量空间内的所有矢量赋予非零的正长度或大小
+
+在有限维度的空间中，我们可以很容易的求一个向量的模长，即 $\sqrt{\sum Zi^2}$，但是在无穷维度的空间中，我们没有求向量的模长，于是便定义了范数的概念。范数有很多种类，不同的范数有不同的定义方式。
+
+M 怎么求解：关键在于找到X空间与Y空间的坐标基，找到两个空间中对应的坐标基后，就可以求解 M:
+
+$$
+\begin{bmatrix}
+\square&{\cdots}&\square\\
+{\vdots}&{\ddots}&{\vdots}\\
+\square&{\cdots}&\square\\
+\end{bmatrix}
+\overrightarrow{X 空间坐标基}= \overrightarrow{Y 空间坐标基}
+$$
+
+正是因为有了马尔可夫平稳性的假设以及马尔可夫半群的概念，所以每一次映射都是一样的方法，也即一样的矩阵，即从 t 期到 t+1 期，t+1 期到 t+2 期，t+2 期到 t+3 期……的映射矩阵都是相同的，所以文章中提到 $M_\tau=M^\tau$，只要知道 M 的性质，便知道了 $M_\tau$ 的性质:
+
+![](SDF_decom-figures/other-1.png)
+
+根据矩阵特征值与特征向量的运算性质：
+
+$$
+\begin{array}{llllll}
+Mx&=&\rho x \\
+\\
+M^2x&=&M\times(\text{Mx})&=&M\times(\text{Px})&=&\rho(\text{Mx})&=&\rho\rho\text{x}&=&\rho^2\text{x}\\
+\\
+M^3x&=&M\times(M^2x)&=&M\times(\rho^2x)&=&\rho^2(\rho x)&=&\rho^2\rho x&=&\rho^3x \\
+\\
+\dotsm\\
+M^n x&=&\text{}\rho^n x
+\end{array}
+$$
+
+所以只需要研究 t 期到 t+1 期的映射矩阵即可
