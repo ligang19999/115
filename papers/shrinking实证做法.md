@@ -1,8 +1,10 @@
 [理论部分详解1](https://leetah666.github.io/Notes/#/papers/shrinking_the_cross-section) $\qquad$ [理论部分详解2](https://hbs2000.github.io/Gpaper/#/factor_zoo/Shrinkage)
 
-# 4. Empirical analysis
+# shrinking the cross-section 实证部分
 
-## 4.1 Preliminary analysis: Fama-French ME/BM portfolios
+## 4. Empirical analysis
+
+### 4.1 Preliminary analysis: Fama-French ME/BM portfolios
 
 日频数据，1926年7月 - 2017年12月
 
@@ -34,7 +36,7 @@ Kozak(2018)的研究表明：SMB 和 HML 因子本质上匹配FF25(市场中性)
 
 ![](shrinking_the_cross-section-figures/figure2.png)
 
-## 4.2 Large sets of characteristics portfolios
+### 4.2 Large sets of characteristics portfolios
 
 作者构建了两个独立的特征集
 
@@ -77,7 +79,7 @@ $$
 
 **为了确保结果不是由非常小的流动性不足的股票驱动，作者排除了每个时间点市值低于股票总市值0.01% 的小盘股**
 
-### 4.2.1 Fifty anomaly characteristics
+#### 4.2.1 Fifty anomaly characteristics
 
 ![](shrinking_the_cross-section-figures/table1.png)
 
@@ -101,7 +103,7 @@ $k\approx0.30$ 时，OOS $R^2$ 达到最大
 
 本文对 $\mu$ 的先验参数是 $\eta = 2$，本部分对比了 $\eta = 1$ 的情况，即 (a) 中的 P&S level shrinkage (Pástor and Stambaugh.2000)
 
-### 4.2.2 WRDS financial ratios (WFR)
+#### 4.2.2 WRDS financial ratios (WFR)
 
 第一组资产回报并没有使该方法面临从高维数据中识别新的定价因子的挑战
 
@@ -117,7 +119,7 @@ $k\approx1$ 时，OOS $R^2$ 达到最大
 
 这部分实证表明，本文的方法可以很好地解决将与定价相关的因子和与定价无关的因子混合在一起的数据集
 
-## 4.3 Interactions
+### 4.3 Interactions
 
 为了应对统计上的挑战，作者选择了高维度的数据集：在原有的两组数据集基础上补充了基于特征的二次幂、三次幂和线性一阶交互项
 
@@ -135,7 +137,7 @@ $$
 
 ![](shrinking_the_cross-section-figures/figure8.png)
 
-# 5. Asset pricing tests: performance compared with sparse models
+## 5. Asset pricing tests: performance compared with sparse models
 
 前面部分使用了交叉验证方法，即选择一部分数据来估计SDF，然后将估计出的SDF放入另一部分数据进行样本外测试。这种方法的局限性在于：没有使用所有数据来估计SDF，$L^1$ 和 $L^2$ 正则项都应当基于全部数据得出
 
