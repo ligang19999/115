@@ -8,6 +8,8 @@ Here are some notes mainly for myself to review. I would be glad if you can lear
 
 - [Papers](papers/_sidebar.md)
 
+- [Asset pricing theory](Asset_pricing_theory/_sidebar.md)
+
 - [My courses](readcourse.md)
 
 - [Tools](实用工具/_sidebar.md)

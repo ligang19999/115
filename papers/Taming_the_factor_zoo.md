@@ -58,7 +58,9 @@ $$
 
 这个例子说明基准模型的选择在评估新因子的有效性方面十分重要。然而，大多数关于新因子研究的文献，都存在潜在的数据挖掘偏差，即对于基准模型的选择具有一定随意性。而本文方法可以系统化构建最低维度的基准模型，用于评价新因子 $g_t$
 
-## Methodology
+## 1. Methodology
+
+### 1.1 Model
 
 $$
 \begin{aligned}m_t:=\gamma_0^{-1}-\gamma_0^{-1}\lambda_v^{\intercal}v_t:=\gamma_0^{-1}\bigl(1-\lambda_g^{\intercal}g_t-\lambda_h^{\intercal}h_t\bigr)\end{aligned} \tag{1}
@@ -143,7 +145,7 @@ $\chi: d\times p$ 阶矩阵
 
 $C_e: n\times d$ 阶矩阵，代表回归残差
 
-### Challenges with Standard Two-Pass Methods in High-Dimensional Settings
+### 1.2 Challenges with Standard Two-Pass Methods in High-Dimensional Settings
 
 传统的资产定价理论中两步回归法，例如 Fama-MacBeth:
 
@@ -160,7 +162,7 @@ $C_e: n\times d$ 阶矩阵，代表回归残差
 
 这一假设使得我们可以仅考虑最有影响力的因子
 
-### Two-Pass Regression with Double-Selection LASSO
+### 1.3 Two-Pass Regression with Double-Selection LASSO
 
 Double Selection strategy：
 
@@ -219,7 +221,7 @@ $$
 
 **如果只有第一步选择+Post-selection estimation，则这个过程被称作Single selection Strategy**
 
-## Empirical Analysis
+## 2. Empirical Analysis
 
 monthly frequency from July 1976 to December 2017
 
@@ -232,7 +234,7 @@ monthly frequency from July 1976 to December 2017
   * Betting-Against-Beta, HML Devil, and Quality-Minus-Junk etc.
 * 135个多空市值加权投资组合作为因子代理
 
-### Test Portfolios
+### 2.1 Test Portfolios
 
 本文共使用750个投资组合作为测试资产
 
@@ -245,7 +247,7 @@ monthly frequency from July 1976 to December 2017
   * 根据规模和过去（13-60）个月收益的长期反转排序的3×2投资组合
 * 从因子库获得的714个其他投资组合加入到这36个基础投资组合中,这714个投资组合涵盖了其他因子
 
-### The First Lasso
+### 2.2 The First Lasso
 
 $\tau_0$ 的取值会影响Lasso回归的结果，本文认为当 $\tau_0$ 变化时，如果结果没有发生较大改变，则检验结果是稳健的
 
@@ -301,33 +303,33 @@ K-fold Cross Validation 成立的前提是样本服从独立同分布。而当�
 
 假设样本时间跨度为 10 个月，采用 5 折时序交叉验证，那么首先将样本等分成 5 个部分。以第 1\~2 月数据作为训练集，第 3\~4 月作为验证集，进行第 1 次验证。再以第 1\~4 月数据作为训练集，第 5\~6 月为验证集，进行第 2次验证。以此类推，第 4 次验证以第 1\~8 月数据作为训练集，第 9\~10 月作为验证集。再将总共 4 次验证的模型评价指标取平均数。时序交叉验证避免了使用未来信息的可能，对于时序数据的机器学习而言是较为合理的选择
 
-### The Second Lasso
+### 2.3 The Second Lasso
 
 第二阶段从 $h_t$ 中选择的因子数量与模型中真实的资产定价因子数量之间并没有理论关系。任何可能导致 $\lambda_g$ 估计偏差的因子都应该被第二个 LASSO 保留下来，即使是redundant factors
 
 第一阶段 LASSO 平均选择因子数量为四个，而在第二阶段中 LASSO 平均所选因子个数在20-80个之间。这种差异主要由于两个 LASSO 目标的不同
 
-### The Double-Selection Estimator
+### 2.4 The Double-Selection Estimator
 
 ![](Taming_figures/table1.png)
 
-### Evaluating Factors Recursively
+### 2.5 Evaluating Factors Recursively
 
 ![](Taming_figures/table2.png)
 
 Drawback: publication year may not equal to discovery year
 
-### Robustness
+### 2.6 Robustness
 
-#### Robustness to the Choice ofTuning Parameters
+#### 2.6.1 Robustness to the Choice ofTuning Parameters
 
 ![](Taming_figures/figure2.png)
 
-#### Robustness to Test Assets and Regularization Method
+#### 2.6.2 Robustness to Test Assets and Regularization Method
 
 ![](Taming_figures/table3.png)
 
-## Conclusion
+## 3. Conclusion
 
 本文提出的方法在四个重要的方面不同于已有文献：
 

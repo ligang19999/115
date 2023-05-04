@@ -44,12 +44,12 @@ $$
 
 这里鞅的这种性质可以很好地对应permanent部分的不变的性质，permanent部分可以用来描述长期投资期限的定价特征
 
-### 马尔可夫过程与马尔可夫链
+### Markov process and Markov chain
 
-马尔可夫过程：
+Markov process：
 未来独立于过去，预测未来只基于当下的信息。过去的事件中所包含的能够预测未来的信息，全部已经被保存到了当前的状态，因此基于当前便可以预测未来。这种性质也称为无后效性或者无记忆性
 
-马尔科夫链：
+Markov chain：
 是指数学中具有马尔可夫性质的离散事件随机过程。对于满足马尔可夫性的状态与时间都离散的随机过程称为马尔可夫链
 
 转移概率：
@@ -105,7 +105,7 @@ $\text{Prob}(X_{t+1}=i\mid X_t=j)=P_{ij}$
 
 * 初始概率：t时刻各个状态的概率，并不一定等于转移概率，具有随机性
 
-状态转移概率矩阵与初始状态概率向量确定了隐藏的马尔科夫链
+**状态转移概率矩阵与初始状态概率向量确定了隐藏的马尔科夫链**
 
 上述例子的转移概率矩阵可以写为：
 
@@ -154,7 +154,7 @@ $$
 M_\tau=M^\tau
 $$
 
-有界线性算子：
+### Bounded linear operator
 
 矩阵的本质就是一种映射，有限维度的向量空间之间的线性变换完全可以用矩阵来描述，对于无限维度的空间则并非如此。有界线性算子的本质也是一种映射，将X空间中的元素映射到 Y 空间，有界线性算子在有限维度下可以表示成为矩阵，在无穷维度下一般不能找到矩阵的表示形式，但也可以通过无穷矩阵来表示
 
@@ -197,3 +197,67 @@ M^n x&=&\text{}\rho^n x
 $$
 
 所以只需要研究 t 期到 t+1 期的映射矩阵即可
+
+### Perron-Frobenius
+
+* We say a matrix or vector is positive if all its entries are positive
+* We say a matrix or vector is nonnegative if all its entries are nonnegative
+* if A ≥ 0 and z ≥ 0, then we have Az ≥ 0
+* conversely: if for all z ≥ 0, we have Az ≥ 0, then we can conclude A ≥ 0
+* suppose $A \in R^{n\times n}$, with $A\geq 0$ ，A is called regular if for some $k \geq 1$ , $A^k \geq 0$
+
+the eigenvalue $\lambda_{pf}$ is called the Perron-Frobenius (PF) eigenvalue of A
+
+the associated positive (left and right) eigenvectors are called the (left and right) PF eigenvectors (and are unique)
+
+suppose $A \in R^{n\times n}$ is nonnegative and regular：
+
+* there is an eigenvalue $\lambda_{pf}$ of A that is real and positive, with positive left and right eigenvectors
+* for any other eigenvalue $\lambda$, we have $|\lambda|$ < $\lambda_{pf}$
+
+### SDF's decomposition
+
+Assumptions:
+
+* Assumption 1: $X_t$ summarizes all information relevant for asset pricing at date t
+* Assumption 2: payoffs depend only on future values of the state
+* Assumption 3: allow trading at intermediate dates
+
+Under the assumptions above, we may conclude the SDF process is a positive multiplicative functional of X:
+
+$$
+\dfrac{M_{t+\tau}}{M_t}=M_{\tau}(\theta_t)
+$$
+
+If $\tau = 1$, we have:
+
+$$
+\dfrac{M_{t+1}}{M_t}=m(X_t,X_{t+1})
+$$
+
+有了前面关于有界线性算子 $\mathbb{M}$ 以及Perron-Frobenius问题的定义，我们可以将SDF分解为permanent和transitory两部分。具体方法如下：
+
+* 根据当期资产偿付（payoff） $X_t$ 元素的集合的X空间和下一期（或者第"τ" 期）资产偿付（payoff） $X_{t+1}$ 元素的集合的Y空间，求出其对应的映射矩阵，即有界线性算子 $\mathbb{M}$
+* 根据 $\mathbb{M}$，求出其最大的特征值 $\rho$ 和其对应的本征函数（eigenfunction）$\phi$，这里本征函数的概念可以理解为矩阵的特征向量，只不过它是一种函数，是有界线性算子对应的特征函数。
+* 根据不同的方法求解SDF
+* 用上述各元素组合成为permanent SDF 和 transitory SDF
+
+$$
+\begin{aligned}
+\frac{M_{t+\tau}^P}{M_t^P}&=\rho^{-\tau}\frac{M_{t+\tau}}{M_t}\frac{\phi(X_{t+\tau})}{\phi(X_t)}\\
+\\
+\frac{M_{t+\tau}^T}{M_t^T}&=\rho^\tau\frac{\phi(X_t)}{\phi(X_t+\tau)}
+\end{aligned}
+$$
+
+不同情形的SDF
+
+情形一：SDF is observable
+
+这种情况下随机折现因子的函数形式是事前已知的。例如，考虑基于消费的资本资产定价模型（CCAPM），只要知道我们预设时间折价参数 $\beta$，以及效用函数中需要的风险规避参数 $\gamma$，就可以计算出SDF
+
+情形二：SDF is estimated
+
+在这种情况下，随机折现因子需要我们自己去估计。我们假设随机折现因子的形式是 $m(X_t,X_{t+1};\alpha_0 )$，SDF受参数 $\alpha_0$ 影响
+
+在情况2中，我们考虑SDF分解的两步方法。在第一步中，根据状态的时间序列数据以及可能的资产收益来估计 $\alpha_0$。在第二步中，我们将第一阶段估计器 “$\alpha$” 插入非参数过程中，以恢复 $\rho, \varphi,\varphi^*$ 和相关量

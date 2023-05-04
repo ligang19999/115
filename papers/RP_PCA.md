@@ -107,14 +107,17 @@ $$
 \end{bmatrix}_{T\times N}
 $$
 
-$\overline{X}_i = \frac{1}{T} \sum\limits_{j=1}^{T}X_{ji} $
+$\overline{X}_i = \frac{1}{T} \sum\limits_{j=1}^{T}X_{ji}$
 
-$$\overline{X} = \begin{bmatrix}
+$$
+\overline{X} =
+\begin{bmatrix}
 {\frac{1}{T}(X_{11}+X_{12}+\dots + X_{1T})}\\
 {\vdots}\\
 {\vdots}\\
 {\frac{1}{T}(X_{N1}+X_{N2}+\dots + X_{NT})}\\
-\end{bmatrix}_{N\times 1}$$
+\end{bmatrix}_{N\times 1}
+$$
 
 * 传统的PCA方法主要步骤如下:
   * 首先对资产收益率的variance-covariance matrix$\Sigma_X$进行正交分解，得到N个**互相垂直**的特征向量，而特征向量对应的特征值便是这个特征向量的方差。
@@ -205,7 +208,9 @@ $$
 
 等式(4)的目标函数相当于对如下矩阵$\Sigma_{RP}$应用PCA方法：
 
-$$\Sigma_{RP}=\frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T \qquad (5) $$
+$$
+\Sigma_{RP}=\frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T \tag{5}
+$$
 
 * standard PCA using the variance-covariance matrix or the second-moment matrix is a special case of RP-PCA
 * RP-PCA with $\gamma$>−1 can be understood as PCA applied to a matrix that $\mathbf{“overweights”}$ the means

@@ -1,3 +1,4 @@
 - [Papers](papers/_sidebar.md)
+- [Asset pricing theory](Asset_pricing_theory/_sidebar.md)
 - [Courses](readcourse.md)
 - [Tools](实用工具/_sidebar.md)
