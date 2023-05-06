@@ -1,6 +1,4 @@
-# week 6
-
-State Ownership and the Term Structure of Yield Spreads: Evidence from China
+# State Ownership and the Term Structure of Yield Spreads: Evidence from China
 
 Authors:
 
@@ -138,6 +136,54 @@ Hypothesis 4：2014年第43号指令执行后，“window dressing” 效应减�
 
 $$
 Spread = \alpha_0m_0 + \alpha_1m_1 +\alpha_2m_2 +\alpha_3m_3
+$$
+
+$$
+m_0=
+\left\{
+   \begin{array}{ccc}
+      1-\frac{1}{3}m&\textrm{if}&m\in[0,3]\\
+      \\
+      0&\textrm{if}&m\in(3,15]
+   \end{array}
+\right.
+$$
+
+$$
+m_1=
+\left\{
+   \begin{array}{ccc}
+      \frac{1}{3}m&\textrm{if}&m\in[0,3]\\
+      \\
+      \frac{5}{2}-\frac{1}{2}m&\textrm{if}&m\in(3,5]\\
+      \\
+      0&\textrm{if}&m\in(5,15]
+   \end{array}
+\right.
+$$
+
+$$
+m_2=
+\left\{
+   \begin{array}{ccc}
+      0&\textrm{if}&m\in[0,3]\\
+      \\
+      \frac{1}{2}m-\frac{3}{2}&\textrm{if}&m\in(3,5]\\
+      \\
+      \frac{3}{2}-\frac{1}{10}m&\textrm{if}&m\in(5,15]
+   \end{array}
+\right.
+$$
+
+$$
+m_3=
+\left\{
+   \begin{array}{ccc}
+      0&\textrm{if}\quad m\in[0,5]\\
+      \\
+      \frac{1}{10}m-\frac{1}{2}&\textrm{if}\quad m\in(5,15]
+   \end{array}
+\right.
 $$
 
 ![](figures/week6/figure-1.png)

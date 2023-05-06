@@ -104,12 +104,28 @@
         }
       },
 
+      // LaTeX
+      latex: {
+        overflowScroll: false,
+        customOptions: {
+          macros: {
+            "\\E": "\\operatorname{E}",
+            "\\Var": "\\operatorname{Var}",
+            "\\Cov": "\\operatorname{Cov}",
+          }
+        }
+      },
+
     }
   </script>
   
 
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- docsify-latex -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 
   <!-- Production -->
   <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
@@ -132,6 +148,7 @@
 
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+
   <!-- Flexible alerts -->
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 

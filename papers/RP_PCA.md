@@ -159,14 +159,11 @@ $$
 
 这里$\gamma \geqslant$ −1 ，它代表平均截面定价误差在整个目标函数中的权重，这也是RP_PCA方法和PCA方法的不同之处
 
-**cross-sectional pricing errors are taken into account:**
+**通过考虑平均超额收益 $\overline{X}$ 和模型计算的平均超额收益的差值 $E[\hat{F}_{t}] \hat{B}^n_{t}$，相当于把横截面上的定价误差加入到最优目标函数中**
 
-**the difference between the mean excess returns $\overline{X}$ and the fitted model-implied mean  $E[\hat{F}_{t}] \hat{B}^n_{t}$**
+这里原文中的(4)式可能表达有误，参考作者在了另一篇论文[《Estimating latent asset-pricing factors》](https://www.sciencedirect.com/science/article/pii/S0304407620300051)中给出的目标函数：
 
-&nbsp;
-**[《Estimating latent asset-pricing factors》](https://www.sciencedirect.com/science/article/pii/S0304407620300051)Martin Lettau, Markus Pelger**
-
-**We show that RP-PCA minimizes jointly the unexplained variation and pricing error:**
+>We show that RP-PCA minimizes jointly the unexplained variation and pricing error:
 
 $$
 \text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}}
@@ -186,19 +183,19 @@ $$
 
 第二项代表将每个资产(n = 1,2, $\dotsb$ ,N)先在时序上取期望后，每个资产在截面上的定价误差。
 
-这里前后对于X和F的处理不一样，前后将X和F进行demean处理，而第二项没有对X和F进行demean处理，因此对二维随机变量 $e_{nt}$ 在时序上取期望后，$E(e_{nt}) = e_n$ 并不为0，根据APT的假设，$E\big(E(e_{nt})\big)  = E(e_n) = 0$，即对二维随机变量 $e_{nt}$ 在时序和截面上取两次期望后，其期望为0。
+这里前后对于X和F的处理不一样，前后将 X 和 F 进行demean处理，而第二项没有对 X和 F 进行 demean 处理，因此对二维随机变量 $e_{nt}$ 在时序上取期望后，$E(e_{nt}) = e_n$ 并不为0，根据 APT 的假设，$E\big(E(e_{nt})\big)  = E(e_n) = 0$，即对二维随机变量 $e_{nt}$ 在时序和截面上取两次期望后，其期望为0。
 
 因此，RP_PCA目标函数第二项的完整版：
 
 $$
 \begin{array}{ll}
- & \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2\\
- & \\
-= & \frac{1}{N} \sum\limits_{n=1}^{N} \big((\overline{X}_n- \overline{F}\land_n^T) - E(\overline{X}_n- \overline{F}\land_n^T)\big)^2\\
- & \\
-= & \frac{1}{N} \sum\limits_{n=1}^{N} \big((e_n) - E(e_n)\big)^2\\
- & \\
-= & var(e_n)
+  & \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2\\
+  & \\
+  = & \frac{1}{N} \sum\limits_{n=1}^{N} \big((\overline{X}_n- \overline{F}\land_n^T) - E(\overline{X}_n- \overline{F}\land_n^T)\big)^2\\
+  & \\
+  = & \frac{1}{N} \sum\limits_{n=1}^{N} \big((e_n) - E(e_n)\big)^2\\
+  & \\
+  = & var(e_n)
 \end{array}
 $$
 
@@ -242,19 +239,19 @@ $$X_{nt}=\alpha_n+F_t B_n^T+e_{nt} \qquad (10)$$
 
 $
 \begin{array}{ll}
- \text{1.} & \mathbf{对矩阵 \frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T 应用PCA方法得到前K个主成分，作为因子载荷\land的估计，也即 \hat{\land}} \\
- & \\
- \text{2.} & \mathbf{使用 \hat{\land} 在等式(9)中来估计因子: \hat{F}=X \hat{\land} (\hat{\land}^T  \hat{\land})^{-1}} \\
- & \\
- \text{3.} & \mathbf{对于每个资产n，使用 \hat{F} 来估计等式(10)中的 \hat{\alpha} , \hat{B} 和 \hat{e}} \\
- & \\
- \text{4.} & \mathbf{分别使用 \hat{\alpha} 和 \hat{e} 来估计 {RMS}_\alpha 和 \overline{\sigma}^2_e} \\
- & \\
- & {RMS}_\alpha = \sqrt {\hat{\alpha}^T\hat{\alpha}/N}  \\
- & \\
- & \overline{\sigma}^2_e = avg(Var(\hat{e}_n)/Var(X_n)) \\
- & \\
- \text{5.} & \mathbf{计算可以从估计出的潜在因子 \hat{F} 构建的最大\text{Sharpe Ratio}}
+  \text{1.} & \mathbf{对矩阵 \frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T 应用PCA方法得到前K个主成分，作为因子载荷\land的估计，也即 \hat{\land}} \\
+  & \\
+  \text{2.} & \mathbf{使用 \hat{\land} 在等式(9)中来估计因子: \hat{F}=X \hat{\land} (\hat{\land}^T  \hat{\land})^{-1}} \\
+  & \\
+  \text{3.} & \mathbf{对于每个资产n，使用 \hat{F} 来估计等式(10)中的 \hat{\alpha} , \hat{B} 和 \hat{e}} \\
+  & \\
+  \text{4.} & \mathbf{分别使用 \hat{\alpha} 和 \hat{e} 来估计 {RMS}_\alpha 和 \overline{\sigma}^2_e} \\
+  & \\
+  & {RMS}_\alpha = \sqrt {\hat{\alpha}^T\hat{\alpha}/N}  \\
+  & \\
+  & \overline{\sigma}^2_e = avg(Var(\hat{e}_n)/Var(X_n)) \\
+  & \\
+  \text{5.} & \mathbf{计算可以从估计出的潜在因子 \hat{F} 构建的最大\text{Sharpe Ratio}}
 \end{array}
 $
 

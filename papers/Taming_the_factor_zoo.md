@@ -295,7 +295,7 @@ $$
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-Drawback of K-fold Cross Validation
+**K-fold Cross Validation 的缺陷**
 
 K-fold Cross Validation 成立的前提是样本服从独立同分布。而当样本是时间序列时，数据随时间演进的过程生成，可能包含周期性、过去和未来数据间相互关系等信息，并不满足交叉验证中数据独立同分布的基本假设。此时如果依然采用传统交叉验证方法，可能会将未来时刻的数据划入训练集，历史时刻的数据划入验证集，进而出现用未来规律预测历史结果的“作弊”行为。因此需要一种既能保证数据利用率，又能保留时序数据之间相互关系的交叉验证方法，这就是时序交叉验证方法（time-series cross-validation）
 
