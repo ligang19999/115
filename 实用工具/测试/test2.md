@@ -1,5 +1,6 @@
-
 # Co-authorship of journal articles
+
+<button-counter>aa</button-counter>
 
 >[!TIP|label:Tips with working together on a publication：]
 >• $\ \textcolor{red}{Talk \ a \ lot:}$  adopt a pattern of regular correspondence, swapping ideas, and
@@ -135,42 +136,7 @@ $\rho_{\theta e}$ 和 $\rho_{\theta M}$ 成比例，等式(9)可近似为 $\beta
 
 aa
 
-<table border="0" cellpadding="0" cellspacing="0" width="360"
-style="border-collapse:
- collapse;table-layout:fixed;width:270pt">
- <colgroup><col width="72" span="5" style="width:54pt">
- </colgroup><tbody><tr height="39" style="mso-height-source:userset;height:29.25pt">
-  <td height="39" class="xl66" width="72" style="height:29.25pt;width:54pt"></td>
-  <td class="xl66" width="72" style="width:54pt"></td>
-  <td colspan="3" class="xl65" width="216" style="width:162pt">第二天的天气</td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td height="21" class="xl66" width="72" style="height:15.75pt;width:54pt"></td>
-  <td class="xl66" width="72" style="width:54pt"></td>
-  <td class="xl67" width="72" style="width:54pt">多云</td>
-  <td class="xl67" width="72" style="width:54pt">雨天</td>
-  <td class="xl67" width="72" style="width:54pt">晴天</td>
- </tr>
- <tr height="22" style="mso-height-source:userset;height:16.5pt">
-  <td rowspan="3" height="65" class="xl65" width="72" style="height:48.75pt;width:200pt">第一天的天气</td>
-  <td class="xl67" width="72" style="width:100pt">多云</td>
-  <td class="xl66" width="72" style="width:100pt"><span lang="EN-US">0.1</span></td>
-  <td class="xl66" width="72" style="width:100pt"><span lang="EN-US">0.5</span></td>
-  <td class="xl66" width="72" style="width:100pt"><span lang="EN-US">0.4</span></td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td height="21" class="xl67" width="72" style="height:15.75pt;width:54pt">雨天</td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.3</span></td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.6</span></td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.1</span></td>
- </tr>
- <tr height="22" style="mso-height-source:userset;height:16.5pt">
-  <td height="22" class="xl67" width="72" style="height:16.5pt;width:54pt">晴天</td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.4</span></td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.1</span></td>
-  <td class="xl66" width="72" style="width:54pt"><span lang="EN-US">0.5</span></td>
- </tr>
-</table>
+
 
 <hr color = 'red'>
 
@@ -180,16 +146,6 @@ style="border-collapse:
 
 [点击跳转](#jump)
 
-
-
-其中下标 $2$ 代表验证集或测试集。
-
-> [!NOTE|label:注意]
-> 在交叉验证的时候是用验证集的数据来计算“样本外” R 方，实验部分则先是用验证集的 R 方作为评估指标，后面又用测试集做了真正的样本外检验。
-
-### Fama-French ME/BE 5x5 组合
-
-用 Fama 和 French 对市值和市净率做双重排序得到的 5x5 组合（FF25）的示性函数作为公司特征，即假设公司属于 FF25 中的某一个组合，那么它在这一个组合上的值为 $1$，在其他组合上的值为 $0$。从而我们得到了25个公司特征，用这些特征构造的因子与市场因子进行正交化，得到了市场中性的因子：
 
 $$
 F_{i,\ t} = \widetilde{F}_{i,\ t} - \beta_i R_{m,\ t}
@@ -298,16 +254,9 @@ $$
 $$
 
 
-##### <u>2. Recalculate cash used for investing appropriately to identify actual investment in operations (equation 4.10).</u>
-From the consolidated cash flow statement we can get the following information: 
-|       (Amounts in million dollars)       |  2010  |   2009   |  2008  |
-| :--------------------------------------: | :----: | :------: | :----: |
-| **Reported cash flow used in investing** | $-781$ | $-1,288$ | $-847$ |
-| **Investments in marketable securities** |  $1$   |   $0$    |  $-9$  |
-|  **Proceeds from sales of investments**  |  $47$  |   $40$   |  $48$  |
-|     **Investments in time deposits**     | $-131$ |  $-270$  | $-238$ |
-|     **Maturities of time deposits**      | $248$  |  $223$   | $314$  |
 
+
+a
 
 <table border="0" cellpadding="0" cellspacing="0" width="628" style="border-collapse:
  collapse;table-layout:fixed;width:471pt">
@@ -328,17 +277,6 @@ From the consolidated cash flow statement we can get the following information:
   <td align="right">555</td>
   <td align="right">56565</td>
  </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Investments in marketable securities</td>
-  <td align="right">757</td>
-  <td align="right">959</td>
-  <td align="right">1660</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Proceeds from sales of investments</td>
-  <td align="right">781</td>
-  <td align="right">918</td>
-  <td align="right">1140</td>
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" style="height:14.25pt">Investments in time deposits</td>
@@ -363,106 +301,6 @@ From the consolidated cash flow statement we can get the following information:
 </tbody></table>
 
 
-<table border="0" cellpadding="0" cellspacing="0" width="628" style="border-collapse:
- collapse;table-layout:fixed;width:471pt">
- <colgroup><col width="374" style="mso-width-source:userset;mso-width-alt:11968;width:281pt">
- <col width="103" style="mso-width-source:userset;mso-width-alt:3296;width:77pt">
- <col width="79" style="mso-width-source:userset;mso-width-alt:2528;width:59pt">
- <col width="72" style="width:54pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" width="374" style="height:14.25pt;width:281pt">Amounts
-  in million dollars</td>
-  <td class="xl70" width="103" style="width:77pt">2010</td>
-  <td class="xl70" width="79" style="width:59pt">2009</td>
-  <td class="xl70" width="72" style="width:54pt">2008</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt">Reported cash flow used in
-  investing</td>
-  <td class="xl69">565656</td>
-  <td class="xl69">555</td>
-  <td class="xl69">56565</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt">Investments in marketable
-  securities</td>
-  <td class="xl69">757</td>
-  <td class="xl69">959</td>
-  <td class="xl69">1660</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt">Proceeds from sales of
-  investments</td>
-  <td class="xl69">781</td>
-  <td class="xl69">918</td>
-  <td class="xl69">1140</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt">Investments in time deposits</td>
-  <td class="xl69">1348</td>
-  <td class="xl69">513</td>
-  <td class="xl69">613</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt">Maturities of time deposits</td>
-  <td class="xl69">1998</td>
-  <td class="xl69">1811</td>
-  <td class="xl69">823</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="374" style="width:281pt"></td>
-  <td width="103" style="width:77pt"></td>
-  <td width="79" style="width:59pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+a
 
 
-<table border="0" cellpadding="0" cellspacing="0" width="455" style="border-collapse:
- collapse;table-layout:fixed;width:341pt">
- <colgroup><col width="167" style="mso-width-source:userset;mso-width-alt:5344;width:125pt">
- <col width="72" span="4" style="width:54pt">
- </colgroup><tbody><tr height="21" style="height:15.75pt">
-  <td height="21" class="xl77" width="167" style="height:15.75pt;width:125pt"></td>
-  <td class="xl77" width="72" style="width:54pt"></td>
-  <td colspan="3" class="xl78" width="216" style="width:162pt">第二天的天气</td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td height="21" class="xl77" width="167" style="height:15.75pt;width:125pt"></td>
-  <td class="xl77" width="72" style="width:54pt"></td>
-  <td class="xl79" width="72" style="width:54pt">多云</td>
-  <td class="xl79" width="72" style="width:54pt">雨天</td>
-  <td class="xl79" width="72" style="width:54pt">晴天</td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td rowspan="3" height="63" class="xl78" width="167" style="height:47.25pt;
-  width:125pt">第一天的天气</td>
-  <td class="xl79" width="72" style="width:54pt">多云</td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.1</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.5</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.4</span></td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td height="21" class="xl79" width="72" style="height:15.75pt;width:54pt">雨天</td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.3</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.6</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.1</span></td>
- </tr>
- <tr height="21" style="height:15.75pt">
-  <td height="21" class="xl79" width="72" style="height:15.75pt;width:54pt">晴天</td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.4</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.1</span></td>
-  <td class="xl77" width="72" style="width:54pt"><span lang="EN-US">0.5</span></td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="167" style="width:125pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>

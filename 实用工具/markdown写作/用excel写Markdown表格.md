@@ -25,6 +25,3 @@
 ![](figures/figure6.png)
 
 ![](figures/figure7.png)
-
->[!NOTE|label:注意]
->可以在第一步调整好行间距，对齐方式等，但是字体、颜色、加粗等需要在html语言中修改

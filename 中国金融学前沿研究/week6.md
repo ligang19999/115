@@ -7,13 +7,13 @@ Authors:
 
 ## Abstract
 
-We investigate $\text{\color{red}{how state ownership affects a firm’s term structure of yield spreads}}$  by examining SOEs in the Chinese bond market. Both $\text{\color{red}{Regular-SOEs}}$  and $\text{\color{red}{Policy-SOEs}}$ have substantially lower spreads than non-SOEs, and <mark>Policy-SOEs have even lower spreads than Regular-SOEs at shorter maturities, but their advantage disappears at longer maturities.</mark> $\text{\color{blue}{The shrinking borrowing advantage cannot be explained by}}$ firm credit profiles, market liquidity, or decreasing government support due to $\text{\color{blue}{local politician turnovers}}$ , while political uncertainty remains a possibility. Moreover, there is strong cross-sectional and causal evidence for a $\textcolor{purple}{“window \ dressing”}$ channel, where the government support for Policy-SOEs declines following bond issuance.
+We investigate $\text{\color{red}{how state ownership affects a firm’s term structure of yield spreads}}$  by examining SOEs in the Chinese bond market. Both $\text{\color{red}{Regular-SOEs}}$  and $\text{\color{red}{Policy-SOEs}}$ have substantially lower spreads than non-SOEs, and <mark>Policy-SOEs have even lower spreads than Regular-SOEs at shorter maturities, but their advantage disappears at longer maturities.</mark> $\text{\color{blue}{The shrinking borrowing advantage cannot be explained by}}$ firm credit profiles, market liquidity, or decreasing government support due to $\text{\color{blue}{local politician turnovers}}$, while political uncertainty remains a possibility. Moreover, there is strong cross-sectional and causal evidence for a $\textcolor{purple}{“window \ dressing”}$ channel, where the government support for Policy-SOEs declines following bond issuance.
 
 >[!TIP|label:提示]
 >收益率差(Yield Spread)
 收益率差是指一种债券的收益率与其期限相一致的无违约风险证券(通常指相同期限的同债)的收益率之差。这种收益率差主要取决于市场对该债券的信用风险的敏感性。
 
-本文主要介绍了国有制如何影响公司收益率利差的期限结构。本文的一大创新点在于将国有企业进一步细分为政策性国有企业和普通国有企业。通过实证发现：政策性国有企业的短期利差 < 普通国有企业 < 非国有企业。但是长期来看政策国有企业利差增大。文章列出的可能原因有两个：公职人员的变动以及发债后政府支持的减少，从实证结果来看，前者可能无法解释这一现象，后者能够提供合理的解释。
+本文主要介绍了国有制如何影响公司收益率利差的期限结构。本文的一大创新点在于将国有企业进一步细分为政策性国有企业和普通国有企业。通过实证发现：<mark>政策性国有企业的短期利差 < 普通国有企业 < 非国有企业</mark>。但是长期来看政策国有企业利差增大。文章列出的可能原因有两个：公职人员的变动以及发债后政府支持的减少，从实证结果来看，前者可能无法解释这一现象，后者能够提供合理的解释。
 
 ## 1. Introduction
 
@@ -84,21 +84,31 @@ We investigate $\text{\color{red}{how state ownership affects a firm’s term st
 
 本金的摊销缓解了投资者对这些政策性国有企业长期信用风险的担忧
 
-控制发行人和债券特征的重要性：
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-(期限、未偿还金额、周转率以及债券是新发行、担保还是摊销)
+下图表明了控制发行人和债券特征 (期限、未偿还金额、周转率以及债券是新发行、担保还是摊销) 的重要性：
 
 ![](figures/week6/figure1.png)
 
 ## 3. Hypotheses
 
-Hypothesis 1：政策性国有企业债券的利差对云南公路违约事件和第43号指令的执行反应比NSOE和普通国有企业债券的利差更敏感，并且这些反应在之后持续存在
+这一部分主要是针对前文描述的现象提出相关假说，并在实证部分验证它们
 
-Hypothesis 2：政策性国有企业债券的利差比NSOE债券和普通国有企业债券对人员变动的反应更强烈，平均而言，利差对这些人员变动的反应是积极的且持续的
+$\bullet$ Hypothesis 1：
 
-Hypothesis 3：债券发行后，政府对政策性国企的支持力度下降，信用状况恶化，而对普通国企而言，这一趋势较弱
+政策性国有企业债券的利差对云南公路违约事件和第43号指令的执行反应比NSOE和普通国有企业债券的利差更敏感，并且这些反应在之后持续存在
 
-Hypothesis 4：2014年第43号指令执行后，“window dressing” 效应减弱，政策性国有企业相对于常规国有企业的借贷优势在较长期限内持续存在
+$\bullet$ Hypothesis 2：
+
+政策性国有企业债券的利差比NSOE债券和普通国有企业债券对人员变动的反应更强烈，平均而言，利差对这些人员变动的反应是积极的且持续的
+
+$\bullet$ Hypothesis 3：
+
+债券发行后，政府对政策性国企的支持力度下降，信用状况恶化，而对普通国企而言，这一趋势较弱
+
+$\bullet$ Hypothesis 4：
+
+2014年第43号指令执行后，“window dressing” 效应减弱，政策性国有企业相对于常规国有企业的借贷优势在较长期限内持续存在
 
 ## 4. Data and Variables
 
@@ -185,8 +195,6 @@ m_3=
    \end{array}
 \right.
 $$
-
-![](figures/week6/figure-1.png)
 
 为了估计政策性国企债券和普通国企债券在存续期的利差差异，设立一个虚拟指标代替政策性国有企业，将其与 $m_i$ 联系起来：
 

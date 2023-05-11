@@ -1,20 +1,10 @@
 # Shrinking the Cross-Section
 
-## 论文信息
+<button-counter>aa</button-counter>
 
-### 作者
+$\color{orange}{\mathbf{\Large{Answers:}}}$
 
-Serhiy Kozak, Stefan Nagel, Shrihari Santosh
-
-Kozak 来自马里兰大学，Nagel 来自芝加哥大学，Santosh 来自科罗拉多大学博尔德分校。
-
-### 收录情况
-
-JFE2020
-
-## 解决什么问题
-
-传统的因子模型只用少量的基于公司特征的因子进行定价，比如经典的 Fama 三因子，然而资产的收益率肯定不是只由某几个特征决定的，当因子很多的时候，传统的因子模型很容易过拟合。其次，这些因子模型通常只对很少的 test assets 进行检验，比如对两个特征做双重排序分出25个资产组合作为 test assets，当因子数量增加时，test assets 难以构造。
+<font color=aqua>$\quad \sqrt[]{}$</font>
 
 这篇文章提出的方法可以适用于高维的因子和 test assets。
 
@@ -521,14 +511,6 @@ $$
 $$
 \underset{b}{\mathop{\arg\min}} ~ \left(\overline{\mu} - \Sigma b \right)^{\mathsf{T}} \left(\overline{\mu} - \Sigma b \right) + \gamma b^{\mathsf{T}} \Sigma b
 $$
-
-> [!TIP|label:提示]
-> 对于 $m_t = 1 - b^{\mathsf{T}}[F_t - \mathrm{E}(F_t)]$，我们有 $\mathrm{E}(m_t) = 1$，$\mathrm{Var}(m_t) = b^{\mathsf{T}} \Sigma b$，根据 [HJ Bound](#hj-边界与-hj-距离) 我们知道 $\frac{\sigma(m)}{E(m)} \geqslant \left\vert \frac{\mathrm{E}\left(R^{e} \right)}{\sigma\left(R^{e} \right)} \right\vert ,\ \forall R^{e} \in \underline{R^{e}}$，因此最大夏普比率的平方 $\frac{\mathrm{E}^{2}\left(R^{e} \right)}{\sigma^{2}\left(R^{e} \right)} \leqslant \mathrm{Var}(m_t) = b^{\mathsf{T}} \Sigma b$。
-> 
-> 二次函数 $a x^{2} + b x + c \ (a > 0)$ 的最小值点取在 $x = -\frac{b}{2 a}$ 处，因此上述目标函数的最小值点取在
-> $$
-> b = -\left(2 \Sigma^{2} + 2 \gamma \Sigma \right)^{-1} \left(-2 \Sigma \overline{\mu} \right) = (\Sigma + \gamma I)^{-1} \overline{\mu}
-> $$
 
 解上式同样也等价于解
 

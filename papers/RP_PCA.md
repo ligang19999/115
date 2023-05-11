@@ -23,7 +23,7 @@ Review of Finanical Studies
 
 ## Abstract
 
-<font size = 5>We propose a new method for estimating $\text{\color{red}{latent}}$ asset pricing factors that fit the time series and cross-section of expected returns. Our estimator generalizes principal component analysis (PCA) by including a penalty on the pricing error in expected returns. Our approach finds $\text{\color{red}{weak factors}}$ with high Sharpe ratios that PCA cannot detect. We discover five factors with economic meaning that explain well the cross-section and time series of characteristicsorted portfolio returns. <mark>The out-of-sample maximum Sharpe ratio of our factors is twice as large as with PCA with substantially smaller pricing errors. Our factors imply that a significant amount of characteristic information is redundant. </mark></font>
+<font size = 5>We propose a new method for estimating $\text{\color{red}{latent}}$ asset pricing factors that fit the time series and cross-section of expected returns. Our estimator generalizes principal component analysis (PCA) by including a penalty on the pricing error in expected returns. Our approach finds $\text{\color{red}{weak factors}}$ with high Sharpe ratios that PCA cannot detect. We discover five factors with economic meaning that explain well the cross-section and time series of characteristic-sorted portfolio returns. <mark>The out-of-sample maximum Sharpe ratio of our factors is twice as large as with PCA with substantially smaller pricing errors. Our factors imply that a significant amount of characteristic information is redundant. </mark></font>
 
 <strong>“weak” factors:</strong>
 
@@ -52,7 +52,7 @@ Review of Finanical Studies
 <span id="jump">
 
 $$
-X_{nt}=F_t\land_n^T+e_{nt}    \qquad  n=1,...,N, \quad t=1,...,T  \qquad (2)
+X_{nt}=F_t\land_n^T+e_{nt}    \qquad  n=1,...,N, \quad t=1,...,T  \tag{2}
 $$</span>
 
 $$
@@ -72,8 +72,11 @@ $$
 ### 1.1 PCA method
 
 PCA方法的目标函数：
-$$\text{PCA}: \qquad \hat{F}_{PCA}, \hat{\land}_{PCA} = \mathop{argmin}\limits_{\land,F}  \frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T}  \big  ((X_{nt}-\overline{X}_n)-(F_t-\overline{F})\land_n^T \big)^2 \qquad (3)
+
 $$
+\text{PCA}: \qquad \hat{F}_{PCA}, \hat{\land}_{PCA} = \mathop{argmin}\limits_{\land,F}  \frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T}  \big  ((X_{nt}-\overline{X}_n)-(F_t-\overline{F})\land_n^T \big)^2 \tag{3}
+$$
+
 这里其实是 $var(X) = E \big(X - E(X)\big)^2$的形式
 
 对(3)式进行变形：
@@ -154,7 +157,7 @@ $$
 #### 1.2.1 objective function
 
 $$
-\text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (X_{nt}-F_t\land_n^T)^2}_{\text{unexplained TS variation}}    +  \gamma \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}}   \qquad (4)
+\text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (X_{nt}-F_t\land_n^T)^2}_{\text{unexplained TS variation}}    +  \gamma \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}}  \tag{4}
 $$
 
 这里$\gamma \geqslant$ −1 ，它代表平均截面定价误差在整个目标函数中的权重，这也是RP_PCA方法和PCA方法的不同之处
@@ -166,7 +169,7 @@ $$
 >We show that RP-PCA minimizes jointly the unexplained variation and pricing error:
 
 $$
-\text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}}
+\text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}} \tag{5}
 $$
 
 其中：
@@ -206,7 +209,7 @@ $$
 等式(4)的目标函数相当于对如下矩阵$\Sigma_{RP}$应用PCA方法：
 
 $$
-\Sigma_{RP}=\frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T \tag{5}
+\Sigma_{RP}=\frac{1}{T}X^TX + \gamma\overline{X}*\overline{X}^T \tag{6}
 $$
 
 * standard PCA using the variance-covariance matrix or the second-moment matrix is a special case of RP-PCA
@@ -221,12 +224,16 @@ different $\gamma$:
 
 #### 1.2.3 estimate RP_PCA model
 
-$$X_{nt}=F_t B_n^T+e_{nt} \qquad(9) $$
+$$
+X_{nt}=F_t B_n^T+e_{nt} \tag{9} 
+$$
 
 等式(2)中的因子模型意味着没有截距项，因此残差 $e_{nt}$ 的期望不一定为0(截距项被包含在 $e_{nt}$ 中了)。
 作为替代，我们可以利用等式(10)中的定价误差 $\alpha_n$ 来评估RP_PCA模型
 
-$$X_{nt}=\alpha_n+F_t B_n^T+e_{nt} \qquad (10)$$
+$$
+X_{nt}=\alpha_n+F_t B_n^T+e_{nt} \tag{10}
+$$
 
 等式(10)中，由于有了截距项 $\alpha_n$，则残差部分的信息被 $\alpha_n$ 吸收，此时残差 $e_{nt}$ 的期望为0，这里也假设了 $\alpha_n$ 的期望为0
 
@@ -263,6 +270,7 @@ $
 >$\gamma$为何从-1开始
 
 协方差的定义：
+
 $$
 Cov(X,Y) = E[\big(X -E(X) \big) \big(Y -E(Y) \big)]
 $$
@@ -272,14 +280,17 @@ $$
 $$
 
 如果是总体协方差：
+
 $$
-Cov(X,Y) = \frac{1}{n} \sum\limits_{i=1}^{n} (x_i -\overline{x})(y_i -\overline{y}) $$
+Cov(X,Y) = \frac{1}{n} \sum\limits_{i=1}^{n} (x_i -\overline{x})(y_i -\overline{y})
+$$
 
 $$
 =\frac{1}{n} \sum\limits_{i=1}^{n} x_i y_i - \overline{x}\ \overline{y}
 $$
 
 把X，Y都理解为n×1的向量，则：
+
 $$
 \frac{1}{n} \sum\limits_{i=1}^{n} x_i y_i - \overline{x}\ \overline{y}
 $$
@@ -517,7 +528,6 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 ![](RP_PCA-figures/figure6.png)
-
 
 前五个因子的样本外Sharpe Ratio逐渐增加，但添加其他因子对样本外SR的影响很小，这证实了RP_PCA提取了五个系统性因子
 

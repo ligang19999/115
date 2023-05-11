@@ -2,7 +2,7 @@
 
 **证明一个只在企业破产时得到 1 元的资产，在 0 时刻的价值为：$(\dfrac{x}{\delta_b})^{r_-}$**
 
-**Answer：**
+$\color{orange}{\mathbf{\Large{Answers:}}}$
 
 现金流满足如下分布：
 

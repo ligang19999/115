@@ -1773,73 +1773,823 @@ RNOA from new product line is:
 $\qquad$ RNOA =  4.8% $ \times $ 2.3  = 11.04%
 </details>
 
+## 第13章
 
+### exercise 1
 
+**Analyzing a Change in Core Operating Profitability.**
 
+The following numbers were calculated from the financial statements for a firm for 2012 and 2011:
 
+<table border="0" cellpadding="0" cellspacing="0" width="303" style="border-collapse:
+ collapse;table-layout:fixed;width:227pt">
+ <colgroup><col width="167" style="mso-width-source:userset;mso-width-alt:5700;width:125pt">
+ <col width="68" span="2" style="width:51pt">
+ </colgroup><tbody>
+ <tr height="27" style="mso-height-source:userset;height:20.25pt"><td height="27" style="border-top:none;
+  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
+  mso-pattern:black none"></td>
+  <td align="right" style="border-top:none;
+  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
+  mso-pattern:black none">2012</td>
+  <td align="right" style="border-top:none;
+  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
+  mso-pattern:black none">2011</td>
+ </tr>
+ <tr height="19" style="height:13.9pt">
+  <td height="19" style="height:13.9pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  mso-pattern:black none">Core profit margin</td>
+  <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  mso-pattern:black none">4.70%</td>
+  <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  mso-pattern:black none">5.10%</td>
+ </tr>
+ <tr height="19" style="height:13.9pt">
+  <td height="19" style="height:13.9pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none;background:#F3F3EF;
+  mso-pattern:black none">Asset turnover</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none;background:#F3F3EF;mso-pattern:black none">2.4</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none;background:#F3F3EF;mso-pattern:black none">2.5</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="167" style="width:125pt"></td>
+  <td width="68" style="width:51pt"></td>
+  <td width="68" style="width:51pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
-
-<details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
-
-</details>
+Calculate core return of net operating assets (core RNOA) and show how much of its change from 2011 to 2012 is due to the change in profit margin and the change in asset turnover. Box 13.7 will help you.
 
 <details>
 <summary><font size = 6 font color=orange>Answers:</font></summary>
 
+Core RNOA for 2012 = 4.7% x 2.4 = 11.28%
+
+Core RNOA for 2011 = 5.1% x 2.5 = 12.75%
+
+Change in Core RNOA		-1.47%
+
+$
+\begin{aligned}
+\Delta core RNOA&= \Delta CorePM_1 \times ATO_0 +\Delta ATO_1 \times CorePM_1\\
+\\
+&=(-0.4\% \times 2.5) + (-0.1 \times 4.7\%)\\
+\\
+&=-1.47\%  
+\end{aligned}
+$
 </details>
+
+### exercise 2
+
+**Analyzing a Change in Return on Common Equity.**
+
+The following numbers were calculated from the financial statements for a firm for 2012 and 2011:
+
+<table border="0" cellpadding="0" cellspacing="0" width="586" style="border-collapse:
+ collapse;table-layout:fixed;width:440pt">
+ <colgroup><col width="368" style="mso-width-source:userset;mso-width-alt:11776;width:276pt">
+ <col width="109" span="2" style="mso-width-source:userset;mso-width-alt:3488;
+ width:82pt">
+ </colgroup><tbody><tr height="28" style="mso-height-source:userset;height:16.5pt">
+  <td height="22" width="368" style="height:16.5pt;width:276pt;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td class="xl67" width="109" style="width:82pt;font-size:13.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2012</td>
+  <td class="xl67" width="109" style="width:82pt;font-size:13.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2011</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Return on common equity (ROCE)</td>
+  <td class="xl65" align="right">15.20%</td>
+  <td class="xl65" align="right">13.30%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Return on net operating assets
+  (RNOA)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl65" align="right">11.28%</td>
+  <td class="xl65" align="right">12.75%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Net borrowing cost (NBC)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl65" align="right">2.90%</td>
+  <td class="xl65" align="right">3.20%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Average net financial obligations
+  (millions)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl66" align="right">$2,225 </td>
+  <td class="xl66" align="right">$241 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext" align="left">Average common equity
+  (millions)</td>
+  <td class="xl66" align="right" style="border-top:none;
+  border-bottom:.5pt solid windowtext">$4,756 </td>
+  <td class="xl66" align="right" style="border-top:none;
+  border-bottom:.5pt solid windowtext;border-left:none">$4,173 </td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="368" style="width:276pt"></td>
+  <td width="109" style="width:82pt"></td>
+  <td width="109" style="width:82pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+* a. Explain how much of the change in ROCE from 2011 to 2012 is due to operating activities and how much is due to financing activities. 
+* b. For financing activities, explain how much of the change in ROCE is due to spread and how much is due to fiancial leverage.
+
+<details>
+<summary><font size = 6 font color=orange>Answers:</font></summary>
+
+a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_0 \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
+
+<table border="0" cellpadding="0" cellspacing="0" width="698" style="border-collapse:
+ collapse;table-layout:fixed;width:523pt">
+ <colgroup><col width="245" style="mso-width-source:userset;mso-width-alt:7840;width:184pt">
+ <col width="79" style="mso-width-source:userset;mso-width-alt:2528;width:59pt">
+ <col width="51" style="mso-width-source:userset;mso-width-alt:1632;width:38pt">
+ <col width="76" style="mso-width-source:userset;mso-width-alt:2432;width:57pt">
+ <col width="47" style="mso-width-source:userset;mso-width-alt:1504;width:35pt">
+ <col width="200" style="mso-width-source:userset;mso-width-alt:6400;width:150pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="245" style="height:14.25pt;width:184pt" align="left">ROCE for
+  2012:<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl68" width="79" style="width:59pt">15.20%</td>
+  <td class="xl67" width="51" style="width:38pt">=</td>
+  <td class="xl67" width="76" style="width:57pt">11.28</td>
+  <td class="xl67" width="47" style="width:35pt">+</td>
+  <td class="xl67" width="200" style="width:150pt">[0.4678 x (11.28 – 2.9)]</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">ROCE for 2011:<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl68">13.30%</td>
+  <td class="xl67">=</td>
+  <td class="xl67">12.75</td>
+  <td class="xl67">+</td>
+  <td class="xl67">[0.0577 x (12.75 – 3.2)]</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">ΔROCE</td>
+  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">1.90%</td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">ΔRNOA</td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">-1.47%</td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">ΔROCE due to financing</td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl67" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134"></td>
+  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">3.37%</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="245" style="width:184pt"></td>
+  <td width="79" style="width:59pt"></td>
+  <td width="51" style="width:38pt"></td>
+  <td width="76" style="width:57pt"></td>
+  <td width="47" style="width:35pt"></td>
+  <td width="200" style="width:150pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+b. The change due to financing is due to a change in leverage and a change in SPREAD:
+
+<table border="0" cellpadding="0" cellspacing="0" width="767" style="border-collapse:
+ collapse;table-layout:fixed;width:575pt">
+ <colgroup><col width="215" style="mso-width-source:userset;mso-width-alt:6880;width:161pt">
+ <col width="45" style="mso-width-source:userset;mso-width-alt:1440;width:34pt">
+ <col width="220" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
+ <col width="43" style="mso-width-source:userset;mso-width-alt:1376;width:32pt">
+ <col width="244" style="mso-width-source:userset;mso-width-alt:7808;width:183pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" class="xl70" width="215" style="height:14.25pt;width:161pt">ΔROCE
+  due to financing</td>
+  <td class="xl67" width="45" style="width:34pt">=</td>
+  <td colspan="3" class="xl71" width="507" style="width:380pt" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.37%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt"></td>
+  <td class="xl67">=</td>
+  <td class="xl67"><span style="border-color:currentcolor;width:min-content;
+  display:inline-block"><span style="border-color:currentcolor">ΔSPREAD×FLEV_0<font class="font7">&ZeroWidthSpace;</font></span></span></td>
+  <td class="xl67">+</td>
+  <td class="xl67"><span style="border-color:currentcolor;width:min-content;
+  display:inline-block"><span style="border-color:currentcolor">ΔFLEV×SPREAD_1<font class="font7">&ZeroWidthSpace;</font></span></span></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt"></td>
+  <td class="xl67">=</td>
+  <td class="xl67">-1.17% x 0.0577</td>
+  <td class="xl67">+</td>
+  <td class="xl67">0.4101 x 8.38%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt"></td>
+  <td class="xl67">=</td>
+  <td class="xl68">-0.07%</td>
+  <td class="xl67">+</td>
+  <td class="xl68">3.44%</td>
+ </tr>
+ <tr height="35" style="height:26.25pt">
+  <td height="35" style="height:26.25pt"></td>
+  <td class="xl67"></td>
+  <td class="xl69">↓</td>
+  <td class="xl67"></td>
+  <td class="xl69">↓</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt"></td>
+  <td class="xl67"></td>
+  <td class="xl67">Due to change in spread</td>
+  <td class="xl67"></td>
+  <td class="xl67">Due to change in leverage</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="215" style="width:161pt"></td>
+  <td width="45" style="width:34pt"></td>
+  <td width="220" style="width:165pt"></td>
+  <td width="43" style="width:32pt"></td>
+  <td width="244" style="width:183pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+</details>
+
+### exercise 3
+
+**Analyzing the Growth in Shareholders' Equity.**
+
+The following numbers were calculated from the financial statements for a firm for 2012 and 2011:
+
+<table border="0" cellpadding="0" cellspacing="0" width="586" style="border-collapse:
+ collapse;table-layout:fixed;width:440pt">
+ <colgroup><col width="368" style="mso-width-source:userset;mso-width-alt:11776;width:276pt">
+ <col width="109" span="2" style="mso-width-source:userset;mso-width-alt:3488;
+ width:82pt">
+ </colgroup><tbody><tr height="22" style="mso-height-source:userset;height:16.5pt">
+  <td height="22" width="368" style="height:16.5pt;width:276pt;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td class="xl67" width="109" style="width:82pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2012</td>
+  <td class="xl67" width="109" style="width:82pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2011</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Return on common equity (ROCE)</td>
+  <td class="xl65" align="right">15.20%</td>
+  <td class="xl65" align="right">13.30%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Return on net operating assets
+  (RNOA)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl65" align="right">11.28%</td>
+  <td class="xl65" align="right">12.75%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Sales (millions)</td>
+  <td class="xl66" align="right">$16,754 </td>
+  <td class="xl66" align="right">$11,035 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Average net operating assets (millions)</td>
+  <td class="xl66" align="right">$6,981 </td>
+  <td class="xl66" align="right">$4,414 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Average net financial obligations
+  (millions)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td class="xl66" align="right">$2,225 </td>
+  <td class="xl66" align="right">$241 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext">Average common equity
+  (millions)</td>
+  <td class="xl66" align="right" style="border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext">$4,756 </td>
+  <td class="xl66" align="right" style="border-top:none;
+  border-bottom:.5pt solid windowtext">$4,173 </td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="368" style="width:276pt"></td>
+  <td width="109" style="width:82pt"></td>
+  <td width="109" style="width:82pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+Explain to what extent the change in common equity from 2011 to 2012 is due to sales growth, net assets required to support sales, and borrowing.
+
+<details>
+<summary><font size = 6 font color=orange>Answers:</font></summary>
+
+$\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \dfrac{1}{ATO}\rbrack -  \Delta NFO$
+
+<table border="0" cellpadding="0" cellspacing="0" width="822" style="border-collapse:
+ collapse;table-layout:fixed;width:617pt">
+ <colgroup><col width="39" style="mso-width-source:userset;mso-width-alt:1440;width:34pt">
+ <col width="199" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
+ <col width="38" style="mso-width-source:userset;mso-width-alt:1376;width:32pt">
+ <col width="145" style="mso-width-source:userset;mso-width-alt:7808;width:183pt">
+ <col width="37" style="mso-width-source:userset;mso-width-alt:1568;width:37pt">
+ <col width="177" style="mso-width-source:userset;mso-width-alt:7072;width:166pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" class="xl67" width="45" style="height:14.25pt;width:34pt"></td>
+  <td colspan="5" class="xl71" width="777" style="width:583pt" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in CSE = 583%</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" class="xl67" style="height:14.25pt">=</td>
+  <td class="xl00"><span style="border-color:currentcolor;width:min-content;
+  display:inline-block;font-variant-ligatures: normal;font-variant-caps: normal;
+  orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial"><span style="border-color:currentcolor">ΔSales×1/ATO</span></span></td>
+  <td class="xl67">+</td>
+  <td class="xl67"><span style="border-color:currentcolor;width:min-content;
+  display:inline-block;font-variant-ligatures: normal;font-variant-caps: normal;
+  orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial"><span style="border-color:currentcolor">Sales×Δ[1/ATO<font class="font8">]</font></span></span></td>
+  <td class="xl67">-</td>
+  <td class="xl67"><span style="border-color:currentcolor;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial">ΔNFO</span></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" class="xl67" style="height:14.25pt">=</td>
+  <td class="xl67">5,719 x 0.4</td>
+  <td class="xl67">+</td>
+  <td class="xl67">0.0167 x 16,754</td>
+  <td class="xl67">-</td>
+  <td class="xl72">1,984</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" class="xl67" style="height:14.25pt">=</td>
+  <td class="xl67">2287.6</td>
+  <td class="xl67">+</td>
+  <td class="xl67">279.8</td>
+  <td class="xl67">-</td>
+  <td class="xl72">1,984</td>
+ </tr>
+ <tr height="35" style="height:26.25pt">
+  <td height="35" class="xl67" style="height:26.25pt"></td>
+  <td class="xl69">↓</td>
+  <td class="xl67"></td>
+  <td class="xl69">↓</td>
+  <td></td>
+  <td class="xl69">↓</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" class="xl67" style="height:14.25pt"></td>
+  <td class="xl67">Due to change in Sales</td>
+  <td class="xl67"></td>
+  <td class="xl67">Due to change in 1/ATO</td>
+  <td></td>
+  <td class="xl67">Due to change in NFO</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="45" style="width:34pt"></td>
+  <td width="220" style="width:165pt"></td>
+  <td width="43" style="width:32pt"></td>
+  <td width="244" style="width:183pt"></td>
+  <td width="49" style="width:37pt"></td>
+  <td width="221" style="width:166pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+</details>
+
+## 第14章
+
+### exercise 1
+
+**Calculating Residual Operating Income and Its Drivers.**
+
+Here are summary numbers from a firm's financial statements (in millions of dollars):
+
+<table border="0" cellpadding="0" cellspacing="0" width="560" style="border-collapse:
+ collapse;table-layout:fixed;width:421pt">
+ <colgroup><col width="220" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
+ <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
+ width:64pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="220" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="border-right:none;
+  border-left:none">Operating income</td>
+  <td style="border-right:none;
+  border-left:none" align="right">187</td>
+  <td style="border-right:none;
+  border-left:none" align="right">200.09</td>
+  <td style="border-right:none;
+  border-left:none" align="right">214.1</td>
+  <td style="border-right:none;
+  border-left:none" align="right">229.08</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none">Net operating assets</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">1214.45</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">1299.46</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">1390.42</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">1487.75</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="220" style="width:165pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+The required return for operations is 10.1%. Calculate the growth rate for net operating assets, return on net operating assets (RNOA),   residual operating income, abnormal operating income growth (in dollars) for each year 2008-2010.
+
+<details>
+<summary><font size = 6 font color=orange>Answers:</font></summary>
+
+Calculating Residual Operating Income and Its Drivers.
+
+<table border="0" cellpadding="0" cellspacing="0" width="683" style="border-collapse:
+ collapse;table-layout:fixed;width:513pt">
+ <colgroup><col width="343" style="mso-width-source:userset;mso-width-alt:10976;width:257pt">
+ <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
+ width:64pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="343" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Operating income (OI)</td>
+  <td align="right">187</td>
+  <td align="right">200.09</td>
+  <td align="right">214.1</td>
+  <td align="right">229.08</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Net operating assets (NOA)</td>
+  <td align="right">1214.45</td>
+  <td align="right">1299.46</td>
+  <td align="right">1390.42</td>
+  <td align="right">1487.75</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">RNOA<span style="mso-spacerun:yes">&nbsp; </span>(%)</td>
+  <td></td>
+  <td align="right">16.48</td>
+  <td align="right">16.48</td>
+  <td align="right">16.48</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Residual operating income (ReOI)</td>
+  <td></td>
+  <td align="right">77.48</td>
+  <td align="right">82.9</td>
+  <td align="right">88.71</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Abnormal operating income growth
+  (AOIG)<span style="mso-spacerun:yes">&nbsp;</span></td>
+  <td colspan="2" style="mso-ignore:colspan"></td>
+  <td align="right">5.42</td>
+  <td align="right">5.81</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none" align="left">Growth rate for NOA</td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td class="xl65" align="right" style="border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
+  <td class="xl65" align="right" style="border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
+  <td class="xl65" align="right" style="border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="343" style="width:257pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+Calculating Abnormal Operating Income Growth.
+
+The long-hand method:
+
+<table border="0" cellpadding="0" cellspacing="0" width="725" style="border-collapse:
+ collapse;table-layout:fixed;width:545pt">
+ <colgroup><col width="385" style="mso-width-source:userset;mso-width-alt:12320;width:289pt">
+ <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
+ width:64pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="385" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
+  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Operating income (OI)</td>
+  <td align="right">187</td>
+  <td align="right">200.09</td>
+  <td align="right">214.1</td>
+  <td align="right">229.08</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Net operating assets (NOA)</td>
+  <td align="right">1214.45</td>
+  <td align="right">1299.46</td>
+  <td align="right">1390.42</td>
+  <td align="right">1487.75</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Free cash flow (C-I = OI - changeNOA)</td>
+  <td class="xl66" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:underline;text-underline-style:single;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">&nbsp;107.55</td>
+  <td align="right">115.08</td>
+  <td align="right">123.31</td>
+  <td align="right">131.76</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Income from reinvested free cash flow
+  (at 10.1%)</td>
+  <td></td>
+  <td align="right">10.86</td>
+  <td align="right">11.62</td>
+  <td align="right">12.45</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Cum-dividend OI</td>
+  <td>&nbsp;&nbsp;</td>
+  <td align="right">210.95</td>
+  <td align="right">225.72</td>
+  <td align="right">241.53</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Normal OI</td>
+  <td></td>
+  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:underline;text-underline-style:single;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">205.89</td>
+  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:underline;text-underline-style:single;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">220.3</td>
+  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:underline;text-underline-style:single;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">235.72</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#65A9D9;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none" align="left">Abnormal
+  OI Growth (AOIG)</td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">5.06</td>
+  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">5.42</td>
+  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">5.81</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="385" style="width:289pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+  <td width="85" style="width:64pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+</details>
+
+
+## 第15章
+
+### exercise 1
+
+**A No-growth Forecast and a Simple Valuation.**
+
+An analyst calculates residual operating income of \$35.7 million from financial statements for 2012, using a required return for operations of 10%. She also forecasts residual operating income at the same level for 2013 and years after on net operating assets of \$1,257 million at the end of 2012.
+
+* a. What is the analyst's forecast of operating income for 2013?
+* b. What is the value of the operations based on these forecasts?
+* c. What is the forward enterprise P/E ratio implied by the forecasts?
+
+<details>
+<summary><font size = 6 font color=orange>Answers:</font></summary>
+
+a.
+
+$ReOI_{2013} = OI_{2013} – (0.10 ×1,257) = \$35.7 million$ (= that in 2012)
+
+$Therefore,\ OI_{2013} = \$161.4 million$
+
+b.
+
+With $ReOI_{2013}$ forecasted to be a constant, a no-growth valuation applies:
+
+$V_{2012}^{NOA} = 1257 + \frac{35.7}{0.10} = \$1614 million$
+
+c.
+
+Forward (enterprise) P/E = $\dfrac{V_{2012}^{NOA}}{OI_{2013}} = \$1614/\$161.4 = 10.0$
+
+Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% required return
+</details>
+
+### exercise 1
+
+## 第16章
+
+### exercise 1
+
+**One-Stop Residual Operating Income Calculation: Coca-Cola Company.**
+
+The Coca-Cola Company reported an after-tax profit margin of 20% on its sales of \$24,088 million in 2006. It also reported \$102 million of other core income, mainly from equity investments in its bottling companies. Further analysis of the financial statements reveals an asset turnover (on net operating assets) of 1.32. Coke uses a hurdle of 9% for its investment in operations.
+
+* a. What was Coke's residual operating income for 2006?
+* b. What would Coke's residual operating income be if the asset turnover increased to 1. 7?
+
+<details>
+<summary><font size = 6 font color=orange>Answers:</font></summary>
+
+a.
+
+$
+\begin{aligned}
+  ReOI &=Sales \times [PM - \dfrac{Required \ Return \ for \ operations}{ATO} + Other \ operating \ income]\\
+  \\
+  &=24088 \times \big(0.20-\frac{0.09}{1.32}\big) +102\\
+  \\
+  &= \$3277.3 million
+\end{aligned}
+$
+
+An alternative solution:
+
+Core OI = (\$24,088 × 0.20) + 102 = \$4,919.6
+NOA= \$24,088/1.32 = 18,248.5
+ReOI = \$4,919.6 – (0.09 × 18,248.5) = 3,277.3 million
+
+b.
+
+$$
+\begin{aligned}
+  ReOI &= 24088 \times \big(0.20-\frac{0.09}{1.70}\big) +102\\
+  \\
+  &= \$3644.4 million
+\end{aligned}
+$$
+</details>
+
+### exercise 2

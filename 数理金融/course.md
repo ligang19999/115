@@ -30,3 +30,5 @@ d s\left(t\right) &=\frac{\partial s}{\partial t}d t+\frac{\partial s}{\partial 
 &=rS_{t}dt + \sigma S_{t}dw\\
 \end{aligned}
 $$
+
+贝尔曼原理
