@@ -14,7 +14,7 @@ $$
 
 where at any time k, your wealth level must satisfy $x_k \geq 0$. Please fix the optimal consumption $c_0, c_1, c_2$.
 
-$\color{orange}{\mathbf{\Large{Answers:}}}$
+$\color{orange}{\mathbf{\huge{Answers:}}}$
 
 **考虑 k=2 时：**
 
