@@ -8,7 +8,7 @@ Here are some notes mainly for myself to review. I would be glad if you can lear
 
 - [Papers](papers/_sidebar.md)
 
-- [My courses](readcourse.md)
+- [My courses](courses/README.md)
 
 - [Tools](实用工具/_sidebar.md)
 
