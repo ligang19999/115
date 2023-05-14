@@ -6,7 +6,6 @@
 - [Shrinking the cross-section](papers/shrinking实证做法.md)
 - [Principal Portfolios](papers/Principal_Portfolios.md)
 
-
 &nbsp;
 &nbsp;
 [$\ \large{\longleftarrow 返回}$](README.md)
