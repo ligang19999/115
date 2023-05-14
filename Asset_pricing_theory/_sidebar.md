@@ -1,4 +1,4 @@
-- [PCA 方法总结](Asset_pricing_theory/PCA方法总结.md)
+- [PCA 方法总结](/Asset_pricing_theory/PCA方法总结.md)
 
 &nbsp;
 &nbsp;
