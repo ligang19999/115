@@ -8,6 +8,7 @@
 
 Consider the following pro forma for International Business Machines Corp. (IBM) based on analysts' forecasts in early 2011
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="590" style="border-collapse:
  collapse;table-layout:fixed;width:442pt">
  <colgroup><col width="68" style="width:51pt">
@@ -43,7 +44,7 @@ Consider the following pro forma for International Business Machines Corp. (IBM)
   <td width="230" style="width:172pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or \$18.77 per share. Use a required return for equity of 10 percent in calculations.
 
@@ -54,6 +55,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
 <details>
 <summary><font size = 6 font color=orange>Answers:</font></summary>
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="993" style="border-collapse:
  collapse;table-layout:fixed;width:746pt">
  <colgroup><col width="367" style="mso-width-source:userset;mso-width-alt:11744;width:275pt">
@@ -202,9 +204,11 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
   <td width="107" style="width:80pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
+<div style="overflow-x: scroll">
 
 用到的公式：
 
@@ -219,7 +223,7 @@ $\begin{array}{lll}
 \\
 &=& RE_t - RE_{t-1}\\
 \end{array}$
-
+</div>
 </details>
 
 ### exercise 2
@@ -239,6 +243,7 @@ Analysts' consensus EPS forecasts for 2011 and 2012 fiscal years (ending in June
 <details>
 <summary><font size = 6 font color=orange>Answers:</font></summary>
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="508" style="border-collapse:
  collapse;table-layout:fixed;width:382pt">
  <colgroup><col width="274" style="mso-width-source:userset;mso-width-alt:8768;width:206pt">
@@ -300,7 +305,7 @@ Analysts' consensus EPS forecasts for 2011 and 2012 fiscal years (ending in June
   <td width="114" style="width:86pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 a.
 
@@ -397,6 +402,7 @@ Below are a balance sheet and an income statement that have been reformulated ac
 * a. How much was paid out in net dividends during 2012?
 * b. What is free cash flow for 2012?
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="840" style="border-collapse:
  collapse;table-layout:fixed;width:631pt">
  <colgroup><col width="217" style="mso-width-source:userset;mso-width-alt:6944;width:163pt">
@@ -474,9 +480,10 @@ Below are a balance sheet and an income statement that have been reformulated ac
   <td width="91" style="width:68pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 &nbsp;
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="358" style="border-collapse:
  collapse;table-layout:fixed;width:269pt">
  <colgroup><col width="253" style="mso-width-source:userset;mso-width-alt:8096;width:190pt">
@@ -519,13 +526,14 @@ Below are a balance sheet and an income statement that have been reformulated ac
   <td width="105" style="width:79pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 <details>
 <summary><font size = 6 font color=orange>Answers:</font></summary>
 
 Using Accounting Relations.
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="695" style="border-collapse:
  collapse;table-layout:fixed;width:522pt">
  <colgroup><col width="193" style="mso-width-source:userset;mso-width-alt:6176;width:145pt">
@@ -621,7 +629,7 @@ Using Accounting Relations.
   <td width="72" style="width:54pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 a.
 
