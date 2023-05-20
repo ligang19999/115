@@ -59,82 +59,9 @@ moderator.
 
 
 
-
-
-
-
-开始=>start: 开始
-结束=>end: 结束
-输入=>inputoutput: 输入年份n
-条件1=>condition: n能否被4整除？
-条件2=>condition: n能被100整除？
-条件3=>condition: n能被400整除？
-输出1=>inputoutput: 输出闰年
-输出2=>inputoutput: 输出非闰年
-
-开始->输入->条件1(yes)->条件2(yes)->条件3(yes)->输出1->结束
-条件1(no)->输出2->结束
-条件2(no,left)->输出1
-条件3(no)->输出2
-
-
-$\rho_{\theta e}$ 和 $\rho_{\theta M}$ 成比例，等式(9)可近似为 $\beta_{\theta}$
-
-
-
-
-
-
-<label for="name">姓名</label>
-<input type="text" id="name">
-
-<label for="age">年龄</label>
-<input type="number" id="age">
-
-<span>性别</span>
-<input type="radio" id="boy" name="age" value="男">
-<label for="boy">男</label>
-
-<input type="radio" id="girl" name="age" value="女">
-<label for="girl">女</label>
-
 <hr color = 'red'>
 
-<table>
-    <tr>
-        <td></td> 
-        <td></td> 
-        <td colspan="3">第二天的天气</td> 
-   </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>多云</td>
-        <td>雨天</td>
-        <td>晴天</td>
-    </tr>
-    <tr>
-        <td rowspan="3">第一天的天气</td>
-        <td>多云</td>
-        <td>0.1</td>
-        <td>0.5</td>
-        <td>0.4</td>
-    </tr>
-    <tr>
-        <td>雨天</td>
-        <td>0.3</td>
-        <td>0.6</td>
-        <td>0.1</td>
-    </tr>
-    <tr>
-        <td>晴天</td>
-        <td>0.4</td>
-        <td>0.1</td>
-        <td>0.5</td>
-    </tr>
-</table>
 
-aa
 
 
 
@@ -253,9 +180,6 @@ $$
 = var(e_n)
 $$
 
-
-
-
 a
 
 <table border="0" cellpadding="0" cellspacing="0" width="628" style="border-collapse:
@@ -300,7 +224,10 @@ a
  <!--[endif]-->
 </tbody></table>
 
+!> 你可以在一个子目录中创建一个 `README.md` 文件来作为路由的默认网页你可以在一个子目录中创 >建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页
 
-a
+?> 你可以在一个子目录中创建一个 `README.md` 文件来作为路由的默认网页
 
+?> 你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页你可以在一个子目录中创建一个文件来作为路由的默认网页
 
+?> `.public` 的解决方法是这样的，`cp` 不会无限循环的将 `public/` 复制到自身。
