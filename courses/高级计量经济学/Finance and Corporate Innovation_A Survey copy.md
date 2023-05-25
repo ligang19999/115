@@ -1,62 +1,23 @@
 # Finance and Corporate Innovation: A Survey
 
-<font size = 5> **Journal:**</font>
-
-<font size = 4>
-
-Asia-Pacific Journal of Financial Studies
-</font>
-
-<font size = 5> **Authors:**</font>
-
-<font size = 4>
-
-* Jie (Jack) He:
-  
-  Terry College of Business, University of Georgia, United States
-* Xuan Tian:
-  
-  PBC School of Finance, Tsinghua University, China
-</font>
-
-## Abstract
-
-Corporate innovation is an increasingly important topic that has attracted great attention from academic researchers in financial economics in recent years. Although the top three finance journals (i.e. the Journal of Finance, the Journal of Financial Economics, and the Review of Financial Studies) together published a total of only five papers on corporate innovation from 2000 to 2008, the number of such papers published by these three journals skyrocketed to 56 from 2009 to the third quarter of 2017. <mark>The purpose of this survey is to provide a synthetic and evaluative monograph of academic papers that examine the drivers and financing sources of corporate innovation.</mark>
-
-## Introduction
-
-这篇文章的目的：回顾最近快速发展的关于金融和企业创新的文献
-
-想要回答的问题：
-
-1. How is corporate finance motivated and financed?
-
-2. To what extent do financial markets and systems shape the initiation, process, features, and outcomes of technological innovation by corporations?
-
-there were a total of 68 innovation publications between 2000 and the third quarter (Q3) of 2017
-
 ## 2. Firm-Level Characteristics
-
-这一部分主要回顾了从不同的公司特征的角度来研究企业创新的文献。这些文献又可以分为三类
-
-
 
 ### 2.1 Venture Capital and Entrepreneurship
 
-年轻的创业公司通常有强烈的动机去投资于新技术，并希望能够推出革命性的产品，从而能够跨越行业门槛，在激烈的市场竞争中建立自己的竞争优势，成为一个独立的可持续的企业。但由于初创期企业通常不具备良好的业绩和较为可靠的实物抵押品，因此他们很难获得金融市场的信任，银行不愿意给他们借贷，投资者也不愿对他们投资。这导致初创企业会采取财务紧缩，以减少因为投资造成的财务开支，这通常会使得他们不能够完全进行创新活动。
+* Venture Capital and Entrepreneurship
+  * VC's tolerance for failure
+  * Corporate venture capital (CVC)
+  * Stage financing
+  * “Exit” point
 
-与此同时，私营企业可能较少受到分散股东和公司经理之间的代理冲突的影响，而且更有能力保护他们的机密信息和商业秘密，这可能会使这些企业更有动力从事长期的、有风险的、创新的项目
-
-这一部分，主要探讨风险投资(VC)如何影响企业的创新活动
-
-由于向银行或公开股权投资者融资的困难，大量的创业型企业求助于VC, VC在企业创新过程中起着融资和咨询的双重作用
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 **Paper:** Kortum and Lerner (2000).Assessing the contribution of venture capital to innovation, Journal of Economics
 
 **Content:**
 
 * Examining 20 industries in the US manufacturing sector between 1965 and 1992
-* 
+* They conduct two identification tests to address the concern regarding omitted variables, such as the arrival of technological opportunities.
 
 **Contribution:**
 
@@ -88,28 +49,28 @@ there were a total of 68 innovation publications between 2000 and the third quar
 
 * while CVC-backed firms are younger, riskier, and less profitable than IVC-backed firms, they are more innovative in the sense that they generate more patents and patents with higher future citations received.
 * Further, their analysis identifies two possible channels through which CVCs benefit
-innovation: 
+innovation:
   * (i) the technological fit between CVCs’ parent firms and the start-up companies backed by them;
   * (ii) CVCs’ greater tolerance for failure than IVCs.
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-<mark>Venture capital investment structure affects innovation as well</mark>
-
 **Paper:** Mao et al.(2016).Unleashing innovation, Working Paper
+
+**intuition:**
+
+* Venture capital investment structure affects innovation as well
 
 **Content:**
 
-* examine a unique feature of VC financing, namely, stage financing, on the innovation output of the IPO firms it funds. 阶段性融资(Stage financing)是指VC投资者向创业型公司分阶段投入资金(而不是一开始就一次性注入资金)
+* examine a unique feature of VC financing, namely, stage financing, on the innovation output of the IPO firms it funds.
 
 **Contribution:**
 
 * They find that VC staging has a negative, causal effect on IPO firms’ patenting activities.
 * They also find that staging hurts innovation more when the R&D task is harder to achieve and when VCs have less industry-related experience
-* 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-在通过某种形式的私人融资(如风投或银行贷款)作为私人持有公司运营之后，许多初创公司最终试图通过上市或被另一家(通常是更大的)公司收购来获得更有效的外部资本。后一个点通常被称为“退出点”，因为许多内部人士可能在这个阶段退出公司，通过出售他们自己在公司的股权，或部分或完全退出公司，下面几篇文章主要研究了“退出点”对于企业创新的影响
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 **Paper:** Ferreira et al. (2014).Incentives to innovate and the decision to go public or private, Review of Financial Studies
 
@@ -118,7 +79,7 @@ innovation:
 * managers in private firms, which are less transparent to outside investors than public firms, are more tolerant of early failures and thus more likely to engage in innovative projects.
 * For public firms:
   * cash flow is observable, there is no tolerance for failure in public companies;
-  * the stock prices react quickly to good news, which gives rise to <mark>myopic behavior</mark>(短视行为) that focuses on conventional projects given such projects’ higher probability of early success.
+  * the stock prices react quickly to good news, which gives rise to <mark>myopic behavior</mark> that focuses on conventional projects given such projects’ higher probability of early success.
 
 **Content:**
 
@@ -131,11 +92,15 @@ innovation:
 
 ### 2.2. Firms’ Internal Characteristics
 
-这一部分主要研究<mark>上市公司</mark>的创新活动，作者主要回顾了从<mark>企业层面</mark>决定创新的文章，特别是那些可以在很大程度上由股东、所有者和创新投资利益相关者的决定因素。
+* Publicly listed firms' Internal Characteristics
+  * Chief executive officers (CEOs)
+    * personal characteristics
+    * incentives
+    * management styles
+  * Non-CEO executives and rank-and-file employees
+  * Shareholders
 
-> In this subsection, we turn our attention to the innovation activities of <mark>publicly listed firms</mark>. In particular, we review articles that explore in depth the <mark>firm-level determinants</mark>  of corporate innovation, especially those that can be largely controlled by shareholders, the owners, and ultimate residual claimers of the benefits associated with innovative investment.
-
-CEO 是上市公司最重要的决策者，负责分配公司资源，设计公司战略，并最终产生利润和财务回报。因此，他们的动机、管理风格甚至个人特征都可能对企业创新活动的方向、重点和进展产生重大影响。因此本文首先回顾了研究创新与 CEO 各种特征之间关系的学术研究
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 **Paper:** Galasso and Simcoe (2011).CEO overconfidence and innovation, Management Science
 
@@ -162,8 +127,6 @@ CEO 是上市公司最重要的决策者，负责分配公司资源，设计公�
 **Contribution:**
 
 * they find that overconfident CEOs not only pursue more innovative investment but are also better at translating external growth opportunities into firm value
-
-除了他或她的个人品质,CEO的技能组合, 也有助于企业创新的成功。
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
@@ -201,25 +164,19 @@ CEO 是上市公司最重要的决策者，负责分配公司资源，设计公�
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-除了个人特质和技能外，ceo的薪酬方案和激励措施也被认为在调节他们的行为、影响他们的管理风格以及他们设计的公司战略方面非常重要。
+> Other than personal traits and skill sets, <mark>CEOs’ compensation schemes and incentives</mark> are also believed to be very important in regulating their behavior and influencing their management styles as well as the corporate strategies they design.
 
-> Other than personal traits and skill sets, CEOs’ compensation schemes and incentives are also believed to be very important in regulating their behavior and influencing their management styles as well as the corporate strategies they design.
-
-![1684943652541](image/论文/1684943652541.png)
+![1685000735335](image/FinanceandCorporateInnovation_ASurveycopy/1685000735335.png)
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-由于创新是一个长期的、不可预测的、有风险的过程，它不仅需要公司的首席执行官的努力，还需要非首席执行官和低层员工的努力。因此，最近的几篇论文研究了非首席执行官和普通员工的激励如何影响公司在创新项目上的投资政策
 
 > Since innovation is a long, unpredictable, and risky process, it entails the effort not only from a firm’s CEO, but also from its non-CEO executives as well as its lower-ranked employees. Several recent papers have therefore examined how the incentives of non-CEO executives and rank-and-file employees shape a company’s investment policy in innovative projects
 
-![1684943572983](image/论文/1684943572983.png)
+![1685000849004](image/FinanceandCorporateInnovation_ASurveycopy/1685000849004.png)
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-股东除了向高层和部门经理以及普通员工提供适当的创新激励外，还可以通过改变董事会的职能属性，直接影响公司创新活动的规模和范围。它在监督和建议公司经理方面起着至关重要的作用。
-
-> Other than providing suitable incentives for innovation to top and divisional managers as well as rank-and-file employees, shareholders could directly influence the scale and scope of a firm’s innovation activities through changing the functional attributes of the board of directors, which plays a vital role in monitoring and advising corporate managers.
+> Other than providing suitable incentives for innovation to top and divisional managers as well as rank-and-file employees, <mark>shareholders</mark> could directly influence the scale and scope of a firm’s innovation activities through changing the functional attributes of the board of directors, which plays a vital role in monitoring and advising corporate managers.
 
 **Paper:** Balsmeier et al. (2017). Independent boards and innovation, Journal of Financial Economics
 
@@ -237,7 +194,12 @@ CEO 是上市公司最重要的决策者，负责分配公司资源，设计公�
 
 ### 2.3. Firms’ External Characteristics
 
-> In this subsection, we discuss literature that explores how the <mark>external environment of a firm and those firm-level characteristics largely beyond the direct control of shareholders</mark> influence the process and outcomes of corporate innovation. We start by reviewing studies that examine various kinds of financial market intermediaries, such as financial analysts, institutional investors, and hedge funds, and then move on to discuss articles studying the effect of stock market trading, prices, as well as stakeholders, on corporate innovation.
+* Firms’ External Characteristics
+  * financial market intermediaries
+    * financial analysts
+    * institutional investors
+    * hedge funds
+  * stock market trading, prices, stakeholders
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
@@ -263,15 +225,17 @@ CEO 是上市公司最重要的决策者，负责分配公司资源，设计公�
 
 * They find that firms targeted by hedge fund activists are able to enhance their innovation efficiency following the intervention by reducing R&D expenditures while alsoo increasing innovation output.
 
-![1684992992984](image/论文/1684992992984.png)
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
+![1685000955955](image/FinanceandCorporateInnovation_ASurveycopy/1685000955955.png)
 
 ## 3 Market Characteristics
 
-!!!+ After discussing various firm-level determinants of corporate innovation, we now turn our attention to the general economic environment in which a firm operates and assess how different market-wide forces influence the process and outcome of the firm’s innovative investment.
-
-Since corporate innovation ultimately gives the innovating firms a competitive edge in the product market, it is both interesting and important to understand how product market dynamics interact with the innovation process and firms’ incentives to innovate under various market circumstances.
-
-由于企业创新最终赋予了创新企业在产品市场上的竞争优势，因此了解产品市场动态与创新过程以及企业在不同市场环境下的创新动机之间的相互作用既有趣又重要。
+* Market Characteristics
+  * Market structure
+  * The banking system
+  * Taxes
+  * Technological innovations
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
@@ -286,8 +250,6 @@ Since corporate innovation ultimately gives the innovating firms a competitive e
 * their findings suggest that the China trade shock reduces firm profitability in US manufacturing, inducing these firms to cut back on innovation and other economic activities.
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-In addition to the market structure and the banking system, taxes are another important macro-level economic force that is largely out of the control of corporate managers but may affect their incentives to innovate
 
 **Paper:** Atanassov and Liu (2016).Corporate income taxes, pledgeable income and innovation
 
@@ -314,51 +276,3 @@ In addition to the market structure and the banking system, taxes are another im
 **Contribution:**
 
 * Her analysis predicts that a series of consolidating mergers in an industry will reduce incentives to innovate
-
-
-
-
-
-
-
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-**Paper:**
-
-**Content:**
-
-* 
-
-**Contribution:**
-
-* 
-
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-**Paper:**
-
-**intuition:**
-
-* 
-
-**Content:**
-
-* 
-
-**Contribution:**
-
-* 
-
-
-
-**Paper:**
-
-**Content:**
-
-**Contribution:**
-
-**Paper:**
-
-**Content:**
-
-**Contribution:**

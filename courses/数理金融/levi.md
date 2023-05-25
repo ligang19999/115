@@ -199,7 +199,13 @@ $$
 V_t + \underset{c\geqslant 0}{\mathrm{sup}}\ \left[(f(k)-c-\delta k) V_k - e^{-\lambda c}  \right]  = 0 \\
 $$
 
-Since the value function is time-homogeneous, $V_t=0$. The first-order derivative of the function in the bracket w.r.t. $c$ is $-V_k + \lambda e^{-\lambda c}$, and the second-order derivative w.r.t. $c$ is $-\lambda^{2}e^{-\lambda c}$, which means the function reaches an unique maximum when $c$ satisfies $\lambda e^{-\lambda c} = V_k$. Thus, the equation above becomes 
+(Since) the value function is time-homogeneous, $V_t=0$. The first-order derivative of the function in the bracket w.r.t. $c$ is $-V_k + \lambda e^{-\lambda c}$, and the second-order derivative w.r.t. $c$ is $-\lambda^{2}e^{-\lambda c}$, which means the function reaches an unique maximum when $c$ satisfies $\lambda e^{-\lambda c} = V_k$. Thus, the equation above becomes 
+
+
+$$
+
+$$
+
 
 $$
 \begin{aligned}

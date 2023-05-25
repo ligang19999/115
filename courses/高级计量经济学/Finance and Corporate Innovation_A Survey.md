@@ -1,62 +1,15 @@
 # Finance and Corporate Innovation: A Survey
 
-<font size = 5> **Journal:**</font>
-
-<font size = 4>
-
-Asia-Pacific Journal of Financial Studies
-</font>
-
-<font size = 5> **Authors:**</font>
-
-<font size = 4>
-
-* Jie (Jack) He:
-  
-  Terry College of Business, University of Georgia, United States
-* Xuan Tian:
-  
-  PBC School of Finance, Tsinghua University, China
-</font>
-
-## Abstract
-
-Corporate innovation is an increasingly important topic that has attracted great attention from academic researchers in financial economics in recent years. Although the top three finance journals (i.e. the Journal of Finance, the Journal of Financial Economics, and the Review of Financial Studies) together published a total of only five papers on corporate innovation from 2000 to 2008, the number of such papers published by these three journals skyrocketed to 56 from 2009 to the third quarter of 2017. <mark>The purpose of this survey is to provide a synthetic and evaluative monograph of academic papers that examine the drivers and financing sources of corporate innovation.</mark>
-
-## Introduction
-
-这篇文章的目的：回顾最近快速发展的关于金融和企业创新的文献
-
-想要回答的问题：
-
-1. How is corporate finance motivated and financed?
-
-2. To what extent do financial markets and systems shape the initiation, process, features, and outcomes of technological innovation by corporations?
-
-there were a total of 68 innovation publications between 2000 and the third quarter (Q3) of 2017
-
 ## 2. Firm-Level Characteristics
 
-这一部分主要回顾了从不同的公司特征的角度来研究企业创新的文献。这些文献又可以分为三类
-
-
-
 ### 2.1 Venture Capital and Entrepreneurship
-
-年轻的创业公司通常有强烈的动机去投资于新技术，并希望能够推出革命性的产品，从而能够跨越行业门槛，在激烈的市场竞争中建立自己的竞争优势，成为一个独立的可持续的企业。但由于初创期企业通常不具备良好的业绩和较为可靠的实物抵押品，因此他们很难获得金融市场的信任，银行不愿意给他们借贷，投资者也不愿对他们投资。这导致初创企业会采取财务紧缩，以减少因为投资造成的财务开支，这通常会使得他们不能够完全进行创新活动。
-
-与此同时，私营企业可能较少受到分散股东和公司经理之间的代理冲突的影响，而且更有能力保护他们的机密信息和商业秘密，这可能会使这些企业更有动力从事长期的、有风险的、创新的项目
-
-这一部分，主要探讨风险投资(VC)如何影响企业的创新活动
-
-由于向银行或公开股权投资者融资的困难，大量的创业型企业求助于VC, VC在企业创新过程中起着融资和咨询的双重作用
 
 **Paper:** Kortum and Lerner (2000).Assessing the contribution of venture capital to innovation, Journal of Economics
 
 **Content:**
 
 * Examining 20 industries in the US manufacturing sector between 1965 and 1992
-* 
+* They conduct two identification tests to address the concern regarding omitted variables, such as the arrival of technological opportunities.
 
 **Contribution:**
 
@@ -88,15 +41,17 @@ there were a total of 68 innovation publications between 2000 and the third quar
 
 * while CVC-backed firms are younger, riskier, and less profitable than IVC-backed firms, they are more innovative in the sense that they generate more patents and patents with higher future citations received.
 * Further, their analysis identifies two possible channels through which CVCs benefit
-innovation: 
+innovation:
   * (i) the technological fit between CVCs’ parent firms and the start-up companies backed by them;
   * (ii) CVCs’ greater tolerance for failure than IVCs.
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-<mark>Venture capital investment structure affects innovation as well</mark>
-
 **Paper:** Mao et al.(2016).Unleashing innovation, Working Paper
+
+**intuition:**
+
+* Venture capital investment structure affects innovation as well
 
 **Content:**
 
@@ -106,10 +61,8 @@ innovation:
 
 * They find that VC staging has a negative, causal effect on IPO firms’ patenting activities.
 * They also find that staging hurts innovation more when the R&D task is harder to achieve and when VCs have less industry-related experience
-* 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-在通过某种形式的私人融资(如风投或银行贷款)作为私人持有公司运营之后，许多初创公司最终试图通过上市或被另一家(通常是更大的)公司收购来获得更有效的外部资本。后一个点通常被称为“退出点”，因为许多内部人士可能在这个阶段退出公司，通过出售他们自己在公司的股权，或部分或完全退出公司，下面几篇文章主要研究了“退出点”对于企业创新的影响
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 **Paper:** Ferreira et al. (2014).Incentives to innovate and the decision to go public or private, Review of Financial Studies
 
@@ -314,51 +267,3 @@ In addition to the market structure and the banking system, taxes are another im
 **Contribution:**
 
 * Her analysis predicts that a series of consolidating mergers in an industry will reduce incentives to innovate
-
-
-
-
-
-
-
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-**Paper:**
-
-**Content:**
-
-* 
-
-**Contribution:**
-
-* 
-
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-**Paper:**
-
-**intuition:**
-
-* 
-
-**Content:**
-
-* 
-
-**Contribution:**
-
-* 
-
-
-
-**Paper:**
-
-**Content:**
-
-**Contribution:**
-
-**Paper:**
-
-**Content:**
-
-**Contribution:**
