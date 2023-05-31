@@ -1,7 +1,5 @@
 # 数理金融第四次作业
 
-<font size = 5>12232959 李大成</font>
-
 ## Question 1 the shortest path problem
 
 Please solve the following shortest path problem (the computation should be as detailed as possible):
@@ -11,7 +9,7 @@ Please solve the following shortest path problem (the computation should be as d
 ![](figures/homework4-1-2.png)
 </div>
 
-<font color='#69a1ff'>$\mathbf{\huge{Answers:}}$</font>
+<font color=orange>$\mathbf{\huge{Answers:}}$</font>
 
 解决如下优化问题：
 
@@ -128,9 +126,10 @@ $$
 C_s^*=\frac{\beta-r}{\gamma r}+rW_s \tag{22}
 $$
 
-<font color='#69a1ff'>$\mathbf{\huge{Answers:}}$</font>
+<font color=orange>$\mathbf{\huge{Answers:}}$</font>
 
-!!!+ HJB equation $\\ V_t + \underset{u \in U}{\mathrm{sup}}\ [b(t,\ x,\ u)V_x + f(t,\ x,\ u)] = 0$
+> [!TIP|label:HJB equation]
+> $\\ V_t + \underset{u \in U}{\mathrm{sup}}\ [b(t,\ x,\ u)V_x + f(t,\ x,\ u)] = 0$
 
 令 $1-\beta/r-\beta t-\gamma rW_t = \square$
 
@@ -203,9 +202,10 @@ C_s^*&=\; \frac{\beta-r}{\gamma r}+r(W_s+\frac{\eta^2}{2\gamma r^2}), \\
 \end{aligned}
 $$
 
-<font color='#69a1ff'>$\mathbf{\huge{Answers:}}$</font>
+<font color=orange>$\mathbf{\huge{Answers:}}$</font>
 
-!!!+ HJB equation $\\ v_s+\underset{u \in U}{\mathrm{sup}}\ \{\frac{1}{2}\sigma^2(s,y,u)v_{yy}+b(s,y,u)v_y+f(s,y,u)\}=0$
+> [!TIP|label:HJB equation]
+> $\\ v_s+\underset{u \in U}{\mathrm{sup}}\ \{\frac{1}{2}\sigma^2(s,y,u)v_{yy}+b(s,y,u)v_y+f(s,y,u)\}=0$
 
 取 $\hat{t} \to t$
 
@@ -307,7 +307,7 @@ Suppose you desire to marry the richest person you meet. We make the assumptions
 
 What is the optimal strategy to maximize the expected wealth of your marriage partner? Specially, if $N = 10$, how much is the optimal expected wealth.
 
-<font color='#69a1ff'>$\mathbf{\huge{Answers:}}$</font>
+<font color=orange>$\mathbf{\huge{Answers:}}$</font>
 
 ### model 1
 
@@ -423,3 +423,5 @@ $$
 $$
 
 对 $f(x) = \cfrac{lnx}{x}$ 求导，可知 $x=e$ 时，函数值最大，也即 $t= \cfrac{N}{e}$ 时，解最优，最优策略与 model 2 相同
+
+?> This method was provided by Sun cheran.
