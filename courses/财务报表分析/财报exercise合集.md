@@ -1,6 +1,539 @@
 # 财报exercise合集
 
-## 第6章
+## Chapter 1
+
+### exercise 1
+
+**Identifying Operating, Investing, and Financing Transactions:**
+
+Microsoft Corp. reported the following in its annual report to the Securities and Exchange Commission (SEC) for fiscal year ending June 30, 2011.
+
+**Requirement:** Classify each item as involving an operating, investing, or financing activity. Amounts are in millions.
+
+|||
+|:------|:------:|
+|a. Common stock dividends|F|
+|b. General and administrative expenses|O|
+|c. Sales and marketing expenses|O|
+|d. Common stock issues|F|
+|e. Common stock repurchases|F|
+|f. Sales revenue|O|
+|g. Research and development expenditures|I|
+|h. **Income taxes**|O|
+|i. **Additions to property and equipment**$\\ \;$ (增加财产和设备)|I|
+|j. Accounts receivable|O|
+
+### exercise 2
+
+Hewlett-Packard had 2,126 million shares outstanding in May 2011, trading at $41 per share. Its most recent quarterly report listed the following(in millions).What is the enterprise market value for Hewlett-Packard?
+
+|||
+|:------|:------:|
+|Short-term borrowingd|8,406|
+|Long-term debt|14,512|
+|Stockholders' equity|41,795|
+
+<details>
+<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+
+$
+\begin{aligned}
+\text{Market value of equity}  &= \$41 * 2,126\ million\ shares\\
+&  = \$87,166\ million\\
+\\
+\text{Market value of debt}&=\text{book value of debt}\\
+&=8,406+14,512\\
+&=\$22,918\ million\\
+\\
+\text{Enterprise market value}&=\text{Market value of equity+Market value of debt}\\
+&=\$87,166+\$22,918\\
+&=\$110,084\ million  
+\end{aligned}
+$
+</details>
+$\\$
+
+### exercise 3
+
+**Buy or Sell?**
+
+A firm reports book value of shareholders' equity of \$850 million with 25 million shares outstanding. Those shares trade at \$45 each in the stock market. An analyst values the equity by following the scheme: <font color='orange' style='font-weight:bold'>Value = Book value + Extra value</font>. She calculates extra value of \$675 million. Should she issue a buy or a sell recommendation to her clients?
+
+<details>
+<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+
+$
+\begin{aligned}
+Value &= \$850 + \$675\\
+&  = \$1,525 million\\
+Value\ per\ share &= \$1,525/25\\
+& = \$61\\
+Market\ price& = \$45
+\end{aligned}
+$
+
+Therefore, BUY!
+</details>
+$\\$
+
+## Chapter 2
+
+### exercise 1
+
+From the following information for the year 2012, prepare an income statement and a statement of shareholders' equity, under GAAP rules (R&D expenses are expensed as incurred), for a company with shareholders' equity at the beginning of 2012 of \$3,270 million. Amounts are in millions.
+
+<table border="0" cellpadding="0" cellspacing="0" width="500" style="border-collapse:
+ collapse;table-layout:fixed;width:339pt">
+ <colgroup><col width="370" style="mso-width-source:userset;mso-width-alt:11200;width:290pt">
+ <col width="72" style="width:54pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="350" style="height:14.25pt;width:290pt;border-top:.5pt solid windowtext;
+  border-bottom:none " align="left">Sales</td>
+  <td class="xl65" align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-bottom:none;border-left:none">$4,458 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Common dividends paid</td>
+  <td align="right">140</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Selling expenses</td>
+  <td class="xl66" align="right">1,230</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Research and development costs</td>
+  <td align="right">450</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Cost of goods sold</td>
+  <td class="xl66" align="right">3,348</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Share issues</td>
+  <td align="right">680</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Unrealized gain on securities available
+  for sale</td>
+  <td align="right">76</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;
+  border-bottom:.5pt solid windowtext" align="left">Income taxes</td>
+  <td align="right" style="border-top:none;border-bottom:.5pt solid windowtext;
+  border-left:none">-200</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="350" style="width:263pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+Also calculate comprehensive income and net payout. Income taxes are negative. How can this be?
+
+
+
+
+
+
+
+Taxes are negative (that is, the effect on income is positive) because income is negative (a loss). 
+**A loss yields a tax benefit** that he firm can carry forward to reduce future taxes.
+
+
+### exercise 2
+
+**Using Accounting Relations to Check Errors.**
+
+A chief executive reported the following numbers for fiscal year 2012 to an annual meeting of shareholders (in millions):
+
+Show that at least one of these numbers must be wrong because it does not obey accounting relations.
+
+<table border="0" cellpadding="0" cellspacing="0" width="369" style="border-collapse:
+ collapse;table-layout:fixed;width:297pt">
+ <colgroup><col width="297" style="mso-width-source:userset;mso-width-alt:9504;width:233pt">
+ <col width="72" style="width:54pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt" align="left">
+  <td height="19" width="297" style="height:14.25pt;width:223pt;border-top:.5pt solid windowtext;
+  border-bottom:none">Revenues</td>
+  <td class="xl65" align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-bottom:none;border-left:none">$2,300 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Total expenses, including taxes</td>
+  <td align="right">150</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Other comprehensive income</td>
+  <td align="right">-90</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Total assets, end of year</td>
+  <td align="right">4340</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Total liabilities, end of year</td>
+  <td align="right">1380</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Dividends to shareholders</td>
+  <td align="right">400</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Share issues</td>
+  <td align="right">900</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Share repurchases</td>
+  <td align="right">150</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;
+  border-bottom:.5pt solid windowtext" align="left">Shareholders' equity,
+  beginning of year</td>
+  <td align="right" style="border-top:none;border-bottom:.5pt solid windowtext;
+  border-left:none">19140</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="297" style="width:223pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+<details>
+<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+
+Ending shareholders’ equity can be derived in two ways:
+
+1. Shareholders’ equity = assets – liabilities= 4,340 – 1,380 = 2,960
+
+2. Shareholders’ equity = Beginning equity + comprehensive income – net dividends<br>
+= Beginning equity + (net income + other comprehensive income) -(dividends + share repurchases – share issues)<br>
+= 19,140 +(2,300-150-90)-(400 +150 –900)<br>
+= 19,140 + 2,060 – (-350)<br>
+= 21,550
+
+The two numbers do not agree. There is an error somewhere.
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
+用到的公式：
+
+* Shareholders’ equity = Beginning equity + comprehensive income – net dividends
+* comprehensive income = net income + other comprehensive income
+* net dividends = dividends + share repurchases – share issues
+</details>
+
+## Chapter 3
+
+### exercise 1
+
+A firm trading with a total equity market value of \$100 million reported earnings of \$5 million and book value of \$50 million. This firm is used as a comparable to price an IPO firm with EPS of \$2.50 and BPS(book value per share) of \$30. Neither firm pays dividends. What per-share IPO price does the comparable firm imply?
+
+<details>
+<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+
+P/E for the comparable firm = 100/5 = 20<br>
+P/B for the comparable firm = 100/50 = 2<br>
+Price for target, from earnings = $2.50 × 20 = $50 per share<br>
+Price for target, form book value = $30 × 2 = $60 per share<br>
+Average of the two prices = $55 per share<br>
+</details>
+
+## Chapter 4
+
+### exercise 1
+
+**A Discounted Cash Flow Valuation: General Mills, Inc. .**
+
+At the beginning of its fiscal year 2006, an analyst made the following forecast for General Mills, Inc., the consumer foods company, for 2006-2009 (in millions of dollars):
+
+<table border="0" cellpadding="0" cellspacing="0" width="524" style="border-collapse:
+ collapse;table-layout:fixed;width:436pt">
+ <colgroup><col width="236" style="mso-width-source:userset;mso-width-alt:7552;width:197pt">
+ <col width="72" span="4" style="width:60pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="236" style="height:14.25pt;width:177pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2006</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Cash flow from operations</td>
+  <td class="xl67">$2,014 </td>
+  <td class="xl68">$2,057</td>
+  <td class="xl67">$2,095 </td>
+  <td class="xl67">$2,107 </td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none" align="left">Cash investment in
+  operations</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">300</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">380</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">442</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">470</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="236" style="width:177pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+General Mills reported \$6, 192 million in short-term and long-term debt at the end of 2005 but very little in interest-bearing debt assets.<br>
+Use a required return of 9 percent to calculate both the enterprise value and equity value for General Mills at the beginning of 2006 under two forecasts for long-run cash flows:
+
+* a. Free cash flow will remain at 2009 levels after 2009.
+* b. Free cash flow will grow at 3 percent per year after 2009.
+
+General Mills had 369 million shares outstanding at the end of 2005, trading at \$47 per share. Calculate value per share and a value-to-price ratio under both scenarios.
+
+
+
+
+
+### exercise 3
+
+**Calculate Free Cash Flow from a Cash Flow Statement.**
+
+The following summarizes the parts of a firm's cash flow statement that have to do with operating and investing activities (in millions):
+
+<table border="0" cellpadding="0" cellspacing="0" width="456" style="border-collapse:
+ collapse;table-layout:fixed;width:356pt">
+ <colgroup><col width="312" style="mso-width-source:userset;mso-width-alt:9984;width:250pt">
+ <col width="72" span="2" style="width:54pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt" align="left">
+  <td height="19" width="312" style="height:14.25pt;width:234pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none">Net income</td>
+  <td width="72" style="width:54pt;border-top:.5pt solid windowtext"></td>
+  <td width="72" style="width:54pt;border-top:.5pt solid windowtext;border-bottom:none;border-left:none">$2,198</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left">Accruals in net income</td>
+  <td></td>
+  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
+  400;text-decoration:underline;text-underline-style:single;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134">3,072</td>
+ </tr>
+ <tr height="19" style="height:14.25pt" align="left">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:black;font-weight:
+  700;text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">Cash flow from operations</td>
+  <td></td>
+  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
+  400;text-decoration:underline;text-underline-style:single;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134">5,270</td>
+ </tr>
+ <tr height="19" style="height:14.25pt" align="left">
+  <td height="19" style="height:14.25pt;font-size:11.0pt;color:black;font-weight:
+  700;text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134">Cash in investing
+  activities:</td>
+  <td></td>
+  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
+  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
+  mso-font-charset:134"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Purchase of property
+  and plant</td>
+  <td class="xl65" align="right">$2,203 </td>
+  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
+  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
+  mso-font-charset:134"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Purchase of
+  short-term investments</td>
+  <td class="xl66" align="right">4,761</td>
+  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
+  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
+  mso-font-charset:134"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
+  border-bottom:.5pt solid windowtext" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Sale of short-term
+  investments</td>
+  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
+  text-decoration:underline;text-underline-style:single;text-line-through:none;
+  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">-547</td>
+  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
+  400;text-decoration:underline;text-underline-style:single;text-line-through:
+  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
+  border-bottom:.5pt solid windowtext;border-left:none">6,417</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="312" style="width:234pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+## Chapter 5
+
+### exercise 1
+
+<table border="0" cellpadding="0" cellspacing="0" width="360" style="border-collapse:
+ collapse;table-layout:fixed;width:270pt">
+ <colgroup><col width="72" span="5" style="width:54pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none"></td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2012</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2013</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2014</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2015</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">EPS</td>
+  <td></td>
+  <td align="right">3</td>
+  <td align="right">3.6</td>
+  <td align="right">4.1</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">DPS</td>
+  <td></td>
+  <td align="right">0.25</td>
+  <td align="right">0.25</td>
+  <td align="right">0.3</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:.5pt solid windowtext">BPS</td>
+  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
+  border-bottom:.5pt solid windowtext;border-left:none">20</td>
+  <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:
+  .5pt solid windowtext;border-left:none"></td>
+  <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:
+  .5pt solid windowtext;border-left:none"></td>
+  <td style="border-top:.5pt solid windowtext;border-bottom:
+  .5pt solid windowtext;border-left:none"></td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+### exercise 2
+
+**Residual Earnings Valuation: Black Hills Corp.**
+
+Black Hills Corporation is a diversified energy corporation and a public utility holding company. The following gives the firm's earnings per share and dividends per share for the years 2000-2004.
+
+<table border="0" cellpadding="0" cellspacing="0" width="504" style="border-collapse:
+ collapse;table-layout:fixed;width:378pt">
+ <colgroup><col width="72" span="7" style="width:54pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none"></td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">1999</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2000</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2001</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2002</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-right:none;border-bottom:none;border-left:none">2003</td>
+  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-bottom:none;border-left:none">2004</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Eps</td>
+  <td></td>
+  <td align="right">2.39</td>
+  <td align="right">3.45</td>
+  <td align="right">2.28</td>
+  <td align="right">2</td>
+  <td align="right">1.71</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt">Dps</td>
+  <td></td>
+  <td align="right">1.06</td>
+  <td align="right">1.12</td>
+  <td align="right">1.16</td>
+  <td align="right">1.22</td>
+  <td align="right">1.24</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" style="height:14.25pt;border-top:none;
+  border-bottom:.5pt solid windowtext">Bps</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">9.96</td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td style="border-top:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+  <td width="72" style="width:54pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Chapter 6
 
 ### exercise 1
 
@@ -53,7 +586,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
 * c. Show that abnormal earnings growth is equal to the change in residual earnings for every year.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 <div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="793" style="border-collapse:
@@ -243,7 +776,7 @@ Analysts' consensus EPS forecasts for 2011 and 2012 fiscal years (ending in June
 * c. If you forecast that there will be significant abnormal earnings growth after 2012, do you think this stock is appropriately priced at $24.30?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 <div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="400" style="border-collapse:
@@ -350,7 +883,7 @@ Intrinsic Price here is calculated from valuation models.
 
 </details>
 
-## 第8章
+## Chapter 8
 
 ### exercise 1
 
@@ -361,7 +894,7 @@ Intrinsic Price here is calculated from valuation models.
 * b. A firm paid a dividend to shareholders of \$162 million and repurchased stock for \$53 million. There were no share issues. The firm $\textcolor{red}{received}$ net cash of \$86 million from debt financing transactions. What was its free cash flow?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.Apply the cash conservation:
 
@@ -373,11 +906,9 @@ $$
 \end{aligned}
 $$
 
-b. Net dividend (d) = \$162 + 53 = \$215
-
-Debt financing flows (F) = -\$86
-
-Apply the cash conservation:
+b. Net dividend (d) = \$162 + 53 = \$215<br>
+Debt financing flows (F) = -\$86<br>
+Apply the cash conservation:<br>
 
 $$
 \begin{aligned}
@@ -535,7 +1066,7 @@ Below are a balance sheet and an income statement that have been reformulated ac
 </tbody></table></div>
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 Using Accounting Relations.
 
@@ -648,7 +1179,7 @@ C - I = OI - $\Delta NOA$
           =   21.7-9.0 =   12.7
 </details>
 
-## 第9章
+## Chapter 9
 
 ### exercise 1
 
@@ -676,7 +1207,7 @@ Amounts are in millions.
 The beginning and end-of-year balances include $200 million of preferred stock.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 A Simple Reformulation of the Equity Statement.
 
@@ -794,7 +1325,7 @@ $$
 * b. Fill out the missing numbers in the equity statement and reformulate it to identify comprehensive income for the common shareholders for 2012.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.
 
@@ -825,7 +1356,7 @@ $$
 $$
 </div></details>
 
-## 第10章
+## Chapter 10
 
 ### exercise 1
 
@@ -899,7 +1430,7 @@ $$
 </tbody></table>
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="520" style="border-collapse:
  collapse;table-layout:fixed;width:390pt;font-size:10.0pt">
@@ -1094,7 +1625,7 @@ From the following income statement (in millions), calculate operating income af
 </tbody></table>
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="587" style="border-collapse:
  collapse;table-layout:fixed;width:400pt;font-size:10.0pt">
@@ -1277,7 +1808,7 @@ From the following income statement (in millions), calculate operating income af
 </tbody></table>
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="405" style="border-collapse:
  collapse;table-layout:fixed;width:304pt;font-size:10.0pt">
@@ -1394,7 +1925,7 @@ Net profit margin=CI/sales=630/7493=8.41%
 
 </details>
 
-## 第11章
+## Chapter 11
 
 ### exercise 1
 
@@ -1509,7 +2040,7 @@ A firm reported comprehensive income of \$376 million for 2012, consisting of \$
 </tbody></table>
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 First reformulate the balance sheet:
 
@@ -1560,7 +2091,7 @@ a. By how much did its net operating assets change during the period?
 b. The firm incurred net financial expenses of \$43 million after tax, paid a dividend of \$20 million, and raised \$33 million from share issues. What was the change in its net debt position during the period?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.
 
@@ -1587,7 +2118,7 @@ So, with a negative net dividend of $13 million
 
 </details>
 
-## 第12章
+## Chapter 12
 
 ### exercise 1
 
@@ -1598,7 +2129,7 @@ So, with a negative net dividend of $13 million
 * c. The firm reported total assets of \$715 million. Construct a balance sheet for this firm that distinguishes operating and financial assets and liabilities.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.
 
@@ -1784,7 +2315,7 @@ A firm earns a profit margin of 3.8 percent on sales of \$435 million and employ
 What would be the effect on the firm's return on net operating assets of adding the new product line?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 The effect would be (almost) zero.
 
@@ -1795,7 +2326,7 @@ RNOA from new product line is:
 $\qquad$ RNOA =  4.8% $ \times $ 2.3  = 11.04%
 </details>
 
-## 第13章
+## Chapter 13
 
 ### exercise 1
 
@@ -1856,7 +2387,7 @@ The following numbers were calculated from the financial statements for a firm f
 Calculate core return of net operating assets (core RNOA) and show how much of its change from 2011 to 2012 is due to the change in profit margin and the change in asset turnover. Box 13.7 will help you.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 Core RNOA for 2012 = 4.7% x 2.4 = 11.28%
 
@@ -1942,7 +2473,7 @@ The following numbers were calculated from the financial statements for a firm f
 * b. For financing activities, explain how much of the change in ROCE is due to spread and how much is due to fiancial leverage.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_0 \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
 
@@ -2173,7 +2704,7 @@ The following numbers were calculated from the financial statements for a firm f
 Explain to what extent the change in common equity from 2011 to 2012 is due to sales growth, net assets required to support sales, and borrowing.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 $\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \dfrac{1}{ATO}\rbrack -  \Delta NFO$
 
@@ -2250,7 +2781,7 @@ $\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \d
 </tbody></table>
 </details>
 
-## 第14章
+## Chapter 14
 
 ### exercise 1
 
@@ -2323,7 +2854,7 @@ Here are summary numbers from a firm's financial statements (in millions of doll
 The required return for operations is 10.1%. Calculate the growth rate for net operating assets, return on net operating assets (RNOA),   residual operating income, abnormal operating income growth (in dollars) for each year 2008-2010.
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 Calculating Residual Operating Income and Its Drivers.
 
@@ -2530,7 +3061,7 @@ The long-hand method:
 </details>
 
 
-## 第15章
+## Chapter 15
 
 ### exercise 1
 
@@ -2543,7 +3074,7 @@ An analyst calculates residual operating income of \$35.7 million from financial
 * c. What is the forward enterprise P/E ratio implied by the forecasts?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.
 
@@ -2566,7 +3097,7 @@ Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% r
 
 ### exercise 1
 
-## 第16章
+## Chapter 16
 
 ### exercise 1
 
@@ -2578,7 +3109,7 @@ The Coca-Cola Company reported an after-tax profit margin of 20% on its sales of
 * b. What would Coke's residual operating income be if the asset turnover increased to 1. 7?
 
 <details>
-<summary><font size = 6 font color=orange>Answers:</font></summary>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
 
 a.
 
