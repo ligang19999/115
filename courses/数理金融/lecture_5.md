@@ -41,14 +41,23 @@ $$
 (V_0-\Delta_0 S_0)(1+r) + \Delta_0 S_1 = V_1
 $$
 
-考虑股票的两种状态，分别代入，求解 $V_0,\Delta_0$：
+考虑股票的两种状态，分别代入:
+
+$$
+\begin{aligned}
+    (V_0-\Delta_0 S_0)(1+r) + \Delta_0 S_0u &= V_1(u)\\
+    (V_0-\Delta_0 S_0)(1+r) + \Delta_0 S_0d &= V_1(d)
+\end{aligned}
+$$
+
+求解 $V_0,\Delta_0$：
 
 $$
 V_0 = \dfrac{\widetilde{p}_u V_1(u) + \widetilde{p}_d V_1(d)}{1+r} \tag{1}
 $$
 
 $$
-\Delta_0 = \dfrac{V_1(u)-V_1(d)}{S_1(u)-S_1(d)}
+\Delta_0 = \dfrac{V_1(u)-V_1(d)}{S_1(u)-S_1(d)} \quad or \quad \dfrac{V_1(u)-V_1(d)}{S_0u-S_0d}
 $$
 
 其中
