@@ -6,13 +6,21 @@
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 ```
 
-<strong>Thunder</strong>
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
-`<strong>Thunder</strong>`
+加粗
 
-<u>dfghjkl</u>
+<strong>加粗</strong>
 
-```<u>dfghjkl</u>```
+`<strong>加粗</strong>`
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
+<u>dfghjkl下划线</u>
+
+```<u>dfghjkl下划线</u>```
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 www.baidu.com
 
@@ -22,10 +30,14 @@ www.baidu.com
 
 ```<p>www.baidu.com</p>```
 
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
 换行<br>换行
 
 `换行<br>换行`
 
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+
 <div align='center'>
 
 居中
@@ -37,6 +49,8 @@ www.baidu.com
 居中
 </div align='center'>
 ```
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 <details>
 <summary>计算细节</summary>
@@ -51,6 +65,8 @@ aa
 aa
 </details>
 ```
+
+<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
 <p>
 这是一个标准行高的段落<br> 

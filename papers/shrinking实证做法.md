@@ -1,6 +1,6 @@
-[理论部分详解1](https://leetah666.github.io/Notes/#/papers/shrinking_the_cross-section) $\qquad$ [理论部分详解2](https://hbs2000.github.io/Gpaper/#/factor_zoo/Shrinkage)
-
 # shrinking the cross-section 实证部分
+
+[理论部分详解1](https://leetah666.github.io/Notes/#/papers/shrinking_the_cross-section) $\qquad$ [理论部分详解2](https://hbs2000.github.io/Gpaper/#/factor_zoo/Shrinkage)
 
 ## 4. Empirical analysis
 

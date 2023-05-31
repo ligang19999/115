@@ -348,7 +348,7 @@ $V_{10}(4)=0.725$
 
 所以最优策略是从第三个人开始选，这种策略的最大期望财富是 0.7333，大于 $U[0,1]$ 的期望 0.5
 
-[参考文献:https://doi.org/10.1016/j.jmp.2005.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0022249605000933?via%3Dihub=)
+?> Reference: [https://doi.org/10.1016/j.jmp.2005.11.003](https://www.sciencedirect.com/science/article/abs/pii/S0022249605000933?via%3Dihub=)
 
 ### model 2
 
@@ -392,9 +392,7 @@ $$
 
 所以最优策略是：先 meet 3或4个人，了解他们的财富情况，再在剩下的人中选择可能财富最大的人
 
-[参考文献](https://acme.byu.edu/00000180-6cb9-dde7-ad8c-6db9a8920001/dynamic-programming)
-
-[参考文献](https://www.americanscientist.org/article/knowing-when-to-stop)
+?> Reference: 1. [A Book](https://acme.byu.edu/00000180-6cb9-dde7-ad8c-6db9a8920001/dynamic-programming) $\;\;$ 2. [Knowing When to Stop](https://www.americanscientist.org/article/knowing-when-to-stop)
 
 ### model 3
 
