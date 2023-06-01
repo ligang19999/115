@@ -1,4 +1,4 @@
-# Ligang's Notes
+# My name is Ligang
 
 ![logo](新3.png)
 
