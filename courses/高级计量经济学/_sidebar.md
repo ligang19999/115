@@ -1,4 +1,4 @@
-- [论文](courses/高级计量经济学/论文.md)
+- [Finance and Corporate Innovation: A Survey](courses/高级计量经济学/论文.md)
 
 &nbsp;
 &nbsp;
