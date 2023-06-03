@@ -1,4 +1,4 @@
-# 财报exercise合集
+# Exercises collection of Financial Statement Analysis
 
 ## Chapter 1
 
