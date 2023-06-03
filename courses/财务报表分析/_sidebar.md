@@ -1,4 +1,4 @@
-- [Exercises Collection](courses/财务报表分析/财报exercise合集.md)
+- [Exercises Collection](courses/财务报表分析/exercises.md)
 - [homework 1](courses/财务报表分析/作业1.md)
 - [homework 2](courses/财务报表分析/作业2.md)
 - [homework 3](courses/财务报表分析/作业3.md)
