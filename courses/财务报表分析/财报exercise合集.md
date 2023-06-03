@@ -346,9 +346,7 @@ Ending shareholders’ equity can be derived in two ways:
 
 The two numbers do not agree. There is an error somewhere.
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-<font color='#0086b5'>$\boxed{\large{Formulas\; Needed:}}$</font>
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
 * Shareholders’ equity = Beginning equity + comprehensive income – net dividends
 * comprehensive income = net income + other comprehensive income
@@ -818,9 +816,7 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
 
 b. As forecasted residual earnings are positive, the shares of this firm are worth a premium over book value.
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-<font color='#0086b5'>$\boxed{\large{Formulas\; Needed:}}$</font>
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
 $\textit{Book Value}_t=\textit{book Value}_{\textcolor{red}{t-1}}+\textit{Earnings}_t-\textit{Dividend}_t$<br>
 $RE_t=Earnings_t-(\rho_E-1)B_{t-1}=[ROCE_t-(\rho_E-1)]B_{t-1}$<br>
@@ -1061,7 +1057,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
 
 <div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="793" style="border-collapse:
- collapse;table-layout:fixed;width:550pt;font-size:10.0pt">
+ collapse;table-layout:fixed;width:520pt;font-size:10.0pt">
  <colgroup><col width="367" style="mso-width-source:userset;mso-width-alt:11744;width:275pt">
  <col width="102" style="mso-width-source:userset;mso-width-alt:3264;width:50pt">
  <col width="98" style="mso-width-source:userset;mso-width-alt:3136;width:60pt">
@@ -1140,7 +1136,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
   <td height="19" class="xl72" style="height:14.25pt;font-size:11.0pt;color:#0070C0;
   font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
   none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Normal
-  earnings=EPSt-1*(1+r)</td>
+  earnings</td>
   <td class="xl68" style="font-size:11.0pt;color:#0070C0;font-weight:400;
   text-decoration:none;text-underline-style:none;text-line-through:none;
   font-family:等线, monospace;mso-font-charset:134"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
@@ -1189,8 +1185,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
   font-family:等线, sans-serif;mso-font-charset:134">13.301 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Change in residual earnings
-  (3)</td>
+  <td height="19" class="xl70" style="height:14.25pt" align="left">Change in residual earnings</td>
   <td colspan="2" style="mso-ignore:colspan"></td>
   <td align="right">0.368</td>
   <td align="right">0.479</td>
@@ -1210,20 +1205,18 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
  <!--[endif]-->
 </tbody></table></div>
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
 <div style="overflow-x: scroll">
 
-<font color='#0086b5'>$\boxed{\large{Formulas\; Needed:}}$</font>
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
 <font size =2.5>
 
 $\begin{array}{lll}
-\text{Reinvested dividends}_t& = &DPS_{t-1} \times r \\
+\text{Reinvested dividends}_t& = &DPS_{t-1} \times r_E \\
 \\
 \text{Cum-dividend earnings}_t&=&EPS_t+\text{Reinvested dividends}_t \\
 \\
-\text{Normal earnings}_t&=&EPS_{t-1}\times r \\
+\text{Normal earnings}_t&=&EPS_{t-1}\times (1+r_E) \\
 \\
 \text{Abnormal earnings growth}_t&=&\text{Cum-dividend earnings}_t - \text{Normal earnings}_t\\
 \\
@@ -1329,9 +1322,7 @@ Intrinsic P/E = $\dfrac{\$28.60}{\$2.60}$ =11.00
 
 c. The value without growth is higher than the market price. So, if you saw some abnormal earnings growth ahead, the stock is definitely underpriced.
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-<font color='#0086b5'>$\boxed{\large{Formulas\; Needed:}}$</font>
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
 <div style="overflow-x: scroll">
 
@@ -1347,6 +1338,8 @@ $\begin{array}{lll}
 \text{Trailing P/E}&=& \dfrac{\text{Price}_0+\text{Dividend}_0}{\text{Eamings}_0}\\
 \\
 \text{Intrinsic P/E}&=& \dfrac{\text{Intrinsic Price}_0}{\text{Eamings}_1}\\
+\\
+V_{0}^{E}&=&\Large{\frac{1}{\rho_{E}-1}\bigg[ Earn_{1}+\frac{AEG_{2}}{\rho_{E}}+\frac{AEG_{3}}{\rho_{E}^{2}}+\frac{AEG_{4}}{\rho_{E}^{3}}+\cdots\frac{AEG_{T+1}}{\rho^{T-1}(\rho-g)}\bigg]}\\
 \end{array}$
 </font></div>
 
@@ -1389,11 +1382,11 @@ $$
 \end{aligned}
 $$
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
-
-<font color='#0086b5'>$\boxed{\large{Formulas\; Needed:}}$</font>
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
 $\begin{array}{lll}
+C-I &=& d + F\\
+\\
 d&=&\text{net cash flow to shareholders} \\
 &=&\text{common dividends + share repurchases – share issues} \\
 \\
@@ -1639,9 +1632,11 @@ Using Accounting Relations.
  <!--[endif]-->
 </tbody></table></div>
 
-a. Dividends = Net income - $\Delta CSE$ (Clean-surplus equation) = 14.6-12.7 = 1.9
+a. <mark>Dividends = Net income - $\Delta CSE$</mark> (Clean-surplus equation) = 14.6-12.7 = 1.9
 
-b. C - I = OI - $\Delta NOA$ =   21.7-9.0 =   12.7
+b. <mark>C - I = OI - $\Delta NOA$</mark> =   21.7-9.0 =   12.7
+
+?> Financial Liabilities is Financial Obligations.
 </details>
 
 ## Chapter 9
@@ -1780,7 +1775,7 @@ $$
     \text{Issue of common stock}&155 \\
     \text{Unrealized gain on securities held for sale}&13 \\
     \text{Foreign currency translation loss}&(9) \\
-    \text{Balance, December 31, 201}&? \\
+    \text{Balance, December 31, 2012}&? \\
 \end{array}
 $$
 </div>
@@ -1993,6 +1988,10 @@ $$
  </tr>
  <!--[endif]-->
 </tbody></table>
+
+> [!TIP|label:Items included in Operating Liabilities]
+> <mark>Accrued expenses</mark>, also known as accrued liabilities, are expenses recognized when they are incurred but not yet paid in the accrual method of accounting. Typical accrued expenses include utility, salaries, and goods and services consumed but not yet billed. <br><mark>Deferred tax liability</mark> is the amount of taxes a company has "underpaid" which will be made up in the future. This doesn't mean that the company hasn't fulfilled its tax obligations. Rather it recognizes a payment that is not yet due.  
+For example, a company that earned net income for the year knows it will have to pay corporate income taxes. Because the tax liability applies to the current year, it must reflect an expense for the same period. But the tax will not actually be paid until the next calendar year. In order to rectify the accrual/cash timing difference, tax is recorded as a deferred tax liability. 
 
 <hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
 
@@ -2384,7 +2383,7 @@ From the following income statement (in millions), calculate operating income af
  <!--[endif]-->
 </tbody></table>
 
-Operating profit margin=OI/sales=797/7493=10.64%
+Operating profit margin=OI(Operating income <mark>after tax</mark>)/sales=797/7493=10.64%
 
 Net profit margin=CI/sales=630/7493=8.41%
 
@@ -2539,7 +2538,7 @@ $$
   &=&\  376 – (1,870 – 1,430) \\
   &=&\  -64\\
   So,&&\ \\
-  Free cash flow &=&\  124 – (-180) + (-64)\\
+  Free\ cash\ flow &=&\  124 – (-180) + (-64)\\
                 &=&\  240
 \end{array}
 $$
@@ -2550,9 +2549,8 @@ $$
 
 **Applying Cash Flow Relations.** 
 
-A firm reported free cash flow of \$430 million and operating income of \$390 million.
-a. By how much did its net operating assets change during the period?
-
+A firm reported free cash flow of \$430 million and operating income of \$390 million.<br>
+a. By how much did its net operating assets change during the period?<br>
 b. The firm incurred net financial expenses of \$43 million after tax, paid a dividend of \$20 million, and raised \$33 million from share issues. What was the change in its net debt position during the period?
 
 <details>
@@ -2600,7 +2598,7 @@ a.
 
 $$
 \begin{aligned}
-  ROCE &= RNOA +[FLEV \times (RNOA-NBC)]\\
+  ROCE &= RNOA +[FLEV \times \colorbox{yellow}{(RNOA-NBC)}]\\
   13.4\%&=11.2\% +[FLEV \times (11.2\% - 4.5\%)]\\
   FLEV &=0.328  
 \end{aligned}
@@ -2789,6 +2787,10 @@ $\qquad$ Existing RNOA  =  PM $ \times $ ATO = 3.8% $ \times $ 2.9 =  11.02%
 RNOA from new product line is:
 
 $\qquad$ RNOA =  4.8% $ \times $ 2.3  = 11.04%
+
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
+
+$RNOA = \frac{OI}{NOA} = \frac{OI}{Sales}\times \frac{Sales}{NOA} = PM \times ATO(asset\ turnover)$
 </details>
 
 ## Chapter 13
@@ -2862,13 +2864,15 @@ Change in Core RNOA		-1.47%
 
 $
 \begin{aligned}
-\Delta core RNOA&= \Delta CorePM_1 \times ATO_0 +\Delta ATO_1 \times CorePM_1\\
-\\
+\Delta core RNOA&= \Delta CorePM_1 \times ATO_{\color{red}{0}} +\Delta ATO_1 \times CorePM_1\\
 &=(-0.4\% \times 2.5) + (-0.1 \times 4.7\%)\\
-\\
 &=-1.47\%  
 \end{aligned}
 $
+
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
+
+$\Delta core RNOA_t= \Delta CorePM_t \times ATO_{\color{red}{t-1}} +\Delta ATO_t \times CorePM_1$
 </details>
 
 ### exercise 2
@@ -2940,7 +2944,7 @@ The following numbers were calculated from the financial statements for a firm f
 <details>
 <summary><font size = 5 font color=orange>Answers:</font></summary>
 
-a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_0 \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
+a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_{\color{red}{0}} \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
 
 <table border="0" cellpadding="0" cellspacing="0" width="698" style="border-collapse:
  collapse;table-layout:fixed;width:460pt;font-size:10.0pt">
@@ -3122,35 +3126,35 @@ The following numbers were calculated from the financial statements for a firm f
   border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2011</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Return on common equity (ROCE)</td>
+  <td height="19" style="height:14.25pt" align='left'>Return on common equity (ROCE)</td>
   <td class="xl65" align="right">15.20%</td>
   <td class="xl65" align="right">13.30%</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Return on net operating assets
+  <td height="19" style="height:14.25pt" align='left'>Return on net operating assets
   (RNOA)<span style="mso-spacerun:yes">&nbsp;</span></td>
   <td class="xl65" align="right">11.28%</td>
   <td class="xl65" align="right">12.75%</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Sales (millions)</td>
+  <td height="19" style="height:14.25pt" align='left'>Sales (millions)</td>
   <td class="xl66" align="right">$16,754 </td>
   <td class="xl66" align="right">$11,035 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Average net operating assets (millions)</td>
+  <td height="19" style="height:14.25pt" align='left'>Average net operating assets (millions)</td>
   <td class="xl66" align="right">$6,981 </td>
   <td class="xl66" align="right">$4,414 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Average net financial obligations
+  <td height="19" style="height:14.25pt" align='left'>Average net financial obligations
   (millions)<span style="mso-spacerun:yes">&nbsp;</span></td>
   <td class="xl66" align="right">$2,225 </td>
   <td class="xl66" align="right">$241 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext">Average common equity
+  border-bottom:.5pt solid windowtext" align='left'>Average common equity
   (millions)</td>
   <td class="xl66" align="right" style="border-top:none;border-right:none;
   border-bottom:.5pt solid windowtext">$4,756 </td>
@@ -3171,7 +3175,7 @@ Explain to what extent the change in common equity from 2011 to 2012 is due to s
 <details>
 <summary><font size = 5 font color=orange>Answers:</font></summary>
 
-$\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \dfrac{1}{ATO}\rbrack -  \Delta NFO$
+$\Delta CSE_1 = \Delta Sales_1 \times \dfrac{1}{ATO}_{\color{red}{0}} +Sales_1 \times \Delta \lbrack \dfrac{1}{ATO}\rbrack_1 -  \Delta NFO_1$
 
 <table border="0" cellpadding="0" cellspacing="0" width="822" style="border-collapse:
  collapse;table-layout:fixed;width:477pt;font-size:10.0pt">
@@ -3183,7 +3187,7 @@ $\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \d
  <col width="177" style="mso-width-source:userset;mso-width-alt:7072;width:166pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
   <td height="19" class="xl67" width="45" style="height:14.25pt;width:34pt"></td>
-  <td colspan="5" class="xl71" width="777" style="width:583pt" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in CSE = 583%</td>
+  <td colspan="5" class="xl71" width="777" style="width:583pt" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in CSE = 583</td>
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" class="xl67" style="height:14.25pt">=</td>
@@ -3244,6 +3248,18 @@ $\Delta CSE = \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \d
  </tr>
  <!--[endif]-->
 </tbody></table>
+
+<font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
+
+$ATO=\dfrac{Sales}{NOA} \implies NOA = Sales \times \dfrac{1}{ATO}$
+
+$
+\begin{aligned}
+\Delta CSE &=\Delta NOA-\Delta NFO \\
+&= \Delta \lbrack Sales \times \dfrac{1}{ATO}\rbrack - \Delta NFO \\
+&= \Delta Sales \times \dfrac{1}{ATO} +Sales \times \Delta \lbrack \dfrac{1}{ATO}\rbrack -  \Delta NFO  
+\end{aligned}
+$
 </details>
 
 ## Chapter 14
@@ -3523,8 +3539,27 @@ The long-hand method:
  <!--[endif]-->
 </tbody></table>
 
+
+$\textit{Residual operating Income (ReOI)} \\
+=OI_t-(\rho_{\color{red}{F}}-1)NOA_{t-1}$
 </details>
 
+### Additional Exercise
+
+1. **If assets are measured at their fair (intrinsic) value, the analyst must forecast that residual earnings from those assets will be zero. Is this correct?**
+
+This is correct. The assets are expected to earn at their required return.  Therefore expected residual income is zero.
+
+2. **What drives growth in residual operating income?**
+
+Residual operating income growth is driven by an increase in RNOA and in the NOA that earn at this RNOA. Breaking it down further, ReOI growth is driven by<br>
+* Growth in sales (that drives growth in NOA) 
+* Increase in operating profit margins
+* Increase in asset turnovers (so NOA increases but sales increase more that NOA)
+
+3. **A Wall Street analyst predicted in 2010 that, after the considerable deleveraging during the financial crisis, firms would begin once again to lever up with more borrowing. "They must defend their return on equity," he claimed. As a result, "investors should look for a rise in dividends and share buy-backs and an expansion of PIE multiples, leading to equity market outperformance." Is he correct?**
+
+He is correct is saying that increased leverage will typically result in higher ROCE. But an increase in leverage does not increase equity value. And an increase in leverage will reduce P/E ratios (see the leverage example in Box 14.5 and formula 14.12.). It may be that there will be more share buy-backs and dividends of firms use the borrowed funds for such purpose, but that will not add to shareholder value. 
 
 ## Chapter 15
 
@@ -3560,7 +3595,35 @@ Forward (enterprise) P/E = $\dfrac{V_{2012}^{NOA}}{OI_{2013}} = \$1614/\$161.4 =
 Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% required return
 </details>
 
-### exercise 1
+### exercise 2
+
+**Simple Valuation with Sales Growth Rates**<br>
+An analyst forecasts that the current core return on net operating assets of 15.5 percent will continue indefinitely in the future with a 5 percent annual sales growth rate. She also forecasts that the current asset turnover ratio of 2.2 will persist. Calculate the enterprise price-to-book ratio if the required return for operations is 9.5 percent.
+
+### Additional exercise
+
+1. **When is the forecasted growth rate in residual operating income the same as the forecasted growth rate in sales?**
+
+The growth rate for sales is the same as the growth rate in residual operating income when RNOA is constant, the required return is constant, and asset turnovers are constant.  (If RNOA is constant and ATO is constant, profit margins (PM) must also be constant.)
+
+2. **Would you call a firm that is expected to have a high sales growth rate a growth firm?**
+
+A firm with high expected growth in sales is probably a firm that can grow residual earnings.  But sales have to be profitable: a firm might grow sales, but with declining profit margins and increasing asset turnovers, that is, with rising expenses per dollar of sales and increasing investment to get a dollar of sales. A growth firm is one that can grow residual operating income. Sales growth does not necessarily imply residual income growth.
+
+3. **Simple Forecasting and Valuation (Medium)**<br>
+   An analyst uses the following summary balance sheet to value a firm at the end of 2012(in millions of dollars):
+
+||2012|2011|
+|:---|:---|:---|
+|Net operating assets|4,572|3,941|
+|Net financial obligations|1,243|1,014|
+|Common shareholders' equity|3,329|2,927|
+
+The analyst forecasts that the firm will earn a return on net operating assets (RNOA) of
+12 percent in 2013 and a residual operating income of \$91.4 million.<br>
+* a. What is the required rate of return for operations that the analyst is using in his resid-ual operating income forecast?
+* b. The analyst forecasts that the residual operating income in 2013 will continue as a perpetuity. What value does this imply for the equity?
+* c. Calculate the forecast of residual earnings (on common equity) for 2013 that is implied by these forecasts. The firm's after-tax cost of debt is 6.0 percent.
 
 ## Chapter 16
 
@@ -3595,7 +3658,7 @@ An alternative solution:
 
 Core OI = (\$24,088 × 0.20) + 102 = \$4,919.6
 
-NOA= \$24,088/1.32 = 18,248.5
+NOA= $\frac{Sales}{ATO}$=\$24,088/1.32 = 18,248.5
 
 ReOI = \$4,919.6 – (0.09 × 18,248.5) = 3,277.3 million
 
@@ -3608,6 +3671,7 @@ $$
   &= \$3644.4 million
 \end{aligned}
 $$
-</details>
 
-### exercise 2
+>[!WARNING|NOTE]
+> Here we can not use:<br> $\textit{Residual operating Income (ReOI)}=[RNOA_t-(\rho_{\color{red}{F}}-1)]NOA_{t-1}\\ RNOA= PM \times ATO$<br> because profit margin here (20%) is calculated from part of Operating Income, not all.
+</details>

@@ -267,3 +267,11 @@ In addition to the market structure and the banking system, taxes are another im
 **Contribution:**
 
 * Her analysis predicts that a series of consolidating mergers in an industry will reduce incentives to innovate
+
+$$
+n_{ij}=\sum\limits_{j=1}^m A_j \quad(i=1,2,\cdots,N) \tag{1}
+$$
+
+$$
+Average\_covenants= \frac{1}{N} \sum\limits_{i=1}^N n_i
+$$
