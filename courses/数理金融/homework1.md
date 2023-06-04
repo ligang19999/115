@@ -136,9 +136,15 @@ $\frac{1}{\psi_0}= 1+R_f$
 
 ### 4.4 三者之间的联系
 
-均衡不代表帕累托最优，但如果市场完备，则均衡一定是帕累托最优
+均衡不代表帕累托最优
 
-![](figures/figure2.png)
+> **Example:** if the market has no tradable asset, then every initial allocation corresponds to an equilibrium but it is generally not Pareto optimal.
+
+但如果市场完备，则均衡一定是帕累托最优
+
+> Suppose markets are complete and $\left(\theta^{1},\cdots,\theta^{m},q\right)$ is an equilibrium. Then the associated allocation is Pareto optimal.
+
+![1685862114926](image/homework1/1685862114926.png)
 
 ## 5. 效用最大化模型
 
@@ -325,28 +331,32 @@ $$
 A = 1/E(R^0) \tag{16}
 $$
 
-设 $\theta^M$ 代表市场组合的配置，将 $\theta^M$ 代入(3)式:
+设 $\theta^M$ 代表市场组合的配置，将 $\theta^M$ 代入:
 
 $$
-1 = AE(R^M) − Bcov(R^M, e) \tag{17}
+1 = E(R^M)/R^0 − Bcov(R^M, e) \tag{17}
 $$
 
-结合(5)式，可得：
+结合(16)式，可得：
 
 $$
-B = \frac{E(R^M-R^0)}{cov(R^M,e)} \tag{18}
+B = \frac{E(R^M-R^0)}{R^0cov(R^M,e)} \tag{18}
 $$
 
-设 $\theta$ 代表任一投资组合，将 $\theta$ 代入(3)式：
+设 $\theta$ 代表任一投资组合，将 $A,B$ 代入(14)式：
 
 $$
-E(R^{\theta}-R^0) =  \frac{E(R^M-R^0)}{cov(R^M,e)} \ cov(R^{\theta}, e) \tag{19}
+E(R^{\theta}-R^0) =  \frac{cov(R^{\theta}, e)}{cov(R^M,e)} \ E(R^M-R^0) \tag{19}
 $$
 
-由于 $corr(R^M,e) = 1$，等式(19)变为：
+$\because corr(R^M,e) = 1$
+
+$\therefore \frac{cov(R^{\theta}, e)}{cov(R^M,e)}=\frac{cov(R^{\theta}, R^M)}{cov(R^M,R^M)} =\frac{cov(R^{\theta}, R^M)}{var(R^M)} = \beta_\theta$
+
+等式(19)变为：
 
 $$
-E(R^{\theta}-R^0) =  \beta_M E(R^M-R^0) \tag{20}
+E(R^{\theta}-R^0) =  \beta_\theta E(R^M-R^0) \tag{20}
 $$
 
 # 第一题

@@ -46,28 +46,27 @@ $$\begin{aligned}
 &=\qquad 0
 \end{aligned}$$
 
+$$
+\therefore \ V(x_t)=A_1x_t^{\gamma_+}+A_2x_t^{\gamma_-}+\frac{ax_t}{r-\mu}+\frac{K}{r}=A_1x_t^{\gamma_+}+A_2x_t^{\gamma_-},\quad x_t\in\mathcal D
+$$
+
 又：
 
 $$
-\lim_{x\rightarrow\infty}V(x)=A_1x^{r_+}+A_2x^{r_-}=0 \tag{1}
+\lim_{x_t\rightarrow\infty}V(x_t)=A_1x_t^{r_+}+A_2x_t^{r_-}=0 \tag{1}
 $$
 
-$\because r_+ > 1, \therefore A_1 = 0$
+$\because r_+ > 1, \therefore A_1 = 0$<br>
+企业破产时，投资者得到1元，也即 $x_t = \delta_b$ 时，$V(x_t)=1$
 
 $$
-V(\delta_b) = A_1 \delta_b^{r_+}+A_2 \delta_b^{r_-}=1
+V(\delta_b) = A_2 \delta_b^{r_-}=1
 $$
 
-解得：
+解得：$A_2 = \delta_b^{-r_-}$，代入(1)式得：
 
 $$
-A_2 = \delta_b^{-r_-}
-$$
-
-代入(1)式得：
-
-$$
-V(x)=A_2x^{r_-}=(\dfrac{x}{\delta_b})^{r_-}
+V(x_t)=A_2x_t^{r_-}=(\dfrac{x_t}{\delta_b})^{r_-}
 $$
 
 因此一个只在企业破产时得到 1 元的资产，其在 0 时刻的价值为：$(\dfrac{x}{\delta_b})^{r_-}$

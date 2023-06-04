@@ -381,9 +381,10 @@ At the beginning of its fiscal year 2006, an analyst made the following forecast
  collapse;table-layout:fixed;width:436pt">
  <colgroup><col width="236" style="mso-width-source:userset;mso-width-alt:7552;width:197pt">
  <col width="72" span="4" style="width:60pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="236" style="height:14.25pt;width:177pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
+ </colgroup>
+ <tbody>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" width="236" style="height:14.25pt;width:177pt;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
   <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
   border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2006</td>
   <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
@@ -394,11 +395,11 @@ At the beginning of its fiscal year 2006, an analyst made the following forecast
   border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Cash flow from operations</td>
-  <td class="xl67">$2,014 </td>
-  <td class="xl68">$2,057</td>
-  <td class="xl67">$2,095 </td>
-  <td class="xl67">$2,107 </td>
+  <td height="19" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF" align="left">Cash flow from operations</td>
+  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,014 </td>
+  <td class="xl68" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,057</td>
+  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,095 </td>
+  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,107 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" style="height:14.25pt;border-top:none;border-right:none;
@@ -2806,17 +2807,17 @@ The following numbers were calculated from the financial statements for a firm f
  <colgroup><col width="167" style="mso-width-source:userset;mso-width-alt:5700;width:125pt">
  <col width="68" span="2" style="width:51pt">
  </colgroup><tbody>
- <tr height="27" style="mso-height-source:userset;height:20.25pt"><td height="27" style="border-top:none;
+ <tr height="27" style="mso-height-source:userset;height:20.25pt"><td height="27" style="border-top:#000000 solid 1px;
   border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
   text-decoration:none;text-underline-style:none;text-line-through:none;
   font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
   mso-pattern:black none"></td>
-  <td align="right" style="border-top:none;
+  <td align="right" style="border-top:#000000 solid 1px;
   border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
   text-decoration:none;text-underline-style:none;text-line-through:none;
   font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
   mso-pattern:black none">2012</td>
-  <td align="right" style="border-top:none;
+  <td align="right" style="border-top:#000000 solid 1px;
   border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
   text-decoration:none;text-underline-style:none;text-line-through:none;
   font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
@@ -2824,13 +2825,13 @@ The following numbers were calculated from the financial statements for a firm f
  </tr>
  <tr height="19" style="height:13.9pt">
   <td height="19" style="height:13.9pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
   mso-pattern:black none">Core profit margin</td>
   <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
   mso-pattern:black none">4.70%</td>
   <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none;background:#F3F3EF;
+  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
   mso-pattern:black none">5.10%</td>
  </tr>
  <tr height="19" style="height:13.9pt">
@@ -3271,7 +3272,7 @@ $
 Here are summary numbers from a firm's financial statements (in millions of dollars):
 
 <table border="0" cellpadding="0" cellspacing="0" width="560" style="border-collapse:
- collapse;table-layout:fixed;width:421pt">
+ collapse;table-layout:fixed;width:360pt">
  <colgroup><col width="220" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
  <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
  width:64pt">
@@ -3298,20 +3299,15 @@ Here are summary numbers from a firm's financial statements (in millions of doll
   border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td height="19" style="border-right:none;
-  border-left:none;font-size:10.0pt">Operating income</td>
-  <td style="border-right:none;
-  border-left:none;font-size:10.0pt" align="right">187</td>
-  <td style="border-right:none;
-  border-left:none;font-size:10.0pt" align="right">200.09</td>
-  <td style="border-right:none;
-  border-left:none;font-size:10.0pt" align="right">214.1</td>
-  <td style="border-right:none;
-  border-left:none;font-size:10.0pt" align="right">229.08</td>
+  <td height="19" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="left">Operating income</td>
+  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">187</td>
+  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">200.09</td>
+  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">214.1</td>
+  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">229.08</td>
  </tr>
  <tr height="19" style="height:14.25pt;font-size:10.0pt">
   <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">Net operating assets</td>
+  border-bottom:.5pt solid windowtext;border-left:none" align="left">Net operating assets</td>
   <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
   border-left:none">1214.45</td>
   <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
