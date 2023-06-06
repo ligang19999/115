@@ -20,7 +20,7 @@ Microsoft Corp. reported the following in its annual report to the Securities an
 |f. Sales revenue|O|
 |g. Research and development expenditures|I|
 |h. **Income taxes**|O|
-|i. **Additions to property and equipment**$\\ \;$ (增加财产和设备)|I|
+|i. $\color{red}{\textit{Additions to property and equipment}}\\ \;$ (增加财产和设备)|I|
 |j. Accounts receivable|O|
 
 ### exercise 2
@@ -591,6 +591,9 @@ The following summarizes the parts of a firm's cash flow statement that have to 
  </tr>
  <!--[endif]-->
 </tbody></table>
+
+The firm made interest payments of \$1,342 million and received \$876 in interest receipts from I-bills that it held. The tax rate is 35 percent. Calculate free cash flow.
+
 
 <details>
 <summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>

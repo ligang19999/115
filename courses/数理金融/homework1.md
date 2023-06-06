@@ -128,6 +128,32 @@ $\frac{1}{\psi_0}= 1+R_f$
 
 !> 无套利市场中，状态价格唯一 $\Longleftrightarrow$ 市场是完备的
 
+<details>
+<summary><font color=orange>证明</font></summary>
+
+1. 证明当状态价格唯一时，市场是完备的
+
+证明其逆否命题：市场不完备时，状态价格不唯一
+
+市场不完备时，$rank(D)<S, \exist \ \vec{\alpha}  \not ={0}\quad s.t. \quad D\alpha=0$
+
+设 $\psi$ 是状态价格向量，于是 $\exist \ \epsilon >0 \quad  s.t. \quad \psi+\epsilon \alpha >0$
+
+$D(\psi+\epsilon \alpha)=D\psi+\epsilon D\alpha = q+0=q$
+
+说明 $\psi+\epsilon \alpha$ 也是状态价格向量，矛盾。命题得证，状态价格唯一时，市场是完备的
+
+2. 证明当市场完备时，状态价格唯一
+
+市场完备时，$rank(D)=S$，于是矩阵 $D^TD$ 是可逆的
+
+$\because q=D\psi$
+
+$\therefore \psi = (D^TD)^{-1}D^Tq$
+
+可见状态价格向量有唯一的表达式，命题得证
+</details>
+
 ### 4.3 帕累托最优
 
 市场上所有个体的消费分布：$(c^1,c^2,\dotsb,c^m)$
