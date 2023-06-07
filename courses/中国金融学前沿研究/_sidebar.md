@@ -2,4 +2,7 @@
 
 &nbsp;
 &nbsp;
-[$\ \large{\longleftarrow 返回}$](courses/README.md)
+<font size=5>
+
+[$\quad \mathbf{\longleftarrow Back}$](courses/README.md)
+</font>

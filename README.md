@@ -1,7 +1,7 @@
 # Welcome! <!-- {docsify-ignore} -->
 :tada::tada::tada:
 
-Here are some notes mainly for myself to review. I would be glad if you can learn something in my notes :grin:.
+Here is my homepage, I will present the knowledge I have learned, such as papers, courses and other interesting things :dizzy::sparkles::star2:.
 
 > An awesome project.
 

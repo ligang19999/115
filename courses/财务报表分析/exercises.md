@@ -719,9 +719,9 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" style="height:14.25pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext">BPS</td>
+  border-right:none;border-bottom:1pt solid windowtext">BPS</td>
   <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">20</td>
+  border-bottom:1pt solid windowtext;border-left:none">20</td>
   <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:
   .5pt solid windowtext;border-left:none"></td>
   <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:

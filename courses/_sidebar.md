@@ -5,4 +5,7 @@
 
 &nbsp;
 &nbsp;
-[$\ \large{\longleftarrow 返回}$](README.md)
+<font size=5>
+
+[$\quad \mathbf{\longleftarrow Back}$](README.md)
+</font>
