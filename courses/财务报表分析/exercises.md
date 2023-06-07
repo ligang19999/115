@@ -82,6 +82,7 @@ $\\$
 
 From the following information for the year 2012, prepare an income statement and a statement of shareholders' equity, under GAAP rules (R&D expenses are expensed as incurred), for a company with shareholders' equity at the beginning of 2012 of \$3,270 million. Amounts are in millions.
 
+<div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="500" style="border-collapse:
  collapse;table-layout:fixed;width:339pt">
  <colgroup><col width="370" style="mso-width-source:userset;mso-width-alt:11200;width:290pt">
@@ -129,7 +130,7 @@ From the following information for the year 2012, prepare an income statement an
   <td width="72" style="width:54pt"></td>
  </tr>
  <!--[endif]-->
-</tbody></table>
+</tbody></table></div>
 
 Also calculate comprehensive income and net payout. Income taxes are negative. How can this be?
 
@@ -691,15 +692,15 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
  collapse;table-layout:fixed;width:270pt">
  <colgroup><col width="72" span="5" style="width:54pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
+  <td height="19" width="72" style="height:14.25pt;width:54pt;border-top: #000000 1px solid;
   border-right:none;border-bottom:none;border-left:none"></td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  <td align="right" width="72" style="width:54pt;border-top: #000000 1px solid;
   border-right:none;border-bottom:none;border-left:none">2012</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  <td align="right" width="72" style="width:54pt;border-top: #000000 1px solid;
   border-right:none;border-bottom:none;border-left:none">2013</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  <td align="right" width="72" style="width:54pt;border-top: #000000 1px solid;
   border-right:none;border-bottom:none;border-left:none">2014</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  <td align="right" width="72" style="width:54pt;border-top: #000000 1px solid;
   border-right:none;border-bottom:none;border-left:none">2015</td>
  </tr>
  <tr height="19" style="height:14.25pt">
@@ -3558,7 +3559,7 @@ Residual operating income growth is driven by an increase in RNOA and in the NOA
 
 3. **A Wall Street analyst predicted in 2010 that, after the considerable deleveraging during the financial crisis, firms would begin once again to lever up with more borrowing. "They must defend their return on equity," he claimed. As a result, "investors should look for a rise in dividends and share buy-backs and an expansion of PIE multiples, leading to equity market outperformance." Is he correct?**
 
-He is correct is saying that increased leverage will typically result in higher ROCE. But an increase in leverage does not increase equity value. And an increase in leverage will reduce P/E ratios (see the leverage example in Box 14.5 and formula 14.12.). It may be that there will be more share buy-backs and dividends of firms use the borrowed funds for such purpose, but that will not add to shareholder value. 
+He is correct in saying that increased leverage will typically result in higher ROCE. But an increase in leverage does not increase equity value. And an increase in leverage will reduce P/E ratios (see the leverage example in Box 14.5 and formula 14.12.). It may be that there will be more share buy-backs and dividends of firms use the borrowed funds for such purpose, but that will not add to shareholder value. 
 
 ## Chapter 15
 
@@ -3598,6 +3599,18 @@ Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% r
 
 **Simple Valuation with Sales Growth Rates**<br>
 An analyst forecasts that the current core return on net operating assets of 15.5 percent will continue indefinitely in the future with a 5 percent annual sales growth rate. She also forecasts that the current asset turnover ratio of 2.2 will persist. Calculate the enterprise price-to-book ratio if the required return for operations is 9.5 percent.
+
+<details>
+<summary><font size = 5 font color=orange>Answers:</font></summary>
+
+If RNOA is constant and ATO is also constant, the growth rate for ReOI is given by the sales growth rate. So, 
+
+$$
+V_0^{NOA}=NOA_0 \times\bigg[\frac{RNOA-(g-1)}{\rho_F-g}\bigg]
+$$
+
+Hence, the enterprise P/B ratio $=\dfrac{0.155-(1.05-1)}{1.095-1.05} = 2.33$
+</details>
 
 ### Additional exercise
 
