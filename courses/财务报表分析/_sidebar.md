@@ -8,6 +8,7 @@
 - [homework 8](courses/财务报表分析/作业8.md)
 - [some notes](courses/财务报表分析/财报笔记.md)
 
-&nbsp;
-&nbsp;
-[$\ \large{\longleftarrow 返回}$](courses/README.md)
+<font size=5>
+
+[$\qquad$:arrow_left:](courses/README.md)
+</font>

@@ -8,6 +8,7 @@
 - [homework 3](courses/数理金融/homework3.md)
 - [homework 4](courses/数理金融/homework4.md)
 
-&nbsp;
-&nbsp;
-[$\ \large{\longleftarrow 返回}$](courses/README.md)
+<font size=5>
+
+[$\qquad$:arrow_left:](courses/README.md)
+</font>
