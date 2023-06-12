@@ -3,8 +3,6 @@
 - [高级计量经济学](/courses/高级计量经济学/README.md)
 - [中国金融学前沿研究](/courses/中国金融学前沿研究/README.md)
 
-&nbsp;
-&nbsp;
 <font size=5>
 
 [$\quad \mathbf{\longleftarrow Back}$](README.md)

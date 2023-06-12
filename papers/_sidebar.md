@@ -6,8 +6,6 @@
 - [Spurious Factor Analysis](/papers/Spurious_Factor_Analysis.md)
 - [Taming the factor zoo: A Test of New Factors](/papers/Taming_the_factor_zoo.md)
 
-&nbsp;
-&nbsp;
 <font size=5>
 
 [$\quad \mathbf{\longleftarrow Back}$](README.md)

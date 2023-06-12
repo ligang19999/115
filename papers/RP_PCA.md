@@ -166,10 +166,10 @@ $$
 
 这里原文中的(4)式可能表达有误，参考作者在了另一篇论文[《Estimating latent asset-pricing factors》](https://www.sciencedirect.com/science/article/pii/S0304407620300051)中给出的目标函数：
 
->We show that RP-PCA minimizes jointly the unexplained variation and pricing error:
+<p style="line-height: 2.5em;font-family: Arial; background:#FFFFCD">&nbsp;&nbsp; 📘: We show that RP-PCA minimizes jointly the unexplained variation and pricing error:</p>
 
 $$
-\text{RP\_PCA}: \qquad \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}} \tag{5}
+\hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}} \tag{5}
 $$
 
 其中：
@@ -497,7 +497,7 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 
 **如何判断哪些因子是系统性的，哪些因子是特质性的**
 
->[!TIP|label:提示]
+>[!TIP|label:reference]
 >Onatski criterion: Alexei Onatski, Chen Wang.SPURIOUS FACTOR ANALYSIS.Econometrica
 
 * $\gamma$<10的时候，在两个样本中，第五个factor的eigenvalue difference都低于临界值，表明此时前四个因子是系统性因子

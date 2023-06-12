@@ -11,4 +11,4 @@ Here is my homepage, I will present the knowledge I have learned, such as papers
 
 - [Tools](/实用工具/README.md)
 
-- [Asset pricing theory](/Asset_pricing_theory/README.md)
+- [Theory](/Theory/README.md)

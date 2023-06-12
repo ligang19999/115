@@ -145,7 +145,7 @@ Also calculate comprehensive income and net payout. Income taxes are negative. H
   <td colspan="2" height="19" class="xl69" width="312" style="height:14.25pt;
   width:234pt;font-size:11.0pt;color:black;font-weight:700;text-decoration:
   none;text-underline-style:none;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  mso-font-charset:134;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
   border-left:none">Income statement</td>
  </tr>
  <tr height="19" style="height:14.25pt">
@@ -689,7 +689,7 @@ The firm made interest payments of \$1,342 million and received \$876 in interes
 The following are earnings and dividend forecasts made at the end of 2012 for a firm with \$20.00 book value per common share at that time. The firm has a required equity return of 10 percent per year.
 
 <table border="0" cellpadding="0" cellspacing="0" width="360" style="border-collapse:
- collapse;table-layout:fixed;width:270pt">
+ collapse;table-layout:fixed;width:270pt;font-size:10.0pt">
  <colgroup><col width="72" span="5" style="width:54pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
   <td height="19" width="72" style="height:14.25pt;width:54pt;border-top: #000000 1px solid;
@@ -747,7 +747,7 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
 <summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="360" style="border-collapse:
- collapse;table-layout:fixed;width:360pt">
+ collapse;table-layout:fixed;width:360pt;font-size:10.0pt">
  <colgroup><col width="72" span="5" style="width:64pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
   <td height="19" width="72" style="height:14.25pt;width:124pt;border-top:.5pt solid windowtext;
@@ -776,16 +776,12 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
   <td align="right">0.3</td>
  </tr>
  <tr height="19" style="height:14.25pt" align="right">
-  <td height="19" style="height:14.25pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext" align="center">BPS</td>
-  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">20</td>
-  <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:
-  .5pt solid windowtext;border-left:none">22.75</td>
-  <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:
-  .5pt solid windowtext;border-left:none">26.1</td>
-  <td style="border-top:.5pt solid windowtext;border-bottom:
-  .5pt solid windowtext;border-left:none">29.9</td>
+  <td height="19" style="height:14.25pt;border-top:.5pt solid windowtext" align="center">BPS</td>
+  <td align="right" style="border-top:.5pt solid windowtext;
+  border-left:none">20</td>
+  <td style="border-top:.5pt solid windowtext">22.75</td>
+  <td style="border-top:.5pt solid windowtextborder-left:none">26.1</td>
+  <td style="border-top:.5pt solid windowtext;border-left:none">29.9</td>
  </tr>
  <tr height="19" style="height:14.25pt">
   <td height="19" style="height:14.25pt">ROCE</td>
@@ -794,7 +790,7 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
   <td align="right">15.83%</td>
   <td align="right">15.71%</td>
  </tr>
- <tr height="19" style="height:14.25pt;font-size:13.0pt;color:#0070C0;
+ <tr height="19" style="height:14.25pt;font-size:10.0pt;color:#0070C0;
   font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
   none;font-family:等线, sans-serif;mso-font-charset:134" align="right">
   <td height="19" style="height:14.25pt;border-top:.5pt solid windowtext;
@@ -836,7 +832,7 @@ $ROCE_t=\dfrac{\textit{Comprerehensive eamings to common}_t\quad (Earnings_t)}{\
 Black Hills Corporation is a diversified energy corporation and a public utility holding company. The following gives the firm's earnings per share and dividends per share for the years 2000-2004.
 
 <table border="0" cellpadding="0" cellspacing="0" width="504" style="border-collapse:
- collapse;table-layout:fixed;width:378pt">
+ collapse;table-layout:fixed;width:378pt;font-size:10.0pt">
  <colgroup><col width="72" span="7" style="width:54pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
   <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
@@ -911,7 +907,7 @@ Suppose these numbers were given to you at the end of 1999, as forecasts, when t
 <summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="583" style="border-collapse:
- collapse;table-layout:fixed;width:467pt">
+ collapse;table-layout:fixed;width:467pt;font-size:10.0pt">
  <colgroup><col width="151" style="mso-width-source:userset;mso-width-alt:4832;width:113pt">
  <col width="72" span="6" style="width:54pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">

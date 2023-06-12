@@ -141,3 +141,46 @@
     background-color: #ffbdaa !important;
     border-color: #ffbdaa !important;
   }
+
+  details {
+    font: 16px "Open Sans", "Arial", sans-serif;
+    width: 620px;
+  }
+  
+  
+  details > summary {
+    padding: 2px 6px;
+    width: 10em;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px rgba(91, 221, 51, 0.697);
+  }
+  
+  /*
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    width: 35em;
+    margin: 0;
+    box-shadow: 3px 3px 4px rgba(91, 221, 51, 0.697);
+  }
+  */
+  
+  
+  /*去掉外边框*/
+  details summary{
+    outline:none;
+    cursor:pointer;/*鼠标放上去之后变成手型*/
+  }
+
+  /*去掉前面默认的小黑三角*/
+  details summary::-webkit-details-marker{
+    display:none; 
+  }
+
+
+
+
+
+ 
