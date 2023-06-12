@@ -228,17 +228,9 @@ $$
 \max\limits_{L:\|L\|\leq1}E\big(S_t'LR_{t+1}\big) \tag{11}
 $$
 
-我们需要对上式施加限制，否则上式会无限大
+我们需要对投资策略施加限制，否则预期收益率会无限大
 
-the standard matrix norm：$\|L\|$
-
-$$
-\|L\|=\sup\{\|Lx\|:x\in\mathbb{R}^m\text{with}\|x\|=1\},
-$$
-
-$$
-\|x\|\equiv(\sum_i x_i^2)^{1/2}
-$$
+矩阵范数：$\|L\|=\sup\{\|Lx\|:x\in\mathbb{R}^m\ \text{with}\ \|x\|=1\},$ 其中 $\|x\|\equiv(\sum_i x_i^2)^{1/2}$
 
 we note that：
 
@@ -248,12 +240,32 @@ $$
 
 > The economic meaning of this constraint is that we consider strategies with a bounded portfolio size.
 
-### E. Optimal Linear Strategies
+当 $\|L\| \leq 1$ 时，$\|L'S_t\|\leq\|L'\|\ \|S_t\|\leq \|S_t\|$
 
-PROPOSITION 3: The solution to (11) is given by $L = M\Pi'$ with $M=(\Pi'\Pi)^{-1/2}$, and
+若 $\|S_t\|=1$，则 $\|L'S_t\|\leq 1$
+
+---
+
+目标函数还可以被理解为均值方差问题：最大化收益率的同时对方差进行限制
+
+当资产的收益率满足同方差时，$\Sigma_{R.t}=\sigma^2 Id$，(11) 式等价于：
 
 $$
-\operatorname*{max}_{L:\|L\|\leq1}E\big(S_{t}^{\prime}L R_{t+1}\big)=\sum_{i=1}^{N}\bar{\lambda}_{i},
+\max\limits_{L}E(S_t' L R_{t+1})\quad \text{subject to}\quad \max\limits_{S:var_t(S' R_{t+1})\leq1}\operatorname{var}_t(S'L R_{t+1})\leq1  \tag{12}
+$$
+
+对 (12) 的证明：
+
+$$
+\max\limits_{S:var_t(S' R_{t+1})\leq1}\operatorname{var}_t(S'L R_{t+1}) = \max\limits_{S:S\neq 0}\frac{\operatorname{var}_t(SR_{t+1})}{\operatorname{var}_t(SR_{t+1})}=\max\limits_{S:S\neq 0}\frac{\sigma^2\|LS\|^2}{\sigma^2\|S\|^2}=\|L\|^2 \tag{13}
+$$
+
+### E. Optimal Linear Strategies
+
+**PROPOSITION 3:** The solution to (11) is given by $L = M\Pi'$ with $M=(\Pi'\Pi)^{-1/2}$, and
+
+$$
+\operatorname*{max}_{L:\|L\|\leq1}E\big(S_{t}^{\prime}L R_{t+1}\big)=\sum_{i=1}^{N}\bar{\lambda}_{i}
 $$
 
 $\bar{\lambda}_{i}$ 是 $\Pi$ 的奇异值，也即矩阵 $(\Pi'\Pi)^{1/2}$ 的特征值，其中 $\bar{\lambda}_1\ge\cdots\ge\bar{\lambda}_N\ge0$
@@ -273,22 +285,28 @@ U,V 都是正交矩阵，它们的列分别表示为：$u_k$ 和 $v_k$
 Proposition 3 的最优 L 可以写成：
 
 $$
-\begin{aligned}
-(\Pi'\Pi)^{-1/2}\Pi'&=V\bar{\Lambda}^{-1}VV\bar{\Lambda}U'\\
-\\
-&=VU'\\
-\\
-&=\sum_{k=1}^N v_k u'_k
-\end{aligned}
+(\Pi'\Pi)^{-1/2}\Pi'=V\bar{\Lambda}^{-1}VV\bar{\Lambda}U'=VU' = \sum_{k=1}^N v_k u'_k
 $$
+
+<details>
+<summary>proof:</font></summary>
+
+$$
+\Pi'\Pi = V \bar{\Lambda} U' U \bar{\Lambda} V'= V \bar{\Lambda} V' V \bar{\Lambda} V' \implies (\Pi'\Pi)^{1/2} = V \bar{\Lambda} V'
+$$
+
+$$
+(\Pi'\Pi)^{-1/2}\Pi' = (V \bar{\Lambda} V')^{-1}V \bar{\Lambda} U' = V \bar{\Lambda}^{-1} V^{-1}V \bar{\Lambda} U'=VU'
+$$
+</details><br>
 
 > We define the k^{th} PP as the linear strategy with position matrix $L_{k}=v_{k}\left(u_{k}\right)^{\prime},$ which has a return of:
 
 $$
-PP_{t+1}^{k}=S_{t}^{\prime}\underbrace{v_{k}u_{k}^{'}}_{L_k} R_{t+1}=\underbrace{S_{t}^{\prime}v_{k}}_{S_t^{v_k}}\ \underbrace{u_{k}^{'}R_{t+1}}_{R_t^{u_k}}.  \\
+PP_{t+1}^{k}=S_{t}^{\prime}\underbrace{v_{k}u_{k}'}_{L_k} R_{t+1}=\underbrace{S_{t}^{\prime}v_{k}}_{S_t^{v_k}}\ \underbrace{u_{k}'R_{t+1}}_{R_t^{u_k}}  \\
 $$
 
-The difference is that PCA decomposes the variance, whereas PPA decomposes the expected return.
+每一个 PP 是一个这样的交易策略：基于组合 $v_k$ 的信号，来交易组合 $u_k$，每一个 PP 的期望收益率是：
 
 $$
 \begin{aligned}
@@ -300,7 +318,64 @@ $$
 \end{aligned} \tag{16}
 $$
 
-PROPOSITION 4: The expected return of each PP is given by its corresponding singular value,
+<details>
+<summary>proof:</font></summary>
+
+$$
+\begin{aligned}
+E(S_{t}'v_{k}u_{k}' R_{t+1}) &= E(u_{k}' R_{t+1}S_{t}'v_{k}) =  u_{k}'E(R_{t+1}S_{t}')v_{k} = u_{k}'\Pi v_{k}\\
+&= tr(u_{k}'\Pi v_{k}) = tr(\Pi v_{k}u_{k}')  
+\end{aligned}
+$$
+
+$$
+\bar{\Lambda}V'v_k =
+  \bar{\Lambda}
+  \begin{bmatrix}
+    {v_1'}\\
+    {\vdots}\\
+    {v_k'}\\
+    {\vdots}\\
+    {v_N'}\\
+  \end{bmatrix}
+v_k=\bar{\Lambda}
+  \begin{bmatrix}
+    {0}\\
+    {\vdots}\\
+    {1}\\
+    {\vdots}\\
+    {0}\\
+  \end{bmatrix}
+=\begin{bmatrix}
+    {0}\\
+    {\vdots}\\
+    {\bar{\lambda}_{k}}\\
+    {\vdots}\\
+    {0}\\
+  \end{bmatrix}
+$$
+
+$$
+U\bar{\Lambda}V^{\prime}v_{k}u_{k}' =
+  \begin{bmatrix}
+  {u_1'}&{\cdots}&{u_k'}&{\cdots}&{u_N'}  
+  \end{bmatrix}
+  \begin{bmatrix}
+    {0}\\
+    {\vdots}\\
+    {\bar{\lambda}_{k}}\\
+    {\vdots}\\
+    {0}\\
+  \end{bmatrix}u_{k}'
+=\bar{\lambda}_{k}u_{k}u_{k}'
+$$
+
+$$
+tr(\bar{\lambda}_{k}u_{k}u_{k}') = \bar{\lambda}_{k}\ tr(u_{k}u_{k}') = \bar{\lambda}_{k}
+$$
+</details><br>
+
+**PROPOSITION 4:** The expected return of each PP is given by its corresponding singular value,
 
 $$
 E(PP_{t+1}^i)=\bar{\lambda}_i \tag{17}
@@ -312,6 +387,8 @@ $$
 \max\limits_{\|L\|\leq1}E(S'_t L R_{t+1})=E\left(\sum\limits_{i=1}^N PP_{t+1}^i\right)=\sum\limits_{i=1}^N\bar{\lambda}_i \tag{18}
 $$
 
+Example (Signals are Expected Returns),$S_{i,t}=E_{t}(R_{i,t+1})$
+
 $$
 \Pi=E(R_{t+1}S_t')=E(E_t(R_{t+1})S_t')=E(S_tS_t')=\Sigma_S \tag{19}
 $$
@@ -319,6 +396,8 @@ $$
 ## II. Optimal Alpha and Beta Strategies
 
 ### A. Alpha-Beta Symmetry Decomposition
+
+**在这一部分，我们的目标是把收益率分解为α和β，换句话说，我们要能够描述线性策略的风险**
 
 LEMMA 1: (Characteristics as Covariances): Define the factor $F_{t+1}$ as
 
@@ -332,7 +411,49 @@ $$
 S_{i,t}=\frac{\operatorname{cov}_t(R_{i,t+1},F_{t+1})}{\operatorname{var}_t(F_{t+1})} \tag{21}
 $$
 
-这样一来，$S_{i,t}$ 就相当于贝塔的作用
+<details>
+<summary>proof:</font></summary>
+
+假设存在一个可交易的因子 $F_{t+1} = x'_t R_{t+1}$，使得 $S_{i,t}=\dfrac{\operatorname{cov}_t(R_{i,t+1},F_{t+1})}{\operatorname{var}_t(F_{t+1})}$
+
+于是 $cov_t(R_{i,t+1},F_{t+1}) = cov_t(R_{i,t+1},x'_t R_{t+1}) = (\Sigma_t^R x_t)_i$
+
+设 $var_t(F_{t+1}) = y$，于是
+
+$$
+S_t=\Sigma_t^R x_t/y \implies x_t=y(\Sigma_t^R)^{-1}S_t \tag{20-1}
+$$
+
+根据方差的定义，$var_t(F_{t+1})$ 还可以表示为：$var_t(F_{t+1}) = var_t(x'_t R_{t+1}) = x_t'\Sigma_t^R x_t$
+
+将 (20-1) 代入：
+
+$$
+y = x_t'\Sigma_t^R x_t = S_t'(\Sigma_t^R)^{-1}y \Sigma_t^R y(\Sigma_t^R)^{-1}S_t = y^2S_t'(\Sigma_t^R)^{-1}S_t
+$$
+
+<div align=center>⬇️</div>
+
+$$
+y=1/S'_t(\Sigma_t^R)^{-1}S_t
+$$
+
+<div align=center>⬇️</div>
+
+$$
+x_t=\frac{1}{S_t'(\Sigma_t^R)^{-1}S_t}(\Sigma_t^R)^{-1}S_t
+$$
+</details><br>
+
+**这样一来，$S_{i,t}$ 就相当于贝塔的作用**
+
+> <p style="line-height: 1.7em;font-family: Arial; background:#FFFFCD">&nbsp;&nbsp; 📘: Lemma 1 shows that we can always think of any signals as exposures to a factor, but it does not necessarily imply that the return predictability embodied by S is “rational” in the sense that the factor F covaries with risks that investors care about, namely, the pricing kernel.</p>
+
+这一因子又称作 "latent factor"，
+
+---
+
+任何一个线性策略 $L$ 都可以被分成对称和反对称两个部分：$L=L^s + L^a$
 
 **PROPOSITION 5** (Alpha-Beta Symmetry Decomposition): The conditional latent factor exposure and expected return of the strategy $R_{t+1}^{w_{t}}=S_{t}^{\prime}L R_{t+1}=S_{t}^{\prime}L^{s}R_{t+1}+S_{t}^{\prime}L^{a}R_{t+1}$ is:
 
@@ -344,6 +465,87 @@ $$
 E(R_{t+1}^{w_t})=\mathrm{tr}(L^s\Pi^s)+\mathrm{tr}(L^a\Pi^a) \tag{23}
 $$
 
+<details>
+<summary >proof:</summary>
+  
+LEMMA 2: For any symmetric matrix $B \in \mathbb{R}^{N \times N}$ and any antisymmetrix matrix $A \in \mathbb{R}^{N \times N}$, we have:
+
+* $\operatorname{tr}(B A)=\operatorname{tr}(A B)=0$
+* $x'A x=0$ for all vectors $x\in \mathbb{R}^{N}$
+
+  <details>
+  <summary>proof of (22):</summary>
+
+  $$
+  \begin{aligned}
+    \text{Cov}_t(R_{t+1}^{w_t},F_{t+1})& =\mathrm{Cov}_t(w_t'R_{t+1},F_{t+1})\\
+    &=w_t'\mathrm{Cov}_t(R_{t+1},F_{t+1})  \\
+    &=w_t'\operatorname{Var}_{t}(F_{t+1})S_{t}  \\
+    &=\operatorname{Var}_{t}(F_{t+1})w_{t}^{\prime}S_{t}\\
+    &=\operatorname{Var}_{t}(F_{t+1})S_{t}^{\prime}L S_{t}\\
+    &=\operatorname{Var}_{t}(F_{t+1})\ (S_{t}^{\prime}L^s S_{t} + S_{t}^{\prime}L^a S_{t})\\
+    &=\operatorname{Var}_{t}(F_{t+1})S_{t}^{\prime}L^{s}S_{t}
+  \end{aligned}
+  $$
+  </details><br>
+
+  <details>
+  <summary>proof of (23):</summary>
+
+  $$
+  \begin{aligned}
+    E(R_{t+1}^{w_t})&=tr(L\Pi)\\
+    & = \operatorname{tr}((L^s+L^a)(\Pi^s+\Pi^a))\\
+    &=\mathrm{tr}(L^s\Pi^s)+\mathrm{tr}(L^s\Pi^a)+\mathrm{tr}(L^a\Pi^s)+\mathrm{tr}(\mathrm{L}^a\Pi^a)\\
+    &=\mathrm{tr}(L^s\Pi^s)+\mathrm{tr}(L^a\Pi^a)
+  \end{aligned}
+  $$
+  </details><br>
+
+  <details>
+  <summary>proof of lemma 2:</summary>
+
+  $A'=-A,\ B'=B$
+
+  $$
+  \operatorname{tr}(AB)=\operatorname{tr}((AB)')=\operatorname{tr}(B'A')=-\operatorname{tr}(BA)=-\operatorname{tr}(AB)
+  $$
+
+  <div align=center>⬇️</div>
+
+  $$
+  \operatorname{tr}(A B)=0
+  $$
+
+  Similarly,
+
+  $$
+  x'Ax=(x'Ax)'=x'A'x=-x'Ax
+  \implies
+  x'Ax=0
+  $$
+  </details>
+
+</details><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 这表明一个线性策略的风险是由它的对称部分决定的；期望收益率则是由对称部分和反对称部分决定
 
 This proposition has wide-ranging implications：
@@ -351,7 +553,7 @@ This proposition has wide-ranging implications：
 * an antisymmetric strategy is always factor neutral.
 * Second, an antisymmetric strategy can nevertheless deliver positive returns if $\Pi^{a}\neq0$. In this case, an antisymmetric strategy can deliver positive expected return with zero factor exposure, that is, pure alpha with respect to F.
 
-LEMMA 2: For any symmetric matrix $B \in \mathbb{R}^{N \times N}$ and any antisymmetrix matrix $A \in \mathbb{R}^{N \times N}$, we have $\operatorname{tr}(B A)=\operatorname{tr}(A B)=0$ and $x'A x=0$ for all vectors $x\in \mathbb{R}^{N}.$
+
 
 ### B. Symmetric Strategies: PEPs
 
