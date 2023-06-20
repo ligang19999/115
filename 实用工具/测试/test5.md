@@ -1,5 +1,168 @@
 # a
 
+## 示例思维导图
+
+```mindmap
+graph LR
+  A[主题] --> B[子主题1: $x^2 + y^2 = z^2$]
+  A --> C[子主题2]
+  B --> D[子主题1.1]
+  B --> E[子主题1.2: $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$]
+  C --> F[子主题2.1]
+```
+
+```mindmap
+some
+  example
+    content
+  for
+  you
+    to
+    see
+      the
+    file
+      structure
+```
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="715" style="border-collapse:
+ collapse;table-layout:fixed;width:600pt">
+  <colgroup>
+  <col width="72" style="width:50pt">
+  <col width="306" style="mso-width-source:userset;mso-width-alt:9792;width:275pt">
+  <col width="337" style="mso-width-source:userset;mso-width-alt:10784;width:275pt">
+  </colgroup>
+  <tbody>
+    <tr height="19" style="height:14.25pt">
+      <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
+      border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+      border-left:none"></td>
+      <td width="306" style="width:230pt;border-top:.5pt solid windowtext;border-right:none;
+      border-bottom:.5pt solid windowtext;border-left:none">PP strategies based on
+      individual signals</td>
+      <td width="337" style="width:253pt;border-top:.5pt solid windowtext;border-right:none;
+      border-bottom:.5pt solid windowtext;border-left:none">PP strategies based on
+      combined signals</td>
+    </tr>
+    <tr>
+      <td style="border-top:none;
+      border-right:20pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">Similarities</td>
+      <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">4</td>
+      <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">5</td>
+    </tr>
+    <tr>
+      <td style="border-top:none;
+      border-right:20pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">Similarities</td>
+      <td style="border-top:none;border-right:none;
+      border-bottom:#f3f3ef solid 1px;border-left:none">6</td>
+      <td style="border-top:none;border-right:none;border-bottom:#f3f3ef solid 1px;
+      border-left:none">7</td>
+    </tr>
+    <tr>
+      <td style="border-top:none;
+      border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none;background:#F3F3EF;">Similarities</td>
+      <td style="border-top:none;border-right:none;
+      border-bottom:.5pt solid windowtext;border-left:none;background:#F3F3EF;">6</td>
+      <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+      border-left:none;background:#F3F3EF;">7</td>
+    </tr>
+    <!--[if supportMisalignedColumns]-->
+    <tr height="0" style="display:none">
+      <td width="72" style="width:54pt"></td>
+      <td width="306" style="width:230pt"></td>
+      <td width="337" style="width:253pt"></td>
+    </tr>
+ <!--[endif]-->
+</tbody></table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="537" style="border-collapse:
+ collapse;table-layout:fixed;width:403pt">
+ <colgroup><col width="120" style="mso-width-source:userset;mso-width-alt:3840;width:90pt">
+ <col width="209" style="mso-width-source:userset;mso-width-alt:6688;width:157pt">
+ <col width="208" style="mso-width-source:userset;mso-width-alt:6656;width:156pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="120" style="height:14.25pt;width:90pt;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td width="209" style="width:157pt;border-top:.5pt solid windowtext;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">a</td>
+  <td width="208" style="width:156pt;border-top:.5pt solid windowtext;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">b</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">1</td>
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">1</td>
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">1</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:none;border-left:none">2</td>
+  <td colspan="2" style="mso-ignore:colspan"></td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none">3</td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="120" style="width:90pt"></td>
+  <td width="209" style="width:157pt"></td>
+  <td width="208" style="width:156pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
+<table border="0" cellpadding="1" cellspacing="0" width="537" style="border-collapse:
+ collapse;table-layout:fixed;width:403pt">
+ <colgroup><col width="120" style="mso-width-source:userset;mso-width-alt:3840;width:90pt">
+ <col width="209" style="mso-width-source:userset;mso-width-alt:6688;width:157pt">
+ <col width="208" style="mso-width-source:userset;mso-width-alt:6656;width:156pt">
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="120" style="height:14.25pt;width:90pt;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:none"></td>
+  <td width="209" style="width:157pt;border-top:.5pt solid windowtext;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">a</td>
+  <td width="208" style="width:156pt;border-top:.5pt solid windowtext;border-right:
+  none;border-bottom:.5pt solid windowtext;border-left:none">b</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-bottom: .5pt solid #F3F3EF;border-right:#000000 solid 1px;border-left:none;background:#F3F3EF;">1</td>
+  <td align="right" style="height:14.25pt;border-top:none;border-bottom: .5pt solid #F3F3EF;border-right:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">4</td>
+  <td align="right">7</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:none;border-left:none">2</td>
+  <td align="right">5</td>
+  <td align="right">8</td>
+ </tr>
+ <tr height="19" style="height:14.25pt">
+  <td height="19" align="right" style="height:14.25pt;border-top:none;border-right:
+  .5pt solid windowtext;border-bottom:.5pt solid windowtext;border-left:none">3</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">6</td>
+  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+  border-left:none">9</td>
+ </tr>
+ <!--[if supportMisalignedColumns]-->
+ <tr height="0" style="display:none">
+  <td width="120" style="width:90pt"></td>
+  <td width="209" style="width:157pt"></td>
+  <td width="208" style="width:156pt"></td>
+ </tr>
+ <!--[endif]-->
+</tbody></table>
+
 
 <details>
     <summary >第一级目录</summary>
@@ -9,6 +172,25 @@
         <p>关于HTML5 Summary元素的介绍</p>
     </details>
 </details>             
+
+$$
+\begin{aligned}
+&E(S_{t}^{w_{k}^{s}}R_{t+1}^{w_{k}^{s}})=\lambda_{k}(\Pi^{s}) \\
+&(w_{k}^{s})^{\prime}\Pi^{s}w_{l}^{s}=0\; \mathrm{i.e.,}E(S_{t}^{w_{k}^{s}}R_{t+1}^{w_{l}^{s}})+E(S_{t}^{w_{l}^{s}}R_{t+1}^{w_{k}^{s}})=0 \\
+&\sum_{k}E(S_{k,t}R_{k,t+1})=\sum_{k}E(S_{t}^{w_{k}^{s}}R_{t+1}^{w_{k}^{s}})=\operatorname{tr}(\Pi^{s}) \\
+&(w_{k}^{s})=\argmax_{\mathrm{orthon.}\{x_{k}\}_{k=1}^{K}}\sum_{k}E(S_{t}^{x_{k}}R_{t+1}^{x_{k}}) \\
+&w_{k+1}^{s}=\argmax_{x\perp\{w_{1}^{s},...,w_{k}^{s}\}} E(S_{t}^{x}R_{t+1}^{x})
+\end{aligned}
+$$
+
+
+
+
+
+
+
+
+
 
 
 
@@ -210,3 +392,24 @@
  <!--[endif]-->
 </tbody></table>
 </details>
+
+<div align ='center'>
+
+```mermaid
+graph LR
+    subgraph <font color='#ffffde'>子图表</font>
+        id2[prediction matrix: Π] --SVD--->id1((PPs))
+        id2--symmetric-->id3{Π<sup>s<sup>}
+        id3--eigenvalue<br>eigenvector---id5((PEPs))
+        id2--antisymmetric-->id6{Π<sup>&#945<sup>}
+        id6--eigenvalue<br>eigenvector---id8((PAPs))    
+    end
+    id1-->id9["L=(Π'Π)<sup>-1/2</sup> Π' "]
+    id5-->id9
+    id8-->id10["tr(L<sup>&#945</sup>Π<sup>&#945</sup>)"]
+    id10-->id9
+    id9-->id11(("E(S'<sub>t</sub>LR<sub>t+1</sub>)"))
+    id10-->id11
+    style id1 r:25px;
+```
+</div>

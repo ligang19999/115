@@ -41,6 +41,15 @@
 
   <!-- My style -->
   <link rel="stylesheet" href="my_style.css">
+
+  <link
+      rel="stylesheet"
+      href="//unpkg.com/markmap@0.6.1/style/view.mindmap.css"
+  />
+  <!-- markmap is based on d3, so must load those files first. -->
+  <script src="//unpkg.com/d3@3/d3.min.js"></script>
+  <script src="//unpkg.com/markmap@0.6.1/lib/d3-flextree.js"></script>
+  <script src="//unpkg.com/markmap@0.6.1/lib/view.mindmap.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -54,6 +63,24 @@
       subMaxLevel: 4,
       auto2top: true,
       
+      name: "Docsify-mermaid-zoom",
+      mermaidConfig: {
+        querySelector: ".mermaid",
+      },
+      mermaidZoom: {
+        minimumScale: 1,
+        maximumScale: 5,
+        zoomPannel: true,
+      },
+
+      mindmap: {
+        // https://github.com/dundalek/markmap
+        markmap: {
+          preset: "colorful", // or default
+          linkShape: "diagonal", // or bracket
+        },
+      },
+
       //Full text search
       search: {
         maxAge: 86400000, // Expiration time, the default one day
@@ -168,6 +195,19 @@
     src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
     type="text/javascript">
   </script>
+
+  <!-- Import Mermaid -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+  <script type="module" src="./plugin/main.js"></script>
+
+  <!-- 脑图 -->
+  <script src="//unpkg.com/docsify-mindmap/dist/docsify-mindmap.min.js"></script>
+
 
 </body>
 </html>

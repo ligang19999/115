@@ -49,11 +49,13 @@ We propose a new method for estimating $\text{\color{red}{latent}}$ asset pricin
 2. 套利定价理论的假设条件得到满足
 
 有了上述的假设，我们便可认为N个资产在T期的收益率满足如下形式：
+
 <span id="jump">
 
 $$
 X_{nt}=F_t\land_n^T+e_{nt}    \qquad  n=1,...,N, \quad t=1,...,T  \tag{2}
-$$</span>
+$$
+</span>
 
 $$
 \iff \underbrace{X}_{T×N}=\underbrace{F}_{T×K}\quad\underbrace{\land^T}_{K×N}+\underbrace{e}_{T×N}
@@ -164,9 +166,9 @@ $$
 
 **通过考虑平均超额收益 $\overline{X}$ 和模型计算的平均超额收益的差值 $E[\hat{F}_{t}] \hat{B}^n_{t}$，相当于把横截面上的定价误差加入到最优目标函数中**
 
-这里原文中的(4)式可能表达有误，参考作者在了另一篇论文[《Estimating latent asset-pricing factors》](https://www.sciencedirect.com/science/article/pii/S0304407620300051)中给出的目标函数：
+这里原文中的 (4) 式可能表达有误，参考作者在另一篇论文[《Estimating latent asset-pricing factors》](https://www.sciencedirect.com/science/article/pii/S0304407620300051)中给出的目标函数：
 
-<p style="line-height: 2.5em;font-family: Arial; background:#FFFFCD">&nbsp;&nbsp; 📘: We show that RP-PCA minimizes jointly the unexplained variation and pricing error:</p>
+<p id="p1">&nbsp;&nbsp; 📘: We show that RP-PCA minimizes jointly the unexplained variation and pricing error:</p>
 
 $$
 \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (\widetilde{X}_{nt} -   \widetilde{F}_t \land_n^T)^2}_{\text{unexplained TS variation}}    +  (\gamma+1) \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}} \tag{5}

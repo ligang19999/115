@@ -34,7 +34,7 @@ Hewlett-Packard had 2,126 million shares outstanding in May 2011, trading at $41
 |Stockholders' equity|41,795|
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 $
 \begin{aligned}
@@ -60,7 +60,7 @@ $\\$
 A firm reports book value of shareholders' equity of \$850 million with 25 million shares outstanding. Those shares trade at \$45 each in the stock market. An analyst values the equity by following the scheme: <font color='orange' style='font-weight:bold'>Value = Book value + Extra value</font>. She calculates extra value of \$675 million. Should she issue a buy or a sell recommendation to her clients?
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 $
 \begin{aligned}
@@ -135,7 +135,7 @@ From the following information for the year 2012, prepare an income statement an
 Also calculate comprehensive income and net payout. Income taxes are negative. How can this be?
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="312" style="border-collapse:
  collapse;table-layout:fixed;width:234pt">
@@ -333,7 +333,7 @@ Show that at least one of these numbers must be wrong because it does not obey a
 </tbody></table>
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 Ending shareholders’ equity can be derived in two ways:
 
@@ -361,7 +361,7 @@ The two numbers do not agree. There is an error somewhere.
 A firm trading with a total equity market value of \$100 million reported earnings of \$5 million and book value of \$50 million. This firm is used as a comparable to price an IPO firm with EPS of \$2.50 and BPS(book value per share) of \$30. Neither firm pays dividends. What per-share IPO price does the comparable firm imply?
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 P/E for the comparable firm = 100/5 = 20<br>
 P/B for the comparable firm = 100/50 = 2<br>
@@ -435,7 +435,7 @@ Use a required return of 9 percent to calculate both the enterprise value and eq
 General Mills had 369 million shares outstanding at the end of 2005, trading at \$47 per share. Calculate value per share and a value-to-price ratio under both scenarios.
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="524" style="border-collapse:
  collapse;table-layout:fixed;width:436pt">
@@ -597,7 +597,7 @@ The firm made interest payments of \$1,342 million and received \$876 in interes
 
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="466" style="border-collapse:
  collapse;table-layout:fixed;width:350pt">
@@ -744,7 +744,7 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
 * b. Based on your forecasts, do you think this firm is worth more or less than book value? Why?
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="360" style="border-collapse:
  collapse;table-layout:fixed;width:360pt;font-size:10.0pt">
@@ -904,7 +904,7 @@ Suppose these numbers were given to you at the end of 1999, as forecasts, when t
 * c. Based on your analysis, give a target price at the end of 2004.
 
 <details>
-<summary><font size = 5 font color=orange style='font-weight:bold'>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="583" style="border-collapse:
  collapse;table-layout:fixed;width:467pt;font-size:10.0pt">
@@ -1054,7 +1054,7 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
 * c. Show that abnormal earnings growth is equal to the change in residual earnings for every year.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="793" style="border-collapse:
@@ -1241,7 +1241,7 @@ Analysts' consensus EPS forecasts for 2011 and 2012 fiscal years (ending in June
 * c. If you forecast that there will be significant abnormal earnings growth after 2012, do you think this stock is appropriately priced at $24.30?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <div style="overflow-x: scroll">
 <table border="0" cellpadding="0" cellspacing="0" width="400" style="border-collapse:
@@ -1359,7 +1359,7 @@ Intrinsic Price here is calculated from valuation models.
 * b. A firm paid a dividend to shareholders of \$162 million and repurchased stock for \$53 million. There were no share issues. The firm $\textcolor{red}{received}$ net cash of \$86 million from debt financing transactions. What was its free cash flow?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.Apply the cash conservation:
 
@@ -1531,7 +1531,7 @@ Below are a balance sheet and an income statement that have been reformulated ac
 </tbody></table></div>
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 Using Accounting Relations.
 
@@ -1668,7 +1668,7 @@ Amounts are in millions.
 The beginning and end-of-year balances include $200 million of preferred stock.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 A Simple Reformulation of the Equity Statement.
 
@@ -1786,7 +1786,7 @@ $$
 * b. Fill out the missing numbers in the equity statement and reformulate it to identify comprehensive income for the common shareholders for 2012.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.
 
@@ -1891,7 +1891,7 @@ $$
 </tbody></table>
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="520" style="border-collapse:
  collapse;table-layout:fixed;width:390pt;font-size:10.0pt">
@@ -2090,7 +2090,7 @@ From the following income statement (in millions), calculate operating income af
 </tbody></table>
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="587" style="border-collapse:
  collapse;table-layout:fixed;width:400pt;font-size:10.0pt">
@@ -2273,7 +2273,7 @@ From the following income statement (in millions), calculate operating income af
 </tbody></table>
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 <table border="0" cellpadding="0" cellspacing="0" width="405" style="border-collapse:
  collapse;table-layout:fixed;width:304pt;font-size:10.0pt">
@@ -2505,7 +2505,7 @@ A firm reported comprehensive income of \$376 million for 2012, consisting of \$
 </tbody></table>
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 First reformulate the balance sheet:
 
@@ -2555,7 +2555,7 @@ a. By how much did its net operating assets change during the period?<br>
 b. The firm incurred net financial expenses of \$43 million after tax, paid a dividend of \$20 million, and raised \$33 million from share issues. What was the change in its net debt position during the period?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.
 
@@ -2593,7 +2593,7 @@ So, with a negative net dividend of $13 million
 * c. The firm reported total assets of \$715 million. Construct a balance sheet for this firm that distinguishes operating and financial assets and liabilities.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.
 
@@ -2779,7 +2779,7 @@ A firm earns a profit margin of 3.8 percent on sales of \$435 million and employ
 What would be the effect on the firm's return on net operating assets of adding the new product line?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 The effect would be (almost) zero.
 
@@ -2855,7 +2855,7 @@ The following numbers were calculated from the financial statements for a firm f
 Calculate core return of net operating assets (core RNOA) and show how much of its change from 2011 to 2012 is due to the change in profit margin and the change in asset turnover. Box 13.7 will help you.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 Core RNOA for 2012 = 4.7% x 2.4 = 11.28%
 
@@ -2943,7 +2943,7 @@ The following numbers were calculated from the financial statements for a firm f
 * b. For financing activities, explain how much of the change in ROCE is due to spread and how much is due to fiancial leverage.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_{\color{red}{0}} \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
 
@@ -3174,7 +3174,7 @@ The following numbers were calculated from the financial statements for a firm f
 Explain to what extent the change in common equity from 2011 to 2012 is due to sales growth, net assets required to support sales, and borrowing.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 $\Delta CSE_1 = \Delta Sales_1 \times \dfrac{1}{ATO}_{\color{red}{0}} +Sales_1 \times \Delta \lbrack \dfrac{1}{ATO}\rbrack_1 -  \Delta NFO_1$
 
@@ -3331,7 +3331,7 @@ Here are summary numbers from a firm's financial statements (in millions of doll
 The required return for operations is 10.1%. Calculate the growth rate for net operating assets, return on net operating assets (RNOA),   residual operating income, abnormal operating income growth (in dollars) for each year 2008-2010.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 Calculating Residual Operating Income and Its Drivers.
 
@@ -3570,7 +3570,7 @@ An analyst calculates residual operating income of \$35.7 million from financial
 * c. What is the forward enterprise P/E ratio implied by the forecasts?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.
 
@@ -3597,7 +3597,7 @@ Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% r
 An analyst forecasts that the current core return on net operating assets of 15.5 percent will continue indefinitely in the future with a 5 percent annual sales growth rate. She also forecasts that the current asset turnover ratio of 2.2 will persist. Calculate the enterprise price-to-book ratio if the required return for operations is 9.5 percent.
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 If RNOA is constant and ATO is also constant, the growth rate for ReOI is given by the sales growth rate. So, 
 
@@ -3645,7 +3645,7 @@ The Coca-Cola Company reported an after-tax profit margin of 20% on its sales of
 * b. What would Coke's residual operating income be if the asset turnover increased to 1. 7?
 
 <details>
-<summary><font size = 5 font color=orange>Answers:</font></summary>
+<summary>Answers:</summary>
 
 a.
 

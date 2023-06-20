@@ -179,7 +179,7 @@ $\{\widehat{I}_1\}$: the set of indices corresponding to the selected factors in
 这一步是最小化等式(2)的残差，去除了冗余因子和无效因子，OLS+LASSO:
 
 >[!TIP|label:矩阵的相关知识点]
->$\left\|A\right\|$：矩阵A的算子范数(operator norm)，计算方法：$\sqrt{\lambda_{\text{max}}(A^{\intercal}A)}$，$\lambda_{\text{max}}$ 代表矩阵的最大特征值。这里A不一定是方阵，也可以是向量
+>$\left\|A\right\|$：矩阵A的算子范数(operator norm)，计算方法：$\sqrt{\lambda_{\text{max}}(A^TA)}$，$\lambda_{\text{max}}$ 代表矩阵的最大特征值。这里A不一定是方阵，也可以是向量
 >
 >$\left\|\cdot\right\|_{1}$：L1范数是指向量中各个元素绝对值之和
 >

@@ -68,9 +68,18 @@
   }*/
 
   h1,
-  h2,
-  h3,
-  h4,
+  h2{
+    font-size: 35px !important;
+    font-family: 'LM Roman 10', 'Times New Roman', 'Arial', 'Source Han Serif SC', 'SimSum-ExtB';
+  }
+  h3{
+    font-size: 29px !important;
+    font-family: 'LM Roman 10', 'Times New Roman', 'Arial', 'Source Han Serif SC', 'SimSum-ExtB';
+  }
+  h4{
+    font-size: 24px !important;
+    font-family: 'LM Roman 10', 'Times New Roman', 'Arial', 'Source Han Serif SC', 'SimSum-ExtB';
+  }
   h5,
   h6,
   pre,
@@ -142,32 +151,7 @@
     border-color: #ffbdaa !important;
   }
 
-  details {
-    font: 16px "Open Sans", "Arial", sans-serif;
-    width: 620px;
-  }
-  
-  
-  details > summary {
-    padding: 2px 6px;
-    width: 10em;
-    background-color: #ddd;
-    border: none;
-    box-shadow: 3px 3px 4px rgba(91, 221, 51, 0.697);
-  }
-  
-  /*
-  details > p {
-    border-radius: 0 0 10px 10px;
-    background-color: #ddd;
-    padding: 2px 6px;
-    width: 35em;
-    margin: 0;
-    box-shadow: 3px 3px 4px rgba(91, 221, 51, 0.697);
-  }
-  */
-  
-  
+
   /*去掉外边框*/
   details summary{
     outline:none;
@@ -179,6 +163,163 @@
     display:none; 
   }
 
+  details {
+    font: 16px "Open Sans", "Arial", sans-serif;
+    width: 720px;
+  }
+  
+  details > summary {
+    animation: animated-border 1.5s infinite;
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(7, 191, 228);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    width: 13em;
+  }
+  
+  .details1 > summary {
+    animation: animated-border 1.5s infinite;
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: bold;
+    color: rgb(99, 227, 231);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    width: 13em;
+  }
+
+  .details2 > summary {
+    animation: animated-border 1.5s infinite;
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 5px;
+    font-weight: bold;
+    color: rgba(235, 145, 28, 0.989);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    width: 6em;
+  }
+
+  .details3 > summary {
+    animation: animated-border 1.5s infinite;
+    font-family: Arial;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(30, 189, 35);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 19px;
+    width: 9em;
+  }
+
+  #p1 {
+    line-height: 1.7em;
+    font-family: Arial;
+    background:#d2ebee;
+  }
+  
+  /*
+  hr {
+    size: 5;
+    width: "90%";
+    height: 3px;
+    background-color: rgb(231, 178, 99);
+  }
+  */
+
+  hr.style-one {/*透明渐变水平线*/
+    width:80%;
+    margin:0 auto;
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+   }
+   hr {/*渐变*/
+    align-items:stretch;
+    width:90%;
+    margin:10px 0;
+    border: 0;
+    height: 2.5px;
+    background: #333;
+    background-image: linear-gradient(to right, red, #5baaf4, rgb(9, 206, 91));
+   }
+   hr.style3 {
+    width:80%;
+    color: #000000;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    height: 1px;
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+
+
+  /*
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    width: 35em;
+    margin: 0;
+    box-shadow: 3px 3px 4px rgba(91, 221, 51, 0.697);
+  }
+  */
+
+  .div1 {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    border: 1px solid #0b7ffe;
+  }
+
+  .div1::before,
+  .div1::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      animation: div1Ani 1500ms infinite linear;
+  }
+
+  .div1::before {
+      top: -5px;
+      left: -5px;
+      border-top: 1px solid #0b7ffe;
+      border-left: 1px solid #0b7ffe;
+  }
+
+  .div1::after {
+      right: -5px;
+      bottom: -5px;
+      border-bottom: 1px solid #0b7ffe;
+      border-right: 1px solid #0b7ffe;
+  }
+
+  @keyframes div1Ani {
+      0% {
+          width: 30px;
+          height: 30px;
+      }
+      50% {
+          width: calc(100% + 9px);
+          height: calc(100% + 9px);
+      }
+      100% {
+          width: 30px;
+          height: 30px;
+      }
+  }
 
 
 
