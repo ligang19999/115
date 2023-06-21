@@ -28,13 +28,11 @@ We propose a new asset pricing framework in which <mark>all securities’ signal
 
 ## Introducion
 
-> <p id="p1">&nbsp;&nbsp; 📘: The starting point for much of asset pricing is a signal, $S_{i,t}$ , that proxies for the conditional expected return for a security i at time t.<br> In the context of an equilibrium asset pricing model, $S_{i,t}$ may represent the conditional beta with respect to the market (or the pricing kernel). Alternatively, $S_{i,t}$ may be a predictor that is agnostic of equilibrium considerations, such as each asset’s valuation ratio or its recent price momentum.<br> Standard analyses—for example, evaluating characteristic-sorted portfolios or asset pricing tests in the spirit of Gibbons, Ross, and Shanken (1989)—focus on own-asset predictive signals; that is, the association between $S_{i,t}$ and the return only on asset i, $R_{i,t+1}$.</p>
-
-[基于特征构建因子](/papers/shrinking.md#character)
+[基于特征构建因子或投资组合](/papers/shrinking.md#character)
 
 > <p id="p1">&nbsp;&nbsp; 📘: we can think of the signal $S_{i,t}$ as the portfolio holding and $R_{i,t+1}S_{i,t}$ as the corresponding return.</p>
 
-本文提出了一种新的方法，通过 **“预测矩阵”** 来分析资产价格，这个模型的贡献：
+本文提出了一种新的方法，通过 **“预测矩阵”** 来构造投资策略，这个模型的贡献：
 
 * 在考虑横截面预测性的情况下，如何最优投资，即最大化收益率
 * 怎样获取最优 $\alpha$ 和 $\beta$
@@ -50,7 +48,7 @@ $R_{t+1}=(R_{i,t+1})\in\mathbb{R}^N \qquad i=1,\dotsb,N$：收益率向量
 
 $S_t=(S_{i,t})\in\mathbb{R}^N \qquad i=1,\dotsb,N$：信号向量
 
-<div align = center>
+<div align = center style = "box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;">
 
 $$
 \begin{aligned}
@@ -139,7 +137,59 @@ graph TB
 
 ### A. Linear Trading Strategies
 
-$L\in\mathbb{R}^{N\times N}$：position matrix
+大部分的实证文献所建立的收益预测模式对于不同资产间信号(特征)的交叉预测性知之甚少，这些文献基于特征构建的因子形式如下：
+
+$$
+\widetilde{F}_{t+1} =\sum_j S_{j,t}R_{j,t+1}. \tag{3}
+$$
+
+下文把 $\widetilde{F}_{t+1}$ 称为简单因子 (simple factor)，简单因子相当于中间乘以单位矩阵 (Id)，没有利用截面上其他资产的信号
+
+$$
+\widetilde{F}_{t+1}=\sum_i S_{i,t}R_{i,t+1}=S_t'R_{t+1}=S_t'\mathrm{Id}R_{t+1}. \tag{4}
+$$
+
+<details>
+<summary>matrix-vector-form:</summary>
+
+$$
+\begin{aligned}
+\widetilde{F}_{t+1}&=\begin{bmatrix}
+  {S_{1,t}}&{S_{2,t}}&{\cdots}&{S_{N,t}}  
+  \end{bmatrix}
+  \begin{bmatrix}
+    {1}&{0}&{\cdots}&{0}\\
+    {0}&{1}&{\cdots}&{0}\\
+    {\vdots}&{\vdots}&{\ddots}&{\vdots}\\
+    {0}&{0}&{\cdots}&{1}\\
+  \end{bmatrix}
+  \begin{bmatrix}
+    {R_{1,t+1}}\\
+    {R_{2,t+1}}\\
+    {\vdots}\\
+    {R_{N,t+1}}\\
+  \end{bmatrix}\\
+  \\
+&=\begin{bmatrix}
+  {S_{1,t}}&{S_{2,t}}&{\cdots}&{S_{N,t}}  
+  \end{bmatrix}
+  \begin{bmatrix}
+    {R_{1,t+1}}\\
+    {R_{2,t+1}}\\
+    {\vdots}\\
+    {R_{N,t+1}}\\
+  \end{bmatrix}\\
+  \\
+&=\sum_i S_{i,t}R_{i,t+1}
+\end{aligned}
+$$
+</details>
+
+简单因子是本文重要的参考，文中多次将 PP strategy (PPs, PEPs, PAPs) 与 simple factor 进行对比，以说明 PP strategy 的强解释力
+
+---
+
+改进：$L\in\mathbb{R}^{N\times N}$：position matrix
 
 一个线性策略的权重有如下形式：$w_t' = S_t'L$
 
@@ -187,59 +237,9 @@ R_{t+1}^{w_t}&=\begin{bmatrix}
 &=\sum_j (S_t'L_j)\ R_{j,t+1}
 \end{aligned}
 $$
-</details><br>
-
-> <p id="p1">&nbsp;&nbsp; 📘: We see that a linear strategy generally allows the position $S_{t}^{'}L_i$ in any asset $j$ to depend on the signals of all assets. Interestingly, these strategies can potentially exploit both predictability using each asset’s own signal and cross-predictability using other signals.</p>
-
-大部分的实证文献所建立的收益预测模式对于不同资产间信号(特征)的交叉预测性知之甚少，这些文献基于特征构建的因子形式如下：
-
-$$
-\widetilde{F}_{t+1} =\sum_j S_{j,t}R_{j,t+1}. \tag{3}
-$$
-
-下文把 $\widetilde{F}_{t+1}$ 称为简单因子 (simple factor)，简单因子相当于 (2) 式中 L 为单位矩阵 (L=Id)，没有利用截面上其他资产的信号
-
-$$
-\widetilde{F}_{t+1}=\sum_i S_{i,t}R_{i,t+1}=S_t'R_{t+1}=S_t'\mathrm{Id}R_{t+1}. \tag{4}
-$$
-
-<details>
-<summary>matrix-vector-form:</summary>
-
-$$
-\begin{aligned}
-\widetilde{F}_{t+1}&=\begin{bmatrix}
-  {S_{1,t}}&{S_{2,t}}&{\cdots}&{S_{N,t}}  
-  \end{bmatrix}
-  \begin{bmatrix}
-    {1}&{0}&{\cdots}&{0}\\
-    {0}&{1}&{\cdots}&{0}\\
-    {\vdots}&{\vdots}&{\ddots}&{\vdots}\\
-    {0}&{0}&{\cdots}&{1}\\
-  \end{bmatrix}
-  \begin{bmatrix}
-    {R_{1,t+1}}\\
-    {R_{2,t+1}}\\
-    {\vdots}\\
-    {R_{N,t+1}}\\
-  \end{bmatrix}\\
-  \\
-&=\begin{bmatrix}
-  {S_{1,t}}&{S_{2,t}}&{\cdots}&{S_{N,t}}  
-  \end{bmatrix}
-  \begin{bmatrix}
-    {R_{1,t+1}}\\
-    {R_{2,t+1}}\\
-    {\vdots}\\
-    {R_{N,t+1}}\\
-  \end{bmatrix}\\
-  \\
-&=\sum_i S_{i,t}R_{i,t+1}
-\end{aligned}
-$$
 </details>
 
-简单因子是本文重要的参考，文中多次将 PP strategy (PPs, PEPs, PAPs) 与 simple factor 进行对比，以说明 PP strategy 的强解释力
+> <p id="p1">&nbsp;&nbsp; 📘: We see that a linear strategy generally allows the position $S_{t}^{'}L_i$ in any asset $j$ to depend on the signals of all assets. Interestingly, these strategies can potentially exploit both predictability using each asset’s own signal and cross-predictability using other signals.</p>
 
 ### B. The Prediction Matrix
 
@@ -267,12 +267,6 @@ Moreover, the inequality is strict if and only if $M^{1/2}\Pi'$ is not identical
 
 > [!TIP|label: 半正定矩阵 positive semidefinite matrix]
 > 给定一个大小为 $n\times n$ 的实对称矩阵 A，若对于任意长度为 n 的向量 x，$x^TAx \geq 0$ 恒成立，则矩阵 A 是一个半正定矩阵
-
-### C. The Prediction Matrix versus a Predictive Regression
-
-$$
-R_{t+1}=BS_t+\varepsilon_{t+1} \tag{9}
-$$
 
 ### D. Objective Function
 
@@ -511,13 +505,19 @@ x_t=\frac{1}{S_t'(\Sigma_t^R)^{-1}S_t}(\Sigma_t^R)^{-1}S_t
 $$
 </details><br>
 
-**这样一来，$S_{i,t}$ 就相当于贝塔的作用**
+**这样一来，我们可以将 $F_t$ 视作因子，这一因子又称作 "latent factor"，$S_{i,t}$ 视作贝塔**
+
+于是资产收益率满足如下模型：
+
+$$
+\mathbb{E}_t R_{t+1}=S_t\lambda \tag{21-1}
+$$
+
+其中 $\lambda$ 是 $F_t$ 的风险溢价
 
 > <p id="p1">&nbsp;&nbsp; 📘: It has a natural risk factor interpretation—it is the factor that unifies the expected return interpretation of $S_{i,t}$ and the risk exposure interpretation of $S_{i,t}$. No other factor based on $S$ shares this property.</p>
 
 > <p id="p1">&nbsp;&nbsp; 📘: Lemma 1 shows that we can always think of any signals as exposures to a factor, but it does not necessarily imply that the return predictability embodied by S is “rational” in the sense that the factor F covaries with risks that investors care about, namely, the pricing kernel.</p>
-
-这一因子又称作 "latent factor"，
 
 example:
 
@@ -529,7 +529,21 @@ $$
 
 > In this case, $F_{t+1}$ is the conditional tangency portfolio and thus is the tradable representation of the pricing kernel.
 
-<hr align = "center" size = 5 color = 'lightgreen'/>
+<table border="1" style="border-color: blue;"><td align='left'>
+
+提出这个因子的目的在于：
+
+* 希望用线性模型来描述资产收益率，即资产的期望收益率是可以被(21-1)解释的
+* 用这个因子来表现本文提出的 PP 策略的优越性：PP 策略满足如下模型：
+
+$$
+E(R_{t+1}^{w_t}) = \alpha + \beta \lambda \tag{21-2}
+$$
+
+因为 PP 策略利用了交叉预测的信息，于是它的收益率不像普通资产收益率那样，可以被(21-1)解释，而是(21-2)，PP 策略能够产生显著的 $\alpha$
+</td></table>
+
+---
 
 任何一个线性策略 $L$ 都可以被分成对称和反对称两个部分：$L=L^s + L^a$
 
@@ -629,13 +643,9 @@ for a simple factor $\widetilde{F}, L = Id$
 * expected return: $\quad \operatorname{tr}(L^s\Pi^s)=\operatorname{tr}(\Pi^s)=\operatorname{tr}(\Pi)$
 * exposure: $\quad cov_{t}({\widetilde{F}}_{t+1},F_{t+1})=cov_{t}(S_t'R_{t+1},F_{t+1})=S_t'cov_{t}(R_{t+1},F_{t+1})=var_{t}(F_{t+1})S_{t}^{\prime}S_{t}>0$
 
-</details><br>
+</details>
 
 <hr>
-
-$$
-E(R_{t+1}^{w_t}) = \alpha + \beta F_{t+1}
-$$
 
 > <p id="p1">&nbsp;&nbsp; 📘: The optimal linear strategy in Proposition 3 and the corresponding <mark>PPs do not distinguish whether expected returns originate from factor exposure or alpha</mark>.<br>
 > We show that $\Pi^s$ and $\Pi^a$ lie at the heart of optimal symmetric and antisymmetric trading strategies. We <mark>derive symmetric and antisymmetric analogs of PPs</mark>, and show that they are the building blocks of optimal symmetry-decomposed strategies with either pure factor exposure and no alpha or pure alpha and no factor exposure.<br>
@@ -705,7 +715,7 @@ $$
 P E P_{t+1}^{k}=S_{t}^{w_{k}^{s}}R_{t+1}^{w_{k}^{s}}=S_{t}^{\prime}w_{k}^{s}(w_{k}^{s})'R_{t+1} \tag{29}
 $$
 
-<table><td align='left'>
+<table border="1" style="border-color: blue;"><td align='left'>
 
 **PROPOSITION 6:** <font color=black><i>The expected return of each PEP is equal to its corresponding eigenvalue:</i></font>
 
@@ -761,11 +771,11 @@ $W=(w_1^s,...,w_N^s) \quad WW'=Id$
 $$
 \widetilde{F}_{t+1}=S_t'R_{t+1}=S_t'WW'R_{t+1}=(W'S_t)\cdot(W'R_{t+1})=\sum_{k=1}^NS_t^{w_k^k}R_{t+1}^{w_k^k}
 $$
-</details><br>
+</details>
 
 若 $\Pi^s$ 的所有特征值都是非负的，则简单因子 $\widetilde{F}$ 就是最优策略
 
-<hr align = "center" size = 5 color = 'lightgreen'/>
+---
 
 Analogy between PCA and PPA:
 
@@ -1004,25 +1014,25 @@ graph LR
       <td style="border-top:none;
       border-right:1pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">PPs</td>
       <td style="border-top:none;border-right:none;
-      border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">无法知道确定的 $\alpha$</td>
+      border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">$E(S'_tLR_{t+1}) - S_t' L^s S_t\lambda$</td>
       <td style="border-top:none;border-right:none;border-bottom:#f3f3ef solid 1px;
-      border-left:none;background:#F3F3EF;">无法知道确定的 $\beta$</td>
+      border-left:none;background:#F3F3EF;">$S_t' L^s S_t$</td>
     </tr>
     <tr>
       <td style="border-top:none;
       border-right:1pt solid windowtext;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">PEPs</td>
       <td style="border-top:none;border-right:none;
-      border-bottom:#f3f3ef solid 1px;border-left:none">可以知道确定的 $\alpha$</td>
+      border-bottom:#f3f3ef solid 1px;border-left:none">$E(S'_tL^sR_{t+1}) - S_t' L^s S_t\lambda$</td>
       <td style="border-top:none;border-right:none;border-bottom:#f3f3ef solid 1px;
-      border-left:none">可以知道确定的 $\beta$</td>
+      border-left:none">$S_t' L^s S_t$</td>
     </tr>
     <tr>
       <td style="border-top:none;
       border-right:1pt solid windowtext;border-bottom:1pt solid windowtext;border-left:none;background:#F3F3EF;">PAPs</td>
       <td style="border-top:none;border-right:none;
-      border-bottom:1pt solid windowtext;border-left:none;background:#F3F3EF;">可以知道确定的 $\alpha$</td>
+      border-bottom:1pt solid windowtext;border-left:none;background:#F3F3EF;">$E(S'_tL^aR_{t+1})$</td>
       <td style="border-top:none;border-right:none;border-bottom:1pt solid windowtext;
-      border-left:none;background:#F3F3EF;">$\beta$ 为 0</td>
+      border-left:none;background:#F3F3EF;">0</td>
     </tr>
     <!--[if supportMisalignedColumns]-->
     <tr height="0" style="display:none">
@@ -1069,14 +1079,12 @@ $$
 
 ## IV. Robust Strategies: Shrinkage via PPs
 
-上述理论分析是在已知的预测矩阵下进行的。在现实中，$\Pi$ 是未知的，必须加以估计
-
 > <p id="p1">&nbsp;&nbsp; 📘: In this section, we develop robust PP trading strategies by shrinking the predictability matrix.</p>
 
-PPs are ideally suited to balance two considerations:
+PPs 策略想要达到的两个目的:
 
-* (i) exploiting potentially rich information from throughout the predictability matrix
-* (ii) controlling parameterization to reduce overfit and **ensure robust out-of-sample portfolio performance**
+* (i) 尽可能地从预测矩阵中获得足够的信息
+* (ii) 控制参数以防止过拟合，并且保证策略有强的样本外表现
 
 为了保证好的样本外表现，需要对预测矩阵 $\Pi$ 进行“压缩”：
 
@@ -1265,35 +1273,35 @@ $$
   </colgroup>
   <tbody>
     <tr height="19" style="height:14.25pt">
-      <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:.5pt solid windowtext;
-      border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+      <td height="19" width="72" style="height:14.25pt;width:54pt;border-top:1pt solid windowtext;
+      border-right:1pt solid windowtext;border-bottom:1pt solid windowtext;
       border-left:none"></td>
-      <td width="306" style="width:230pt;border-top:.5pt solid windowtext;border-right:none;
-      border-bottom:.5pt solid windowtext;border-left:none">PP strategies based on
+      <td width="306" style="width:230pt;border-top:1pt solid windowtext;border-right:none;
+      border-bottom:1pt solid windowtext;border-left:none">PP strategies based on
       individual signals</td>
-      <td width="337" style="width:253pt;border-top:.5pt solid windowtext;border-right:none;
-      border-bottom:.5pt solid windowtext;border-left:none">PP strategies based on
+      <td width="337" style="width:253pt;border-top:1pt solid windowtext;border-right:none;
+      border-bottom:1pt solid windowtext;border-left:none">PP strategies based on
       combined signals</td>
     </tr>
     <tr height="19" style="height:14.25pt">
       <td rowspan="2" height="38" class="xl65" style="height:28.5pt;border-top:none;
-      border-right:.5pt solid windowtext;border-bottom:none;border-left:none;background:#F3F3EF;">Similarities</td>
+      border-right:1pt solid windowtext;border-bottom:1pt solid windowtext;border-left:none;background:#F3F3EF;">Similarities</td>
       <td colspan="2" height="19" style="border-top:.5pt solid windowtext;border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">each weight is calculated from PP methods using each characteristic's own signal</td>
     </tr>
     <tr height="19" style="height:14.25pt">
-      <td colspan="2" height="19" style="border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none;background:#F3F3EF;">$E(r)_{portfolio} = \frac{1}{138} \sum_{i=1}^{138} E\big((S_t')_i L_i R_{t+1}\big)$</td>
+      <td colspan="2" height="19" style="border-top:.5pt solid windowtext;border-right:none;border-bottom:1pt solid windowtext;border-left:none;background:#F3F3EF;">$E(r)_{portfolio} = \frac{1}{138} \sum_{i=1}^{138} E\big((S_t')_i L_i R_{t+1}\big)$</td>
     </tr>
     <tr height="19" style="height:14.25pt">
       <td rowspan="2" height="38" class="xl65" style="height:28.5pt;border-top:.5pt solid windowtext;
-      border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+      border-right:1pt solid windowtext;border-bottom:1pt solid windowtext;
       border-left:none;background:#F3F3EF;">Differences</td>
       <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">$SR = \frac{1}{138}(SR_1 + SR_2 + \cdots + SR_{138})$</td>
       <td style="border-top:.5pt solid windowtext;border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;">$SR$ is the combined strategy's own $SR$</td>
     </tr>
     <tr height="19" style="height:14.25pt">
       <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-      border-bottom:.5pt solid windowtext;border-left:none">$IR = \frac{1}{138}(IR_1 + IR_2 + \cdots + IR_{138})$</td>
-      <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
+      border-bottom:1pt solid windowtext;border-left:none">$IR = \frac{1}{138}(IR_1 + IR_2 + \cdots + IR_{138})$</td>
+      <td style="border-top:none;border-right:none;border-bottom:1pt solid windowtext;
       border-left:none">$IR$ is the combined strategy's own $IR$</td>
     </tr>
     <!--[if supportMisalignedColumns]-->
@@ -1310,3 +1318,29 @@ $$
 <hr align = "center" size = 5 color = 'lightgreen'/>
 
 ![1686813608356](image/Principal_Portfolios/1686813608356.png)
+
+## VI. Conclusion
+
+<div align ='center'>
+
+```mermaid
+graph TB
+    subgraph Summary
+        direction TB
+        id1 --"提出<font color=blue>不同资产间</font><font color=red>不同特征</font>的<br>交叉预测性(股票截面+特征截面)"-->id10["E(S'<sub>t</sub>L<sup>3</sup>R<sub>t+1</sub>)"]
+    end
+    subgraph Summary
+        direction LR
+        id1("S'<sub>t</sub>R<sub>t+1</sub><br>特征只预测对应股票的收益，无交叉预测性")--"提出<font color=blue>不同资产间</font><font color=red>同一特征</font>的<br>交叉预测性(截面预测)"-->id2["E(S'<sub>t</sub>LR<sub>t+1</sub>)"]
+        id2==max==>id3(("tr(LR'<sub>t+1</sub>S<sub>t</sub>)"))
+        id3--提出预测矩阵-->id9((Π=R'<sub>t+1</sub>S<sub>t</sub>))
+        id3--解一-->id4(("L=(Π'Π)<sup>-1/2</sup> Π' "))
+        id3--解二-->id5(("tr(L<sup>s</sup>Π<sup>s</sup>)+tr(L<sup>&#945</sup>Π<sup>&#945</sup>)"))
+        id4-->id6((PPs))
+        id5-->id7((PAPs))
+        id5-->id8((PEPs))
+    end
+```
+
+![1687246191258](image/Principal_Portfolios/1687246191258.png)
+</div>
