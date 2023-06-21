@@ -87,41 +87,42 @@ From the following information for the year 2012, prepare an income statement an
  collapse;table-layout:fixed;width:339pt">
  <colgroup><col width="370" style="mso-width-source:userset;mso-width-alt:11200;width:290pt">
  <col width="72" style="width:54pt">
- </colgroup>
- <tbody>
- <caption style="height:.01pt"></caption>
- <tr height="19" style="height:14.25pt">
-  <td id="td2">Sales</td>
-  <td id="td2">$4,458 </td>
+ </colgroup><tbody><tr height="19" style="height:14.25pt">
+  <td height="19" width="350" style="height:14.25pt;width:290pt;border-top:.5pt solid windowtext;
+  border-bottom:none " align="left">Sales</td>
+  <td class="xl65" align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
+  border-bottom:none;border-left:none">$4,458 </td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Common dividends paid</td>
-  <td id="td1">140</td>
+  <td height="19" style="height:14.25pt" align="left">Common dividends paid</td>
+  <td align="right">140</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Selling expenses</td>
-  <td id="td1">1,230</td>
+  <td height="19" style="height:14.25pt" align="left">Selling expenses</td>
+  <td class="xl66" align="right">1,230</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Research and development costs</td>
-  <td id="td1">450</td>
+  <td height="19" style="height:14.25pt" align="left">Research and development costs</td>
+  <td align="right">450</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Cost of goods sold</td>
-  <td id="td1">3,348</td>
+  <td height="19" style="height:14.25pt" align="left">Cost of goods sold</td>
+  <td class="xl66" align="right">3,348</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Share issues</td>
-  <td id="td1">680</td>
+  <td height="19" style="height:14.25pt" align="left">Share issues</td>
+  <td align="right">680</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td1">Unrealized gain on securities available
+  <td height="19" style="height:14.25pt" align="left">Unrealized gain on securities available
   for sale</td>
-  <td id="td1">76</td>
+  <td align="right">76</td>
  </tr>
  <tr height="19" style="height:14.25pt">
-  <td id="td3">Income taxes</td>
-  <td id="td3">-200</td>
+  <td height="19" style="height:14.25pt;border-top:none;
+  border-bottom:.5pt solid windowtext" align="left">Income taxes</td>
+  <td align="right" style="border-top:none;border-bottom:.5pt solid windowtext;
+  border-left:none">-200</td>
  </tr>
  <!--[if supportMisalignedColumns]-->
  <tr height="0" style="display:none">

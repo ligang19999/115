@@ -301,7 +301,7 @@ $$
 $$
 
 <details class="details2">
-<summary  style="width: 9em">proof of (12):</summary>
+<summary style="width: 9em">proof of (12):</summary>
 
 $$
 \max\limits_{S:var_t(S' R_{t+1})\leq1}\operatorname{var}_t(S'L R_{t+1}) = \max\limits_{S:S\neq 0}\frac{\operatorname{var}_t(S'LR_{t+1})}{\operatorname{var}_t(S'R_{t+1})}=\max\limits_{S:S\neq 0}\frac{\sigma^2\|LS\|^2}{\sigma^2\|S\|^2}=\|L\|^2
