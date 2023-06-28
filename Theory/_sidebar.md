@@ -2,6 +2,7 @@
 - [奇异值分解（SVD）](/Theory/Singular_Value_Decomposition.md)
 - [basic knowledge in Asset pricing](/Theory/basic.md)
 
-&nbsp;
-&nbsp;
-[$\ \large{\longleftarrow 返回}$](README.md)
+<font size=5>
+
+[$\quad \mathbf{\longleftarrow Back}$](README.md)
+</font>
