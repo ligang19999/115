@@ -34,7 +34,7 @@ Hewlett-Packard had 2,126 million shares outstanding in May 2011, trading at $41
 |Stockholders' equity|41,795|
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 $
 \begin{aligned}
@@ -60,7 +60,7 @@ $\\$
 A firm reports book value of shareholders' equity of \$850 million with 25 million shares outstanding. Those shares trade at \$45 each in the stock market. An analyst values the equity by following the scheme: <font color='orange' style='font-weight:bold'>Value = Book value + Extra value</font>. She calculates extra value of \$675 million. Should she issue a buy or a sell recommendation to her clients?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 $
 \begin{aligned}
@@ -82,189 +82,126 @@ $\\$
 
 From the following information for the year 2012, prepare an income statement and a statement of shareholders' equity, under GAAP rules (R&D expenses are expensed as incurred), for a company with shareholders' equity at the beginning of 2012 of \$3,270 million. Amounts are in millions.
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="500" style="border-collapse:
- collapse;table-layout:fixed;width:339pt">
- <colgroup><col width="370" style="mso-width-source:userset;mso-width-alt:11200;width:290pt">
- <col width="72" style="width:54pt">
- </colgroup>
- <tbody>
- <caption style="height:.01pt"></caption>
- <tr height="19" style="height:14.25pt">
-  <td id="td2">Sales</td>
-  <td id="td2">$4,458 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Common dividends paid</td>
-  <td id="td1">140</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Selling expenses</td>
-  <td id="td1">1,230</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Research and development costs</td>
-  <td id="td1">450</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Cost of goods sold</td>
-  <td id="td1">3,348</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Share issues</td>
-  <td id="td1">680</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td1">Unrealized gain on securities available
-  for sale</td>
-  <td id="td1">76</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td id="td3">Income taxes</td>
-  <td id="td3">-200</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="350" style="width:263pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table>
+  <tr>
+    <td id="td2l" style="width:290pt">Sales</td>
+    <td id="td2r" style="width:60pt">$4,458 </td>
+  </tr>
+  <tr>
+    <td id="td1l">Common dividends paid</td>
+    <td id="td1">140</td>
+  </tr>
+  <tr>
+    <td id="td1l">Selling expenses</td>
+    <td id="td1">1,230</td>
+  </tr>
+  <tr>
+    <td id="td1l">Research and development costs</td>
+    <td id="td1">450</td>
+  </tr>
+  <tr>
+    <td id="td1l">Cost of goods sold</td>
+    <td id="td1">3,348</td>
+  </tr>
+  <tr>
+    <td id="td1l">Share issues</td>
+    <td id="td1">680</td>
+  </tr>
+  <tr>
+    <td id="td1l">Unrealized gain on securities available
+    for sale</td>
+    <td id="td1">76</td>
+  </tr>
+  <tr height="9" style="height:3.25pt">
+    <td id="td3l">Income taxes</td>
+    <td id="td3">-200</td>
+  </tr>
+</table>
 
 Also calculate comprehensive income and net payout. Income taxes are negative. How can this be?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<table border="0" cellpadding="0" cellspacing="0" width="312" style="border-collapse:
- collapse;table-layout:fixed;width:234pt">
- <colgroup><col width="240" style="mso-width-source:userset;mso-width-alt:7680;width:180pt">
- <col width="72" style="width:54pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td colspan="2" height="19" class="xl69" width="312" style="height:14.25pt;
-  width:234pt;font-size:11.0pt;color:black;font-weight:700;text-decoration:
-  none;text-underline-style:none;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Income statement</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Sales</td>
-  <td class="xl65" align="right">$4,458 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Cost of good sold</td>
-  <td class="xl66" align="right">3,348</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Gross margin</td>
-  <td class="xl66" align="right">1,110</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Selling expenses</td>
-  <td class="xl66" align="right">-1,230</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Research and development</td>
-  <td align="right">-450</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Operating income<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td align="right">-570</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Income taxes</td>
-  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134" align="right">200</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;
-  border-bottom:.5pt solid windowtext" align="left">Net loss</td>
-  <td align="right" style="border-top:none;border-bottom:.5pt solid windowtext;
-  border-left:none">-370</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="240" style="width:180pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <caption class="caption1">Income statement</caption>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l" style="width:180pt">Sales</td>
+    <td id="td1" style="width:54pt">$4,458 </td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l">Cost of good sold</td>
+    <td id="td1">3,348</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l">Gross margin</td>
+    <td id="td1">1,110</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l">Selling expenses</td>
+    <td id="td1">-1,230</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l">Research and development</td>
+    <td id="td1">-450</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td1l">Operating income<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td id="td1">-570</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td11" >Income taxes</td>
+    <td id="td1" style="color:blue">200</td>
+  </tr>
+  <tr height="19" style="height:14.25pt">
+    <td id="td3l">Net loss</td>
+    <td id="td3">-370</td>
+  </tr>
+</table>
 
-<table border="0" cellpadding="0" cellspacing="0" width="397" style="border-collapse:
- collapse;table-layout:fixed;width:298pt">
- <colgroup><col width="253" style="mso-width-source:userset;mso-width-alt:8096;width:190pt">
- <col width="72" span="2" style="width:54pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td colspan="3" height="19" class="xl69" width="397" style="height:14.25pt;
-  width:298pt;font-size:11.0pt;color:black;font-weight:700;text-decoration:
-  none;text-underline-style:none;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Equity statement</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Beginning equity, 2012</td>
-  <td class="xl65" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:none;border-left:none"></td>
-  <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none">$3,270 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt"></td>
-  <td class="xl66"></td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Net loss</td>
-  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134" align="right">-370</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Other comprehensive income</td>
-  <td class="xl66" align="right">76</td>
-  <td align="right">-294</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Share issues</td>
-  <td></td>
-  <td align="right">680</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" "height:14.25pt" align="left">Common dividends</td>
-  <td></td>
-  <td align="right">-140</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#4472C4;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134"></td>
-  <td class="xl68" style="font-size:11.0pt;color:#4472C4;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134"></td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext" align="left">Ending equity, 2012</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td class="xl65" align="right" style="border-top:none;
-  border-bottom:.5pt solid windowtext;border-left:none">$3,516 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="253" style="width:190pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <caption class="caption1">Equity statement</caption>
+  <tr>
+    <td id="td1l" style="width:190pt">Beginning equity, 2012</td>
+    <td id="td1l" style="width:55pt"></td>
+    <td id="td1" style="width:55pt">$3,270 </td>
+  </tr>
+  <tr>
+    <td id="td1l"></td>
+    <td id="td1l"></td>
+    <td id="td1l"></td>
+  </tr>
+  <tr>
+    <td id="td1l">Net loss</td>
+    <td id="td1">-370</td>
+    <td id="td1"></td>
+  </tr>
+  <tr>
+    <td id="td1l">Other comprehensive income</td>
+    <td id="td1">76</td>
+    <td id="td1">-294</td>
+  </tr>
+  <tr>
+    <td id="td1l">Share issues</td>
+    <td id="td1"></td>
+    <td id="td1">680</td>
+  </tr>
+  <tr>
+    <td id="td1l">Common dividends</td>
+    <td id="td1"></td>
+    <td id="td1">-140</td>
+  </tr>
+  <tr>
+    <td id="td1l"></td>
+    <td id="td1"></td>
+    <td id="td1"></td>
+  </tr>
+  <tr>
+    <td id="td3l">Ending equity, 2012</td>
+    <td id="td3"></td>
+    <td id="td3">$3,516</td>
+  </tr>
+</table>
 
 Taxes are negative (that is, the effect on income is positive) because income is negative (a loss).
 **A loss yields a tax benefit** that he firm can carry forward to reduce future taxes.
@@ -278,61 +215,47 @@ A chief executive reported the following numbers for fiscal year 2012 to an annu
 
 Show that at least one of these numbers must be wrong because it does not obey accounting relations.
 
-<table border="0" cellpadding="0" cellspacing="0" width="369" style="border-collapse:
- collapse;table-layout:fixed;width:297pt">
- <colgroup><col width="297" style="mso-width-source:userset;mso-width-alt:9504;width:233pt">
- <col width="72" style="width:54pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt" align="left">
-  <td height="19" width="297" style="height:14.25pt;width:223pt;border-top:.5pt solid windowtext;
-  border-bottom:none">Revenues</td>
-  <td class="xl65" align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-bottom:none;border-left:none">$2,300 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Total expenses, including taxes</td>
-  <td align="right">150</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Other comprehensive income</td>
-  <td align="right">-90</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Total assets, end of year</td>
-  <td align="right">4340</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Total liabilities, end of year</td>
-  <td align="right">1380</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Dividends to shareholders</td>
-  <td align="right">400</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Share issues</td>
-  <td align="right">900</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Share repurchases</td>
-  <td align="right">150</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;
-  border-bottom:.5pt solid windowtext" align="left">Shareholders' equity,
-  beginning of year</td>
-  <td align="right" style="border-top:none;border-bottom:.5pt solid windowtext;
-  border-left:none">19140</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="297" style="width:223pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2l">Revenues</td>
+      <td id="td2r">$2,300</td>
+  </tr>
+  <tr>
+      <td id="td1l">Total expenses, including taxes</td>
+      <td id="td1">150</td>
+  </tr>
+  <tr>
+      <td id="td1l">Other comprehensive income</td>
+      <td id="td1">-90</td>
+  </tr>
+  <tr>
+      <td id="td1l">Total assets, end of year</td>
+      <td id="td1">4340</td>
+  </tr>
+  <tr>
+      <td id="td1l">Total liabilities, end of year</td>
+      <td id="td1">1380</td>
+  </tr>
+  <tr>
+      <td id="td1l">Dividends to shareholders</td>
+      <td id="td1">400</td>
+  </tr>
+  <tr>
+      <td id="td1l">Share issues</td>
+      <td id="td1">900</td>
+  </tr>
+  <tr>
+      <td id="td1l">Share repurchases</td>
+      <td id="td1">150</td>
+  </tr>
+  <tr>
+      <td id="td3l">Shareholders&#39; equity, beginning of year</td>
+      <td id="td3">19140</td>
+  </tr>
+</table>
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 Ending shareholders’ equity can be derived in two ways:
 
@@ -360,7 +283,7 @@ The two numbers do not agree. There is an error somewhere.
 A firm trading with a total equity market value of \$100 million reported earnings of \$5 million and book value of \$50 million. This firm is used as a comparable to price an IPO firm with EPS of \$2.50 and BPS(book value per share) of \$30. Neither firm pays dividends. What per-share IPO price does the comparable firm imply?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 P/E for the comparable firm = 100/5 = 20<br>
 P/B for the comparable firm = 100/50 = 2<br>
@@ -377,53 +300,29 @@ Average of the two prices = $55 per share<br>
 
 At the beginning of its fiscal year 2006, an analyst made the following forecast for General Mills, Inc., the consumer foods company, for 2006-2009 (in millions of dollars):
 
-<table border="0" cellpadding="0" cellspacing="0" width="524" style="border-collapse:
- collapse;table-layout:fixed;width:436pt">
- <colgroup><col width="236" style="mso-width-source:userset;mso-width-alt:7552;width:197pt">
- <col width="72" span="4" style="width:60pt">
- </colgroup>
- <tbody>
- <tr height="19" style="height:14.25pt">
-  <td height="19" width="236" style="height:14.25pt;width:177pt;border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2006</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF" align="left">Cash flow from operations</td>
-  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,014 </td>
-  <td class="xl68" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,057</td>
-  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,095 </td>
-  <td class="xl67" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF">$2,107 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Cash investment in
-  operations</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">300</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">380</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">442</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">470</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="236" style="width:177pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2r"></td>
+      <td id="td2r">2006</td>
+      <td id="td2r">2007</td>
+      <td id="td2r">2008</td>
+      <td id="td2r">2009</td>
+  </tr>
+  <tr>
+      <td id="td2l">Cash flow from operations</td>
+      <td id="td2r">$2,014</td>
+      <td id="td2r">$2,057</td>
+      <td id="td2r">$2,095</td>
+      <td id="td2r">$2,107</td>
+  </tr>
+  <tr>
+      <td id="td3l">Cash investment in operations</td>
+      <td id="td3">300</td>
+      <td id="td3">380</td>
+      <td id="td3">442</td>
+      <td id="td3">470</td>
+  </tr>
+</table>
 
 General Mills reported \$6, 192 million in short-term and long-term debt at the end of 2005 but very little in interest-bearing debt assets.<br>
 Use a required return of 9 percent to calculate both the enterprise value and equity value for General Mills at the beginning of 2006 under two forecasts for long-run cash flows:
@@ -434,68 +333,38 @@ Use a required return of 9 percent to calculate both the enterprise value and eq
 General Mills had 369 million shares outstanding at the end of 2005, trading at \$47 per share. Calculate value per share and a value-to-price ratio under both scenarios.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<table border="0" cellpadding="0" cellspacing="0" width="524" style="border-collapse:
- collapse;table-layout:fixed;width:436pt">
- <colgroup><col width="236" style="mso-width-source:userset;mso-width-alt:7552;width:197pt">
- <col width="72" span="4" style="width:60pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="236" style="height:14.25pt;width:177pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2006</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
-  <td align="right" width="72" style="width:54pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Cash flow from operations</td>
-  <td class="xl67">$2,014 </td>
-  <td class="xl68">$2,057</td>
-  <td class="xl67">$2,095 </td>
-  <td class="xl67">$2,107 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Cash investment in
-  operations</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">300</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">380</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">442</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">470</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:13.0pt;color:#0070C0;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Free cash flow (FCF)</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1714</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1677</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1653</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1637</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="236" style="width:177pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2r"></td>
+      <td id="td2r">2006</td>
+      <td id="td2r">2007</td>
+      <td id="td2r">2008</td>
+      <td id="td2r">2009</td>
+  </tr>
+  <tr>
+      <td id="td2l">Cash flow from operations</td>
+      <td id="td2r">$2,014</td>
+      <td id="td2r">$2,057</td>
+      <td id="td2r">$2,095</td>
+      <td id="td2r">$2,107</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cash investment in operations</td>
+      <td id="td1">300</td>
+      <td id="td1">380</td>
+      <td id="td1">442</td>
+      <td id="td1">470</td>
+  </tr>
+  <tr style="color:blue">
+      <td id="td3l">Free cash flow (FCF)</td>
+      <td id="td3">1714</td>
+      <td id="td3">1677</td>
+      <td id="td3">1653</td>
+      <td id="td3">1637</td>
+  </tr>
+</table>
 
 a. Enterprise value = $\dfrac{1714}{1.09}+\dfrac{1677}{1.09^2}+\dfrac{1653}{1.09^3}+\dfrac{1637}{1.09^4}+\dfrac{1637}{0.09}/1.09^4=18,305$
 
@@ -518,85 +387,48 @@ Value-to-price ratio=32.82/47=1.10
 
 The following summarizes the parts of a firm's cash flow statement that have to do with operating and investing activities (in millions):
 
-<table border="0" cellpadding="0" cellspacing="0" width="456" style="border-collapse:
- collapse;table-layout:fixed;width:356pt">
- <colgroup><col width="312" style="mso-width-source:userset;mso-width-alt:9984;width:250pt">
- <col width="72" span="2" style="width:54pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt" align="left">
-  <td height="19" width="312" style="height:14.25pt;width:234pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none">Net income</td>
-  <td width="72" style="width:54pt;border-top:.5pt solid windowtext"></td>
-  <td width="72" style="width:54pt;border-top:.5pt solid windowtext;border-bottom:none;border-left:none">$2,198</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Accruals in net income</td>
-  <td></td>
-  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">3,072</td>
- </tr>
- <tr height="19" style="height:14.25pt" align="left">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:black;font-weight:
-  700;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">Cash flow from operations</td>
-  <td></td>
-  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">5,270</td>
- </tr>
- <tr height="19" style="height:14.25pt" align="left">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:black;font-weight:
-  700;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">Cash in investing
-  activities:</td>
-  <td></td>
-  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
-  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Purchase of property
-  and plant</td>
-  <td class="xl65" align="right">$2,203 </td>
-  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
-  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Purchase of
-  short-term investments</td>
-  <td class="xl66" align="right">4,761</td>
-  <td style="font-size:11.0pt;color:black;font-weight:400;text-decoration:underline;
-  text-underline-style:single;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Sale of short-term
-  investments</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
-  none;border-bottom:.5pt solid windowtext;border-left:none">-547</td>
-  <td class="xl66" align="right" style="font-size:11.0pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-bottom:.5pt solid windowtext;border-left:none">6,417</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="312" style="width:234pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2l">Net income</td>
+      <td id="td2"></td>
+      <td id="td2r">$2,198</td>
+  </tr>
+  <tr>
+      <td id="td1l">Accruals in net income</td>
+      <td id="td1"></td>
+      <td id="td1">3,072</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cash flow from operations</td>
+      <td id="td1"></td>
+      <td id="td1">5,270</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cash in investing activities:</td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">$\qquad$ Purchase of property and plant</td>
+      <td id="td1">$2,203</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">$\qquad$ Purchase of short-term investments</td>
+      <td id="td1">4,761</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td3l">$\qquad$ Sale of short-term investments</td>
+      <td id="td3">-547</td>
+      <td id="td3">6,417</td>
+  </tr>
+</table>
 
 The firm made interest payments of \$1,342 million and received \$876 in interest receipts from I-bills that it held. The tax rate is 35 percent. Calculate free cash flow.
 
-
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 <table border="0" cellpadding="0" cellspacing="0" width="466" style="border-collapse:
  collapse;table-layout:fixed;width:350pt">
@@ -743,7 +575,7 @@ The following are earnings and dividend forecasts made at the end of 2012 for a 
 * b. Based on your forecasts, do you think this firm is worth more or less than book value? Why?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 <table border="0" cellpadding="0" cellspacing="0" width="360" style="border-collapse:
  collapse;table-layout:fixed;width:360pt;font-size:10.0pt">
@@ -903,7 +735,7 @@ Suppose these numbers were given to you at the end of 1999, as forecasts, when t
 * c. Based on your analysis, give a target price at the end of 2004.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 <table border="0" cellpadding="0" cellspacing="0" width="583" style="border-collapse:
  collapse;table-layout:fixed;width:467pt;font-size:10.0pt">
@@ -1053,157 +885,100 @@ The book value of IBM's common equity at the end of 2010 was \$23.0 billion, or 
 * c. Show that abnormal earnings growth is equal to the change in residual earnings for every year.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="793" style="border-collapse:
- collapse;table-layout:fixed;width:520pt;font-size:10.0pt">
- <colgroup><col width="367" style="mso-width-source:userset;mso-width-alt:11744;width:275pt">
- <col width="102" style="mso-width-source:userset;mso-width-alt:3264;width:50pt">
- <col width="98" style="mso-width-source:userset;mso-width-alt:3136;width:60pt">
- <col width="103" style="mso-width-source:userset;mso-width-alt:3296;width:55pt">
- <col width="102" style="mso-width-source:userset;mso-width-alt:3264;width:77pt">
- <col width="114" style="mso-width-source:userset;mso-width-alt:3648;width:86pt">
- <col width="107" style="mso-width-source:userset;mso-width-alt:3424;width:80pt">
- </colgroup><tbody><tr height="26" style="mso-height-source:userset;height:19.9pt">
-  <td height="26" class="xl70" width="367" style="height:19.9pt;width:275pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="72" style="width:50pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
-  <td align="right" width="98" style="width:74pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2011</td>
-  <td align="right" width="103" style="width:77pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2012</td>
-  <td align="right" width="102" style="width:77pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2013</td>
-  <td align="right" width="114" style="width:86pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2014</td>
-  <td align="right" width="107" style="width:80pt border-top:none;border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2015</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Eps</td>
-  <td></td>
-  <td align="right">13.22</td>
-  <td align="right">14.61</td>
-  <td align="right">16.22</td>
-  <td align="right">18</td>
-  <td align="right">19.98</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Dps</td>
-  <td></td>
-  <td align="right">3</td>
-  <td align="right">3.3</td>
-  <td align="right">3.66</td>
-  <td align="right">4.07</td>
-  <td align="right">4.51</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Bps</td>
-  <td align="right">18.77</td>
-  <td align="right">28.99</td>
-  <td align="right">40.3</td>
-  <td align="right">52.86</td>
-  <td align="right">66.79</td>
-  <td align="right">82.26</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td colspan="7" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Reinvested dividends at 10%</td>
-  <td></td>
-  <td></td>
-  <td align="right">0.3</td>
-  <td align="right">0.33</td>
-  <td align="right">0.366</td>
-  <td align="right">0.407</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl71" style="height:14.25pt;font-size:11.0pt;color:#0070C0;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Cum-dividend earnings</td>
-  <td class="xl65"></td>
-  <td class="xl65"></td>
-  <td align="right" style="font-size:11.0pt;color:#0070C0;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">14.91</td>
-  <td align="right" style="font-size:11.0pt;color:#0070C0;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">16.55</td>
-  <td align="right" style="font-size:11.0pt;color:#0070C0;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">18.366</td>
-  <td align="right" style="font-size:11.0pt;color:#0070C0;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">20.387</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt;font-size:11.0pt;color:#0070C0;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Normal
-  earnings</td>
-  <td class="xl68" style="font-size:11.0pt;color:#0070C0;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, monospace;mso-font-charset:134"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-  <td class="xl68"></td>
-  <td class="xl69" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, monospace;mso-font-charset:134">14.542</td>
-  <td class="xl69" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, monospace;mso-font-charset:134">16.071</td>
-  <td class="xl69" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, monospace;mso-font-charset:134">17.842</td>
-  <td class="xl69" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, monospace;mso-font-charset:134">19.8</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl81" style="height:14.25pt" align="left">Abnormal earnings growth (2)</td>
-  <td class="xl68"></td>
-  <td class="xl68"></td>
-  <td class="xl75" align="right">0.368</td>
-  <td class="xl75" align="right">0.479</td>
-  <td class="xl75" align="right">0.524</td>
-  <td class="xl75" align="right">0.587</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl71" style="height:14.25pt;font-size:11.0pt;color:#0070C0;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Residual earnings (1)</td>
-  <td class="xl65"></td>
-  <td class="xl67" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">11.343 </td>
-  <td class="xl67" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">11.711 </td>
-  <td class="xl67" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">12.190 </td>
-  <td class="xl67" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">12.714 </td>
-  <td class="xl67" align="right" style="font-size:11.0pt;color:#0070C0;font-weight:
-  400;text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">13.301 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl70" style="height:14.25pt" align="left">Change in residual earnings</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
-  <td align="right">0.368</td>
-  <td align="right">0.479</td>
-  <td align="right">0.524</td>
-  <td align="right">0.587</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="367" style="width:275pt"></td>
-  <td width="102" style="width:77pt"></td>
-  <td width="98" style="width:74pt"></td>
-  <td width="103" style="width:77pt"></td>
-  <td width="102" style="width:77pt"></td>
-  <td width="114" style="width:86pt"></td>
-  <td width="107" style="width:80pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table>
+  <tr>
+      <td id="td2r"></td>
+      <td id="td2r">2010</td>
+      <td id="td2r">2011</td>
+      <td id="td2r">2012</td>
+      <td id="td2r">2013</td>
+      <td id="td2r">2014</td>
+      <td id="td2r">2015</td>
+  </tr>
+  <tr>
+      <td id="td2l">Eps</td>
+      <td id="td2r"></td>
+      <td id="td2r">13.22</td>
+      <td id="td2r">14.61</td>
+      <td id="td2r">16.22</td>
+      <td id="td2r">18</td>
+      <td id="td2r">19.98</td>
+  </tr>
+  <tr>
+      <td id="td1l">Dps</td>
+      <td id="td1"></td>
+      <td id="td1">3</td>
+      <td id="td1">3.3</td>
+      <td id="td1">3.66</td>
+      <td id="td1">4.07</td>
+      <td id="td1">4.51</td>
+  </tr>
+  <tr>
+      <td id="td1l">Bps</td>
+      <td id="td1">18.77</td>
+      <td id="td1">28.99</td>
+      <td id="td1">40.3</td>
+      <td id="td1">52.86</td>
+      <td id="td1">66.79</td>
+      <td id="td1">82.26</td>
+  </tr>
+  <tr>
+      <td id="td1l">Reinvested dividends at 10%</td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1">0.3</td>
+      <td id="td1">0.33</td>
+      <td id="td1">0.366</td>
+      <td id="td1">0.407</td>
+  </tr>
+  <tr style="color:blue">
+      <td id="td1l">Cum-dividend earnings</td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1">14.91</td>
+      <td id="td1">16.55</td>
+      <td id="td1">18.366</td>
+      <td id="td1">20.387</td>
+  </tr>
+  <tr style="color:blue">
+      <td id="td1l">Normal earnings</td>
+      <td id="td1">           </td>
+      <td id="td1"></td>
+      <td id="td1">14.542</td>
+      <td id="td1">16.071</td>
+      <td id="td1">17.842</td>
+      <td id="td1">19.8</td>
+  </tr>
+  <tr>
+      <td id="td1l">Abnormal earnings growth (2)</td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1">0.368</td>
+      <td id="td1">0.479</td>
+      <td id="td1">0.524</td>
+      <td id="td1">0.587</td>
+  </tr>
+  <tr style="color:blue">
+      <td id="td1l">Residual earnings (1)</td>
+      <td id="td1"></td>
+      <td id="td1">11.343</td>
+      <td id="td1">11.711</td>
+      <td id="td1">12.190</td>
+      <td id="td1">12.714</td>
+      <td id="td1">13.301</td>
+  </tr>
+  <tr>
+      <td id="td3l">Change in residual earnings</td>
+      <td id="td3"></td>
+      <td id="td3"></td>
+      <td id="td3">0.368</td>
+      <td id="td3">0.479</td>
+      <td id="td3">0.524</td>
+      <td id="td3">0.587</td>
+  </tr>
+</table>
 
 <div style="overflow-x: scroll">
 
@@ -1240,71 +1015,45 @@ Analysts' consensus EPS forecasts for 2011 and 2012 fiscal years (ending in June
 * c. If you forecast that there will be significant abnormal earnings growth after 2012, do you think this stock is appropriately priced at $24.30?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="400" style="border-collapse:
- collapse;table-layout:fixed;width:300pt;font-size:10.0pt">
- <colgroup><col width="300" style="mso-width-source:userset;mso-width-alt:8768;width:250pt">
- <col width="50" style="mso-width-source:userset;mso-width-alt:3840;width:10pt">
- <col width="50" style="mso-width-source:userset;mso-width-alt:3648;width:50pt">
- </colgroup><tbody><tr height="26" style="mso-height-source:userset;height:19.5pt">
-  <td height="26" class="xl82" width="300" style="height:14.25pt;border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:none;border-left:none">　</td>
-  <td class="xl82" align="right" width="50" style="width:90pt;font-size:11.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:等线, sans-serif;mso-font-charset:134;
-  border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
-  <td class="xl82" align="right" width="50" style="width:86pt;font-size:11.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:等线, sans-serif;mso-font-charset:134;
-  border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Eps forecasted</td>
-  <td align="right">2.6</td>
-  <td align="right">2.77</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Dps</td>
-  <td align="right">0.4</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Dps reinvested at 9%</td>
-  <td></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">0.036</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Cum-dividend earnings</td>
-  <td></td>
-  <td align="right">2.806</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Normal earnings: 2.60 × 1.09</td>
-  <td></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2.834</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">AEG</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">-0.028</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="274" style="width:206pt"></td>
-  <td width="120" style="width:90pt"></td>
-  <td width="114" style="width:86pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table>
+  <tr>
+      <th id="th1"></th>
+      <th id="th1">2011</th>
+      <th id="th1">2012</th>
+  </tr>
+  <tr>
+      <td id="td1l">Eps forecasted</td>
+      <td id="td1">2.6</td>
+      <td id="td1">2.77</td>
+  </tr>
+  <tr>
+      <td id="td1l">Dps</td>
+      <td id="td1">0.4</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Dps reinvested at 9%</td>
+      <td id="td1"></td>
+      <td id="td1">0.036</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cum-dividend earnings</td>
+      <td id="td1"></td>
+      <td id="td1">2.806</td>
+  </tr>
+  <tr>
+      <td id="td1l">Normal earnings: 2.60 × 1.09</td>
+      <td id="td1"></td>
+      <td id="td1">2.834</td>
+  </tr>
+  <tr>
+      <td id="td3l">AEG</td>
+      <td id="td3"></td>
+      <td id="td3">-0.028</td>
+  </tr>
+</table>
 
 a.
 
@@ -1358,7 +1107,7 @@ Intrinsic Price here is calculated from valuation models.
 * b. A firm paid a dividend to shareholders of \$162 million and repurchased stock for \$53 million. There were no share issues. The firm $\textcolor{red}{received}$ net cash of \$86 million from debt financing transactions. What was its free cash flow?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.Apply the cash conservation:
 
@@ -1404,233 +1153,146 @@ Below are a balance sheet and an income statement that have been reformulated ac
 * a. How much was paid out in net dividends during 2012?
 * b. What is free cash flow for 2012?
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="840" style="border-collapse:
- collapse;table-layout:fixed;width:500pt;font-size:10.0pt">
- <colgroup><col width="217" style="mso-width-source:userset;mso-width-alt:6944;width:133pt">
- <col width="104" style="mso-width-source:userset;mso-width-alt:3328;width:78pt">
- <col width="90" style="mso-width-source:userset;mso-width-alt:2880;width:68pt">
- <col width="250" style="mso-width-source:userset;mso-width-alt:8000;width:188pt">
- <col width="88" style="mso-width-source:userset;mso-width-alt:2816;width:66pt">
- <col width="91" style="mso-width-source:userset;mso-width-alt:2912;width:68pt">
- </colgroup><tbody><tr height="34" style="mso-height-source:userset;height:25.5pt">
-  <td colspan="6" height="34" class="xl69" width="840" style="height:25.5pt;width:631pt;
-  border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Balance Sheet</td>
- </tr>
- <tr height="31" style="mso-height-source:userset;height:23.25pt">
-  <td colspan="3" height="31" class="xl69" style="height:23.25pt">Assets</td>
-  <td colspan="3" class="xl69">Liabilities and Equity</td>
- </tr>
- <tr height="26" style="mso-height-source:userset;height:19.5pt">
-  <td height="26" style="height:19.5pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Operating assets</td>
-  <td align="right">205.3</td>
-  <td align="right">189.9</td>
-  <td align="left">Operating liabilities</td>
-  <td align="right">40.6</td>
-  <td align="right">34.2</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt">Financial assets</td>
-  <td align="right">45.7</td>
-  <td align="right">42</td>
-  <td align="left">Financial obligations</td>
-  <td align="right">120.4</td>
-  <td align="right">120.4</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" colspan="3" style="height:14.25pt;mso-ignore:colspan"></td>
-  <td align="left">Common stockholders’ equity</td>
-  <td align="right">90</td>
-  <td align="right">77.3</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">251</td>
-  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">231.9</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">251</td>
-  <td align="right" style="border-top:.5pt solid windowtext;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">231.9</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="217" style="width:163pt"></td>
-  <td width="104" style="width:78pt"></td>
-  <td width="90" style="width:68pt"></td>
-  <td width="250" style="width:188pt"></td>
-  <td width="88" style="width:66pt"></td>
-  <td width="91" style="width:68pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table style="font-size:10.0pt;line-height:5pt">
+  <tr>
+      <caption class="caption1">Balance Sheet</caption>
+  </tr>
+  <tr>
+      <td id="td1c" colspan="3">Assets</td>
+      <td id="td1c" colspan="3">Liabilities and Equity</td>
+  </tr>
+  <tr>
+      <td id="td1" style="width:110pt"></td>
+      <td id="td1" style="width:70pt">2012</td>
+      <td id="td1" style="width:70pt">2011</td>
+      <td id="td1"></td>
+      <td id="td1">2012</td>
+      <td id="td1">2011</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating assets</td>
+      <td id="td1">205.3</td>
+      <td id="td1">189.9</td>
+      <td id="td1l">$\quad$ Operating liabilities</td>
+      <td id="td1">40.6</td>
+      <td id="td1">34.2</td>
+  </tr>
+  <tr>
+      <td id="td1l">Financial assets</td>
+      <td id="td1">45.7</td>
+      <td id="td1">42</td>
+      <td id="td1l">$\quad$ Financial obligations</td>
+      <td id="td1">120.4</td>
+      <td id="td1">120.4</td>
+  </tr>
+  <tr>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1l">$\quad$ Common stockholders’ equity</td>
+      <td id="td1">90</td>
+      <td id="td1">77.3</td>
+  </tr>
+  <tr>
+      <td id="td3"></td>
+      <td id="td3">251</td>
+      <td id="td3">231.9</td>
+      <td id="td3"></td>
+      <td id="td3">251</td>
+      <td id="td3">231.9</td>
+  </tr>
+</table>
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="358" style="border-collapse:
- collapse;table-layout:fixed;width:269pt;font-size:10.0pt">
- <colgroup><col width="253" style="mso-width-source:userset;mso-width-alt:8096;width:190pt">
- <col width="105" style="mso-width-source:userset;mso-width-alt:3360;width:79pt">
- </colgroup><tbody><tr height="29" style="mso-height-source:userset;height:21.75pt">
-  <td colspan="2" height="29" class="xl69" width="358" style="height:21.75pt;
-  width:269pt;border-top:.5pt solid windowtext;border-right:none;border-bottom:
-  .5pt solid windowtext;border-left:none">Income Statement (2012)</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating revenue<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td align="right">134.5</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating expense</td>
-  <td class="xl70" align="right">(112.8)</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating income</td>
-  <td align="right">21.7</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Interest revenue<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td align="right">2.5</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Interest expenses</td>
-  <td class="xl70" align="right">(9.6)</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Comprehensive
-  income<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">14.6</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="253" style="width:190pt"></td>
-  <td width="105" style="width:79pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table style="font-size:10.0pt;line-height:5pt">
+  <tr>
+      <caption class="caption1">Income Statement (2012)</caption>
+  </tr>
+  <tr>
+      <td id="td1l">Operating revenue </td>
+      <td id="td1">134.5</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating expense</td>
+      <td id="td1">(112.8)</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating income</td>
+      <td id="td1">21.7</td>
+  </tr>
+  <tr>
+      <td id="td1l">Interest revenue </td>
+      <td id="td1">2.5</td>
+  </tr>
+  <tr>
+      <td id="td1l">Interest expenses</td>
+      <td id="td1">(9.6)</td>
+  </tr>
+  <tr>
+      <td id="td3l">Comprehensive income    </td>
+      <td id="td3">14.6</td>
+  </tr>
+</table>
 
 <details>
 <summary style="width: 7.7em">Answers:</summary>
 
 Using Accounting Relations.
 
-<div style="overflow-x: scroll">
-<table border="0" cellpadding="0" cellspacing="0" width="695" style="border-collapse:
- collapse;table-layout:fixed;width:450pt;font-size:10.0pt">
- <colgroup><col width="193" style="mso-width-source:userset;mso-width-alt:6176;width:145pt">
- <col width="72" span="2" style="width:54pt">
- <col width="214" style="mso-width-source:userset;mso-width-alt:6848;width:161pt">
- <col width="72" span="2" style="width:54pt">
- </colgroup><tbody><tr height="30" style="mso-height-source:userset;height:22.5pt">
-  <td colspan="6" height="30" class="xl69" width="695" style="height:22.5pt;width:522pt;
-  border-top:.5pt solid windowtext;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Reformulated<span style="mso-spacerun:yes">&nbsp;
-  </span>Balance Sheet</td>
- </tr>
- <tr height="27" style="mso-height-source:userset;height:20.25pt">
-  <td colspan="3" height="27" class="xl69" style="height:20.25pt">Net Operating
-  Assets</td>
-  <td colspan="3" class="xl69">Net Financial Obligations<span style="mso-spacerun:yes">&nbsp; </span>and Equity</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating assets</td>
-  <td align="right">205.3</td>
-  <td align="right">189.9</td>
-  <td align="left">Financial liabilities</td>
-  <td align="right">120.4</td>
-  <td align="right">120.4</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating liabilities</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">40.6</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">34.2</td>
-  <td align="left">Financial assets</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">45.7</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">42</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" colspan="3" style="height:14.25pt;mso-ignore:colspan"></td>
-  <td align="left">NFO</td>
-  <td align="right">74.7</td>
-  <td align="right">78.4</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" colspan="3" style="height:14.25pt;mso-ignore:colspan"></td>
-  <td align="left">CSE</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">90</td>
-  <td align="right" style="font-size:10.7pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">77.3</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">NOA</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">164.7</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">155.7</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">164.7</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">155.7</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="193" style="width:145pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="214" style="width:161pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table></div>
+<table style="font-size:10.0pt;line-height:5pt">
+  <caption class="caption1">Reformulated  Balance Sheet</caption>
+  <tr>
+      <td id="td1c" colspan="3">Net Operating Assets</td>
+      <td id="td1c" colspan="3">Net Financial Obligations  and Equity</td>
+  </tr>
+  <tr>
+      <td id="td1"></td>
+      <td id="td1" style="width:60pt">2012</td>
+      <td id="td1" style="width:60pt">2011</td>
+      <td id="td1" style="width:150pt"></td>
+      <td id="td1" style="width:60pt">2012</td>
+      <td id="td1" style="width:60pt">2011</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating assets</td>
+      <td id="td1">205.3</td>
+      <td id="td1">189.9</td>
+      <td id="td1l">$\quad$ Financial liabilities</td>
+      <td id="td1">120.4</td>
+      <td id="td1">120.4</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating liabilities</td>
+      <td id="td1">40.6</td>
+      <td id="td1">34.2</td>
+      <td id="td1l">$\quad$ Financial assets</td>
+      <td id="td1">45.7</td>
+      <td id="td1">42</td>
+  </tr>
+  <tr>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1l">$\quad$ NFO</td>
+      <td id="td1">74.7</td>
+      <td id="td1">78.4</td>
+  </tr>
+  <tr>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1l">$\quad$ CSE</td>
+      <td id="td1">90</td>
+      <td id="td1">77.3</td>
+  </tr>
+  <tr>
+      <td id="td3l">NOA</td>
+      <td id="td3">164.7</td>
+      <td id="td3">155.7</td>
+      <td id="td3"></td>
+      <td id="td3">164.7</td>
+      <td id="td3">155.7</td>
+  </tr>
+</table>
 
 a. <mark>Dividends = Net income - $\Delta CSE$</mark> (Clean-surplus equation) = 14.6-12.7 = 1.9
 
@@ -1647,112 +1309,99 @@ b. <mark>C - I = OI - $\Delta NOA$</mark> =   21.7-9.0 =   12.7
 
 From the following information, prepare a reformulated statement of common shareholders’ equity for 2012.
 
-<div style="overflow-x: scroll">
-
-$$
-\begin{array}{lr}
-\text{Balance, December 31, 2011}&\qquad \$1,206\\
-\text{Net income}&241\\
-\text{Foreign currency translation loss}&(11)\\
-\text{Unrealized gain on debt securities held} \qquad &24\\
-\text{Issue of shares}&45\\
-\text{Common dividends}&(94)\\
-\text{Preferred dividends}&(15)\\
-\text{Balance, December 31, 2012}&\$1,396\\
-\end{array}
-$$
-</div>
+<table>
+  <tr>
+    <td id="td1l">Balance, December 31, 2011</td>
+    <td id="td1">$1,206</td>
+  </tr>
+  <tr>
+    <td id="td1l">Net income</td>
+    <td id="td1">241</td>
+  </tr>
+  <tr>
+    <td id="td1l">Foreign currency translation loss</td>
+    <td id="td1">(11)</td>
+  </tr>
+  <tr>
+    <td id="td1l">Unrealized gain on debt securities held</td>
+    <td id="td1">24</td>
+  </tr>
+  <tr>
+    <td id="td1l">Issue of shares</td>
+    <td id="td1">45</td>
+  </tr>
+  <tr>
+      <td id="td1l">Common dividends</td>
+      <td id="td1">(94)</td>
+  </tr>
+  <tr>
+    <td id="td1l">Preferred dividends</td>
+    <td id="td1">(15)</td>
+  </tr>
+  <tr>
+    <td id="td1l">Balance, December 31, 2012</td>
+    <td id="td1">$1,396</td>
+  </tr>
+</table>
 
 Amounts are in millions.
 The beginning and end-of-year balances include $200 million of preferred stock.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 A Simple Reformulation of the Equity Statement.
 
-<table border="0" cellpadding="0" cellspacing="0" width="514" style="border-collapse:
- collapse;table-layout:fixed;width:330pt;font-size:10.0pt">
- <colgroup><col width="339" style="mso-width-source:userset;mso-width-alt:10848;width:254pt">
- <col width="87" style="mso-width-source:userset;mso-width-alt:2784;width:65pt">
- <col width="88" style="mso-width-source:userset;mso-width-alt:2816;width:66pt">
- </colgroup><tbody><tr height="21" style="mso-height-source:userset;height:15.75pt">
-  <td height="21" class="xl72" width="339" style="height:15.75pt;width:254pt;
-  border-top:.5pt solid windowtext;border-right:none;border-bottom:none;
-  border-left:none" align="left">Beginning balance (1,206 – 200)</td>
-  <td width="87" style="width:65pt;border-top:.5pt solid windowtext;border-right:
-  none;border-bottom:none;border-left:none"></td>
-  <td class="xl65" align="right" width="88" style="width:66pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:none;border-left:none">$1,006 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Net transactions with
-  shareholders:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Share issues<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl65" align="right">$45 </td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>Dividends</td>
-  <td class="xl71" align="right">(94)</td>
-  <td class="xl71" align="right">(49)</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt"></td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left">Comprehensive income to
-  common:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Net income</td>
-  <td></td>
-  <td class="xl65" align="right">$241 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Currency translation loss</td>
-  <td></td>
-  <td class="xl71" align="right">(11)</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Unrealized gain on debt
-  securities</td>
-  <td align="right">24</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl72" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Preferred dividends</td>
-  <td class="xl71" align="right">(15)</td>
-  <td align="right" style="font-size:10.9pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">239</td>
- </tr>
- <tr height="22" style="mso-height-source:userset;height:16.5pt">
-  <td height="22" class="xl72" style="height:16.5pt;border-top:none;border-right:
-  none;border-bottom:.5pt solid windowtext;border-left:none" align="left">Ending balance
-  (1396 – 200)</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td class="xl65" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">$1,196 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="339" style="width:254pt"></td>
-  <td width="87" style="width:65pt"></td>
-  <td width="88" style="width:66pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table style="font-size:10.0pt;line-height:5pt">
+  <tr>
+    <td id="td2l" style="width:250pt">Beginning balance (1,206 – 200)</td>
+    <td id="td2" style="width:50pt"></td>
+    <td id="td2r" style="width:50pt">$1,006</td>
+  </tr>
+  <tr>
+    <td id="td1l">Net transactions with shareholders:</td>
+    <td id="td1"></td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Share issues </td>
+    <td id="td1">$45</td>
+    <td id="td1l"></td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Dividends</td>
+    <td id="td1">(94)</td>
+    <td id="td1">(49)</td>
+  </tr>
+  <tr>
+    <td id="td1l">Comprehensive income to common:</td>
+    <td id="td1l"></td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Net income</td>
+    <td id="td1l"></td>
+    <td id="td1">$241</td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Currency translation loss</td>
+    <td id="td1l"></td>
+    <td id="td1">(11)</td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Unrealized gain on debt securities</td>
+    <td id="td1">24</td>
+    <td id="td1l"></td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Preferred dividends</td>
+    <td id="td1">(15)</td>
+    <td id="td1">$\underline{239}$</td>
+  </tr>
+  <tr>
+    <td id="td3l">Ending balance (1396 – 200)</td>
+    <td id="td3"></td>
+    <td id="td3">$1,196</td>
+  </tr>
+</table>
 
 Preferred stock has been subtracted from beginning and ending balances (to make it a statement of common shareholders’ equity).
 
@@ -1785,7 +1434,7 @@ $$
 * b. Fill out the missing numbers in the equity statement and reformulate it to identify comprehensive income for the common shareholders for 2012.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.
 
@@ -1823,171 +1472,147 @@ $$
 1. Reformulate the following balance sheet for a manufacturing concern. Amounts are in millions.
 2. Calculate the capitalization ratio, financial leverage ratio and operating liability leverage ratio.
 
-<table border="0" cellpadding="0" cellspacing="0" width="707" style="border-collapse:
- collapse;table-layout:fixed;width:531pt;font-size:10.0pt">
- <colgroup><col width="296" style="mso-width-source:userset;mso-width-alt:10103;width:222pt">
- <col width="88" style="mso-width-source:userset;mso-width-alt:3003;width:66pt">
- <col width="238" style="mso-width-source:userset;mso-width-alt:8123;width:179pt">
- <col width="85" style="mso-width-source:userset;mso-width-alt:2901;width:64pt">
- </colgroup><tbody><tr height="27" style="mso-height-source:userset;height:19.9pt">
-  <td colspan="4" height="27" class="xl65" width="707" style="height:19.9pt;width:531pt">Balance
-  Sheet</td>
- </tr>
- <tr height="25" style="mso-height-source:userset;height:18.4pt">
-  <td colspan="2" height="25" class="xl65" style="height:18.4pt">Assets</td>
-  <td colspan="2" class="xl65">Liabilities and Equity</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Operating cash</td>
-  <td class="xl66" align="right">$23 </td>
-  <td align="left">Accounts payable</td>
-  <td class="xl66" align="right">$1,245 </td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Cash equivalents</td>
-  <td class="xl68" align="right">435</td>
-  <td align="left">Accrued expenses</td>
-  <td class="xl67" align="right">1,549</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Accounts receivable</td>
-  <td class="xl67" align="right">1,827</td>
-  <td align="left">Deferred tax liability</td>
-  <td class="xl68" align="right">712</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Inventory</td>
-  <td class="xl67" align="right">2,876</td>
-  <td align="left">Long-term debt</td>
-  <td class="xl67" align="right">3,678</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Property, plant, and equipment</td>
-  <td class="xl67" align="right">3,567</td>
-  <td align="left">Preferred stock</td>
-  <td class="xl68" align="right">432</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" style="height:13.9pt"></td>
-  <td class="xl68"></td>
-  <td align="left">Common equity</td>
-  <td class="xl68" align="right">1, 112</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Total assets</td>
-  <td class="xl66" align="right">$8,728 </td>
-  <td align="left">Liabilities and equity</td>
-  <td class="xl66" align="right">$8,728 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="296" style="width:222pt"></td>
-  <td width="88" style="width:66pt"></td>
-  <td width="238" style="width:179pt"></td>
-  <td width="85" style="width:64pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table style="font-size:10.0pt;line-height:5pt">
+  <caption class="caption1">Balance Sheet</caption>
+  <tr>
+      <td id="td1c" colspan="2">Assets</td>
+      <td id="td1c" colspan="2">Liabilities and Equity</td>
+  </tr>
+  <tr>
+      <td id="td1l" style="width:200pt">Operating cash</td>
+      <td id="td1" style="width:70pt"> $\$23 \quad$</td>
+      <td id="td1l" style="width:150pt">Accounts payable</td>
+      <td id="td1" style="width:70pt">$1,245</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cash equivalents</td>
+      <td id="td1">435 $\quad$</td>
+      <td id="td1l">Accrued expenses</td>
+      <td id="td1">1,549</td>
+  </tr>
+  <tr>
+      <td id="td1l">Accounts receivable</td>
+      <td id="td1">1,827 $\quad$</td>
+      <td id="td1l">Deferred tax liability</td>
+      <td id="td1">712</td>
+  </tr>
+  <tr>
+      <td id="td1l">Inventory</td>
+      <td id="td1">2,876 $\quad$</td>
+      <td id="td1l">Long-term debt</td>
+      <td id="td1">3,678</td>
+  </tr>
+  <tr>
+      <td id="td1l">Property, plant, and equipment</td>
+      <td id="td1">3,567 $\quad$</td>
+      <td id="td1l">Preferred stock</td>
+      <td id="td1">432</td>
+  </tr>
+  <tr>
+      <td id="td1l"></td>
+      <td id="td1l"></td>
+      <td id="td1l">Common equity</td>
+      <td id="td1">1, 112</td>
+  </tr>
+  <tr>
+      <td id="td3l">Total assets</td>
+      <td id="td3">$\$8,728 \quad$</td>
+      <td id="td3l">Liabilities and equity</td>
+      <td id="td3">$8,728</td>
+  </tr>
+</table>
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<table border="0" cellpadding="0" cellspacing="0" width="520" style="border-collapse:
- collapse;table-layout:fixed;width:390pt;font-size:10.0pt">
- <colgroup><col width="344" style="mso-width-source:userset;mso-width-alt:11741;width:258pt">
- <col width="91" style="mso-width-source:userset;mso-width-alt:3106;width:68pt">
- <col width="85" style="mso-width-source:userset;mso-width-alt:2901;width:64pt">
- </colgroup><tbody><tr height="19" style="height:13.9pt">
-  <td colspan="3" height="19" class="xl71" width="520" style="height:13.9pt;width:390pt">Reformulated
-  Balance Sheet</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Operating cash</td>
-  <td></td>
-  <td class="xl65" align="right">$23 </td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Accounts receivable<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td></td>
-  <td class="xl66" align="right">1,827</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Inventory</td>
-  <td></td>
-  <td class="xl66" align="right">2,876</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">PPE</td>
-  <td></td>
-  <td class="xl66" align="right">3,567</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Operating assets</td>
-  <td></td>
-  <td class="xl66" align="right">8,293</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" colspan="3" style="height:13.9pt;mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Operating liabilities:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Accounts payable</td>
-  <td class="xl65" align="right">$1,245 </td>
-  <td></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Accrued expenses</td>
-  <td class="xl66" align="right">1,549</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Deferred taxes</td>
-  <td align="right">712</td>
-  <td class="xl66" align="right">3,506</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Net operating assets</td>
-  <td></td>
-  <td class="xl66" align="right">4,787</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" colspan="3" style="height:13.9pt;mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Net financial obligations:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Cash equivalents</td>
-  <td class="xl65" align="right"><font color="#FF0000" style="mso-ignore:color">($435)</font></td>
-  <td></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Long-term debt</td>
-  <td class="xl66" align="right">3,678</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Preferred stock</td>
-  <td align="right">432</td>
-  <td class="xl66" align="right">3,675</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" align="left" style="height:13.9pt">Common shareholders’ equity</td>
-  <td></td>
-  <td class="xl65" align="right">$1,112 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="344" style="width:258pt"></td>
-  <td width="91" style="width:68pt"></td>
-  <td width="85" style="width:64pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table style="font-size:10.0pt;line-height:5pt">
+  <caption class="caption1">
+    Reformulated Balance Sheet
+  </caption>
+  <tr>
+      <td id="td1l">Operating cash</td>
+      <td id="td1"></td>
+      <td id="td1">$23</td>
+  </tr>
+  <tr>
+      <td id="td1l">Accounts receivable </td>
+      <td id="td1"></td>
+      <td id="td1">1,827</td>
+  </tr>
+  <tr>
+      <td id="td1l">Inventory</td>
+      <td id="td1"></td>
+      <td id="td1">2,876</td>
+  </tr>
+  <tr>
+      <td id="td1l">PPE</td>
+      <td id="td1"></td>
+      <td id="td1">3,567</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating assets</td>
+      <td id="td1"></td>
+      <td id="td1">8,293</td>
+  </tr>
+  <tr>
+      <td id="td1l"></td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating liabilities:</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Accounts payable</td>
+      <td id="td1">$1,245</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Accrued expenses</td>
+      <td id="td1">1,549</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Deferred taxes</td>
+      <td id="td1">712</td>
+      <td id="td1">3,506</td>
+  </tr>
+  <tr>
+      <td id="td1l">Net operating assets</td>
+      <td id="td1"></td>
+      <td id="td1">4,787</td>
+  </tr>
+  <tr>
+      <td id="td1l"></td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Net financial obligations:</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Cash equivalents</td>
+      <td id="td1">$\textcolor{red}{(\$435)}$</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Long-term debt</td>
+      <td id="td1">3,678</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Preferred stock</td>
+      <td id="td1">432</td>
+      <td id="td1">3,675</td>
+  </tr>
+  <tr>
+      <td id="td3l">Common shareholders’ equity</td>
+      <td id="td3"></td>
+      <td id="td3">$1,112</td>
+  </tr>
+</table>
 
 > [!TIP|label:Items included in Operating Liabilities]
 > <mark>Accrued expenses</mark>, also known as accrued liabilities, are expenses recognized when they are incurred but not yet paid in the accrual method of accounting. Typical accrued expenses include utility, salaries, and goods and services consumed but not yet billed. <br><mark>Deferred tax liability</mark> is the amount of taxes a company has "underpaid" which will be made up in the future. This doesn't mean that the company hasn't fulfilled its tax obligations. Rather it recognizes a payment that is not yet due.  
@@ -2089,7 +1714,7 @@ From the following income statement (in millions), calculate operating income af
 </tbody></table>
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 <table border="0" cellpadding="0" cellspacing="0" width="587" style="border-collapse:
  collapse;table-layout:fixed;width:400pt;font-size:10.0pt">
@@ -2212,176 +1837,112 @@ From the following income statement (in millions), calculate operating income af
 1. Reformulate the following income statement. Amounts are in millions. The firm bear s a 36 percent statutory tax rate.
 2. Calculate operating profit margin and net profit margin.
 
-<table border="0" cellpadding="0" cellspacing="0" width="426" style="border-collapse:
- collapse;table-layout:fixed;width:320pt;font-size:10.0pt">
- <colgroup><col width="354" style="mso-width-source:userset;mso-width-alt:11328;width:266pt">
- <col width="72" style="width:54pt">
- </colgroup><tbody><tr height="27" style="mso-height-source:userset;height:20.25pt">
-  <td colspan="2" height="27" class="xl69" width="426" style="height:20.25pt;
-  width:320pt;font-size:11.0pt;color:black;font-weight:700;text-decoration:
-  none;text-underline-style:none;text-line-through:none;font-family:等线, sans-serif;
-  mso-font-charset:134;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Income Statement</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Revenues</td>
-  <td class="xl65" align="right">$7,493 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating expenses</td>
-  <td class="xl73" align="right">6,321</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Interest expense</td>
-  <td align="right" style="font-size:11.1pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">221</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Income before tax</td>
-  <td align="right">951</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Income tax</td>
-  <td align="right" style="font-size:11.1pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">295</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Net income</td>
-  <td align="right">656</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Preferred dividends</td>
-  <td align="right">26</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;
-  border-bottom:.5pt solid windowtext" align="left">Net income available to
-  common</td>
-  <td class="xl65" align="right" style="font-size:11.1pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-bottom:.5pt solid windowtext;border-left:none">$630 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="354" style="width:266pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <caption class="caption1">Income statement</caption>
+  <tr style="height:10.25pt">
+    <td id="td1l" style="width:230pt">Revenues</td>
+    <td id="td1" style="width:54pt">$7,493</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l">Operating expenses</td>
+    <td id="td1" align="right">6,321</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l">Interest expense</td>
+    <td id="td1" align="right">$\underline{221}$</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l">Income before tax</td>
+    <td id="td1" align="right">951</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l">Income tax</td>
+    <td id="td1" align="right">$\underline{295}$</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l">Net income<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td id="td1" align="right">656</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td1l" >Preferred dividends</td>
+    <td id="td1">26</td>
+  </tr>
+  <tr style="height:10.25pt">
+    <td id="td3l">Net income available to common</td>
+    <td id="td3" align="right">$\underline{\$630}$</td>
+  </tr>
+</table>
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
-<table border="0" cellpadding="0" cellspacing="0" width="405" style="border-collapse:
- collapse;table-layout:fixed;width:304pt;font-size:10.0pt">
- <colgroup><col width="261" style="mso-width-source:userset;mso-width-alt:8352;width:196pt">
- <col width="72" span="2" style="width:54pt">
- </colgroup><tbody><tr height="27" style="mso-height-source:userset;height:20.25pt">
-  <td colspan="3" height="27" class="xl69" width="405" style="height:20.25pt;
-  width:304pt;border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">Reformulated Income Statement</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Revenue</td>
-  <td></td>
-  <td class="xl65" align="right">$7,493 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating expenses</td>
-  <td></td>
-  <td class="xl73" align="right" style="font-size:11.0pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">6,321</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating income before tax</td>
-  <td></td>
-  <td class="xl73" align="right">1,172</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Tax expense:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Tax reported</td>
-  <td class="xl65" align="right">$295 </td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:10.7pt;color:#0070C3;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Tax on
-  interest expense</td>
-  <td align="right" style="font-size:10.7pt;color:#0070C3;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">80</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">375</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating income after tax</td>
-  <td></td>
-  <td align="right">797</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Net financial expense:</td>
-  <td colspan="2" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:10.7pt;color:#0070C3;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Interest
-  expense</td>
-  <td align="right" style="font-size:10.7pt;color:#0070C3;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">221</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:10.7pt;color:#0070C3;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Tax benefit at
-  36%</td>
-  <td align="right" style="font-size:10.7pt;color:#0070C3;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">80</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt"></td>
-  <td align="right">141</td>
-  <td></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Preferred
-  dividends</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">26</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">167</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Net income to
-  common<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td class="xl65" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">$630 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="261" style="width:196pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table style="font-size:10.0pt;line-height:5pt">
+  <caption class="caption1">Reformulated Income Statement</caption>
+  </tr>
+  <tr>
+      <td id="td1l">Revenue</td>
+      <td id="td1"></td>
+      <td id="td1">$7,493</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating expenses</td>
+      <td id="td1"></td>
+      <td id="td1">6,321</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating income before tax</td>
+      <td id="td1"></td>
+      <td id="td1">1,172</td>
+  </tr>
+  <tr>
+      <td id="td1l">Tax expense:</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">$\qquad$ Tax reported</td>
+      <td id="td1">$295</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l" style="color:blue">$\qquad$ Tax on interest expense</td>
+      <td id="td1" style="color:blue">80</td>
+      <td id="td1">375</td>
+  </tr>
+  <tr>
+      <td id="td1l">Operating income after tax</td>
+      <td id="td1"></td>
+      <td id="td1">797</td>
+  </tr>
+  <tr>
+      <td id="td1l">Net financial expense:</td>
+      <td id="td1"></td>
+  </tr>
+  <tr style="color:blue">
+    <td id="td1l">$\qquad$ Interest expense</td>
+    <td id="td1">221</td>
+    <td id="td1"></td>
+  </tr>
+  <tr style="color:blue">
+    <td id="td1l">$\qquad$ Tax benefit at 36%</td>
+    <td id="td1">80</td>
+    <td id="td1"></td>
+  </tr>
+  <tr>
+    <td id="td1"></td>
+    <td id="td1">141</td>
+    <td id="td1"></td>
+  </tr>
+  <tr>
+    <td id="td1l">$\qquad$ Preferred dividends</td>
+    <td id="td1">26</td>
+    <td id="td1">167</td>
+  </tr>
+  <tr>
+    <td id="td3l">Net income to common </td>
+    <td id="td3"></td>
+    <td id="td3">$630</td>
+  </tr>
+</table>
 
 Operating profit margin=OI(Operating income <mark>after tax</mark>)/sales=797/7493=10.64%
 
@@ -2397,114 +1958,67 @@ Net profit margin=CI/sales=630/7493=8.41%
 
 A firm reported comprehensive income of \$376 million for 2012, consisting of \$500 million in operating income (after tax) less \$124 million of net financial expense (after tax). It also reported the following comparative balance sheet (in millions of dollars):
 
-<table border="0" cellpadding="0" cellspacing="0" width="843" style="border-collapse:
- collapse;table-layout:fixed;width:533pt;font-size:10.0pt">
- <colgroup><col width="305" style="mso-width-source:userset;mso-width-alt:9760;width:229pt">
- <col width="102" style="mso-width-source:userset;mso-width-alt:3264;width:77pt">
- <col width="105" style="mso-width-source:userset;mso-width-alt:3360;width:79pt">
- <col width="187" style="mso-width-source:userset;mso-width-alt:5984;width:140pt">
- <col width="72" span="2" style="width:54pt">
- </colgroup><tbody><tr height="27" style="mso-height-source:userset;height:20.25pt">
-  <td colspan="6" height="27" class="xl69" width="843" style="height:20.25pt;
-  width:633pt;border-top:.5pt solid windowtext;border-right:none;border-bottom:
-  .5pt solid windowtext;border-left:none">Balance Sheet</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2012</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">2011</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating cash</td>
-  <td align="right">60</td>
-  <td align="right">50</td>
-  <td align="left">Accounts payable<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl73" align="right">1,200</td>
-  <td class="xl73" align="right">1,040</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Short-term investments (at market)<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td align="right">550</td>
-  <td align="right">500</td>
-  <td align="left">Accrued liabilities</td>
-  <td align="right">390</td>
-  <td align="right">450</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Accounts receivable</td>
-  <td align="right">940</td>
-  <td align="right">790</td>
-  <td align="left">Long-term debt<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl73" align="right">1,840</td>
-  <td class="xl73" align="right">1,970</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Inventory<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td align="right">910</td>
-  <td align="right">840</td>
-  <td colspan="3" style="mso-ignore:colspan"></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Property and plant</td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">2,840</td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">2,710</td>
-  <td align="left">Common equity<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">1,870</td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134">1,430</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">5,300</td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">4,890</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">5,300</td>
-  <td class="xl73" align="right" style="font-size:10.7pt;color:black;font-weight:
-  400;text-decoration:underline;text-underline-style:single;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">4,890</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="305" style="width:229pt"></td>
-  <td width="102" style="width:77pt"></td>
-  <td width="105" style="width:79pt"></td>
-  <td width="187" style="width:140pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table style="font-size:10.0pt;line-height:10pt">
+  <caption>Balance Sheet</caption>
+  </tr>
+  <tr>
+    <th id="th1"></th>
+    <th id="th1">2012</th>
+    <th id="th1">2011</th>
+    <th id="th1"></th>
+    <th id="th1">2012</th>
+    <th id="th1">2011</th>
+  </tr>
+  <tr>
+      <td id="td1l">Operating cash</td>
+      <td id="td1">60</td>
+      <td id="td1">50</td>
+      <td id="td1l">Accounts payable </td>
+      <td id="td1">1,200</td>
+      <td id="td1">1,040</td>
+  </tr>
+  <tr>
+      <td id="td1l">Short-term investments (at market) </td>
+      <td id="td1">550</td>
+      <td id="td1">500</td>
+      <td id="td1l">Accrued liabilities</td>
+      <td id="td1">390</td>
+      <td id="td1">450</td>
+  </tr>
+  <tr>
+      <td id="td1l">Accounts receivable</td>
+      <td id="td1">940</td>
+      <td id="td1">790</td>
+      <td id="td1l">Long-term debt </td>
+      <td id="td1">1,840</td>
+      <td id="td1">1,970</td>
+  </tr>
+  <tr>
+      <td id="td1l">Inventory </td>
+      <td id="td1">910</td>
+      <td id="td1">840</td>
+      <td id="td1"></td>
+  </tr>
+  <tr>
+      <td id="td1l">Property and plant</td>
+      <td id="td1">2,840</td>
+      <td id="td1">2,710</td>
+      <td id="td1l">Common equity </td>
+      <td id="td1">1,870</td>
+      <td id="td1">1,430</td>
+  </tr>
+  <tr>
+    <td id="td3"></td>
+    <td id="td3">5,300</td>
+    <td id="td3">4,890</td>
+    <td id="td3"></td>
+    <td id="td3">5,300</td>
+    <td id="td3">4,890</td>
+  </tr>
+</table>
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 First reformulate the balance sheet:
 
@@ -2554,7 +2068,7 @@ a. By how much did its net operating assets change during the period?<br>
 b. The firm incurred net financial expenses of \$43 million after tax, paid a dividend of \$20 million, and raised \$33 million from share issues. What was the change in its net debt position during the period?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.
 
@@ -2592,7 +2106,7 @@ So, with a negative net dividend of $13 million
 * c. The firm reported total assets of \$715 million. Construct a balance sheet for this firm that distinguishes operating and financial assets and liabilities.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.
 
@@ -2778,7 +2292,7 @@ A firm earns a profit margin of 3.8 percent on sales of \$435 million and employ
 What would be the effect on the firm's return on net operating assets of adding the new product line?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 The effect would be (almost) zero.
 
@@ -2801,60 +2315,28 @@ $RNOA = \frac{OI}{NOA} = \frac{OI}{Sales}\times \frac{Sales}{NOA} = PM \times AT
 
 The following numbers were calculated from the financial statements for a firm for 2012 and 2011:
 
-<table border="0" cellpadding="0" cellspacing="0" width="303" style="border-collapse:
- collapse;table-layout:fixed;width:227pt">
- <colgroup><col width="167" style="mso-width-source:userset;mso-width-alt:5700;width:125pt">
- <col width="68" span="2" style="width:51pt">
- </colgroup><tbody>
- <tr height="27" style="mso-height-source:userset;height:20.25pt"><td height="27" style="border-top:#000000 solid 1px;
-  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
-  mso-pattern:black none"></td>
-  <td align="right" style="border-top:#000000 solid 1px;
-  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
-  mso-pattern:black none">2012</td>
-  <td align="right" style="border-top:#000000 solid 1px;
-  border-right:none;border-bottom:none;border-left:none;font-size:13.0pt;color:black;font-weight:700;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;background:#F3F3EF;
-  mso-pattern:black none">2011</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" style="height:13.9pt;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
-  mso-pattern:black none">Core profit margin</td>
-  <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
-  mso-pattern:black none">4.70%</td>
-  <td class="xl65" align="right" style="border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:#f3f3ef solid 1px;border-left:none;background:#F3F3EF;
-  mso-pattern:black none">5.10%</td>
- </tr>
- <tr height="19" style="height:13.9pt">
-  <td height="19" style="height:13.9pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none;background:#F3F3EF;
-  mso-pattern:black none">Asset turnover</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none;background:#F3F3EF;mso-pattern:black none">2.4</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none;background:#F3F3EF;mso-pattern:black none">2.5</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="167" style="width:125pt"></td>
-  <td width="68" style="width:51pt"></td>
-  <td width="68" style="width:51pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+    <tr>
+        <td id="td2"></td>
+        <td id="td2r">2012</td>
+        <td id="td2r">2011</td>
+    </tr>
+    <tr>
+        <td id="td2l">Core profit margin</td>
+        <td id="td2r">4.70%</td>
+        <td id="td2r">5.10%</td>
+    </tr>
+    <tr>
+        <td id="td3l">Asset turnover</td>
+        <td id="td3">2.4</td>
+        <td id="td3">2.5</td>
+    </tr>
+</table>
 
 Calculate core return of net operating assets (core RNOA) and show how much of its change from 2011 to 2012 is due to the change in profit margin and the change in asset turnover. Box 13.7 will help you.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 Core RNOA for 2012 = 4.7% x 2.4 = 11.28%
 
@@ -2942,7 +2424,7 @@ The following numbers were calculated from the financial statements for a firm f
 * b. For financing activities, explain how much of the change in ROCE is due to spread and how much is due to fiancial leverage.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a. $\Delta ROCE_1=\Delta RNOA_1 + \lbrack \Delta SPREAD \times FLEV_{\color{red}{0}} \rbrack + \lbrack SPREAD_1 \times \Delta FLEV_1\rbrack$
 
@@ -3108,146 +2590,96 @@ b. The change due to financing is due to a change in leverage and a change in SP
 
 The following numbers were calculated from the financial statements for a firm for 2012 and 2011:
 
-<table border="0" cellpadding="0" cellspacing="0" width="586" style="border-collapse:
- collapse;table-layout:fixed;width:370pt;font-size:10.0pt">
- <colgroup><col width="368" style="mso-width-source:userset;mso-width-alt:11776;width:276pt">
- <col width="109" span="2" style="mso-width-source:userset;mso-width-alt:3488;
- width:82pt">
- </colgroup><tbody><tr height="22" style="mso-height-source:userset;height:16.5pt">
-  <td height="22" width="368" style="height:16.5pt;width:276pt;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td class="xl67" width="109" style="width:82pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2012</td>
-  <td class="xl67" width="109" style="width:82pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2011</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align='left'>Return on common equity (ROCE)</td>
-  <td class="xl65" align="right">15.20%</td>
-  <td class="xl65" align="right">13.30%</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align='left'>Return on net operating assets
-  (RNOA)<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl65" align="right">11.28%</td>
-  <td class="xl65" align="right">12.75%</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align='left'>Sales (millions)</td>
-  <td class="xl66" align="right">$16,754 </td>
-  <td class="xl66" align="right">$11,035 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align='left'>Average net operating assets (millions)</td>
-  <td class="xl66" align="right">$6,981 </td>
-  <td class="xl66" align="right">$4,414 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align='left'>Average net financial obligations
-  (millions)<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td class="xl66" align="right">$2,225 </td>
-  <td class="xl66" align="right">$241 </td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext" align='left'>Average common equity
-  (millions)</td>
-  <td class="xl66" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext">$4,756 </td>
-  <td class="xl66" align="right" style="border-top:none;
-  border-bottom:.5pt solid windowtext">$4,173 </td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="368" style="width:276pt"></td>
-  <td width="109" style="width:82pt"></td>
-  <td width="109" style="width:82pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2" style="width:250pt"></td>
+      <td id="td2r" style="width:90pt">2012</td>
+      <td id="td2r" style="width:90pt">2011</td>
+  </tr>
+  <tr>
+      <td id="td2l">Return on common equity (ROCE)</td>
+      <td id="td2r">15.20%</td>
+      <td id="td2r">13.30%</td>
+  </tr>
+  <tr>
+      <td id="td1l">Return on net operating assets (RNOA) </td>
+      <td id="td1">11.28%</td>
+      <td id="td1">12.75%</td>
+  </tr>
+  <tr>
+      <td id="td1l">Net borrowing cost (NBC) </td>
+      <td id="td1">2.90%</td>
+      <td id="td1">3.20%</td>
+  </tr>
+  <tr>
+      <td id="td1l">Average net financial obligations (millions) </td>
+      <td id="td1">$2,225</td>
+      <td id="td1">$241</td>
+  </tr>
+  <tr>
+      <td id="td3l">Average common equity (millions)</td>
+      <td id="td3">$4,756</td>
+      <td id="td3">$4,173</td>
+  </tr>
+</table>
 
 Explain to what extent the change in common equity from 2011 to 2012 is due to sales growth, net assets required to support sales, and borrowing.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 $\Delta CSE_1 = \Delta Sales_1 \times \dfrac{1}{ATO}_{\color{red}{0}} +Sales_1 \times \Delta \lbrack \dfrac{1}{ATO}\rbrack_1 -  \Delta NFO_1$
 
-<table border="0" cellpadding="0" cellspacing="0" width="822" style="border-collapse:
- collapse;table-layout:fixed;width:477pt;font-size:10.0pt">
- <colgroup><col width="39" style="mso-width-source:userset;mso-width-alt:1440;width:34pt">
- <col width="199" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
- <col width="38" style="mso-width-source:userset;mso-width-alt:1376;width:32pt">
- <col width="145" style="mso-width-source:userset;mso-width-alt:7808;width:183pt">
- <col width="37" style="mso-width-source:userset;mso-width-alt:1568;width:37pt">
- <col width="177" style="mso-width-source:userset;mso-width-alt:7072;width:166pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" class="xl67" width="45" style="height:14.25pt;width:34pt"></td>
-  <td colspan="5" class="xl71" width="777" style="width:583pt" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change in CSE = 583</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl67" style="height:14.25pt">=</td>
-  <td class="xl00"><span style="border-color:currentcolor;width:min-content;
-  display:inline-block;font-variant-ligatures: normal;font-variant-caps: normal;
-  orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial"><span style="border-color:currentcolor">ΔSales×1/ATO</span></span></td>
-  <td class="xl67">+</td>
-  <td class="xl67"><span style="border-color:currentcolor;width:min-content;
-  display:inline-block;font-variant-ligatures: normal;font-variant-caps: normal;
-  orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial"><span style="border-color:currentcolor">Sales×Δ[1/ATO<font class="font8">]</font></span></span></td>
-  <td class="xl67">-</td>
-  <td class="xl67"><span style="border-color:currentcolor;font-variant-ligatures: normal;
-  font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
-  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial">ΔNFO</span></td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl67" style="height:14.25pt">=</td>
-  <td class="xl67">5,719 x 0.4</td>
-  <td class="xl67">+</td>
-  <td class="xl67">0.0167 x 16,754</td>
-  <td class="xl67">-</td>
-  <td class="xl72">1,984</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl67" style="height:14.25pt">=</td>
-  <td class="xl67">2287.6</td>
-  <td class="xl67">+</td>
-  <td class="xl67">279.8</td>
-  <td class="xl67">-</td>
-  <td class="xl72">1,984</td>
- </tr>
- <tr height="35" style="height:26.25pt">
-  <td height="35" class="xl67" style="height:26.25pt"></td>
-  <td class="xl69">↓</td>
-  <td class="xl67"></td>
-  <td class="xl69">↓</td>
-  <td></td>
-  <td class="xl69">↓</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" class="xl67" style="height:14.25pt"></td>
-  <td class="xl67">Due to change in Sales</td>
-  <td class="xl67"></td>
-  <td class="xl67">Due to change in 1/ATO</td>
-  <td></td>
-  <td class="xl67">Due to change in NFO</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="45" style="width:34pt"></td>
-  <td width="220" style="width:165pt"></td>
-  <td width="43" style="width:32pt"></td>
-  <td width="244" style="width:183pt"></td>
-  <td width="49" style="width:37pt"></td>
-  <td width="221" style="width:166pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table border="1" style="border-color: blue;"><td>
+
+<table>
+  <tr>
+    <td id="td1l"></td>
+    <td colspan="5" id="td1l">Change in CSE = 583</td>
+  </tr>
+  <tr>
+      <td id="td1l">=</td>
+      <td id="td1l">ΔSales×1/ATO</td>
+      <td id="td1l">+</td>
+      <td id="td1l">Sales×Δ[1/ATO]</td>
+      <td id="td1l">-</td>
+      <td id="td1l">ΔNFO</td>
+  </tr>
+  <tr>
+      <td id="td1l">=</td>
+      <td id="td1l">5,719 x 0.4</td>
+      <td id="td1l">+</td>
+      <td id="td1l">0.0167 x 16,754</td>
+      <td id="td1l">-</td>
+      <td id="td1l">1,984</td>
+  </tr>
+  <tr>
+      <td id="td1l">=</td>
+      <td id="td1l">2287.6</td>
+      <td id="td1l">+</td>
+      <td id="td1l">279.8</td>
+      <td id="td1l">-</td>
+      <td id="td1l">1,984</td>
+  </tr>
+  <tr>
+    <td id="td1l"></td>
+    <td id="td1l">$\qquad$ ↓</td>
+    <td id="td1l"></td>
+    <td id="td1l">$\qquad$ ↓</td>
+    <td id="td1l"></td>
+    <td id="td1l">$\quad$ ↓</td>
+  </tr>
+  <tr>
+    <td id="td1l"></td>
+    <td id="td1l">Due to change in Sales</td>
+    <td id="td1l"></td>
+    <td id="td1l">Due to change in 1/ATO</td>
+    <td id="td1l"></td>
+    <td id="td1l">Due to change in NFO</td>
+  </tr>
+</table>
+
+</td></table>
 
 <font color='#0086b5'>$\boxed{\large{Formulas :}}$</font>
 
@@ -3270,270 +2702,151 @@ $
 
 Here are summary numbers from a firm's financial statements (in millions of dollars):
 
-<table border="0" cellpadding="0" cellspacing="0" width="560" style="border-collapse:
- collapse;table-layout:fixed;width:360pt">
- <colgroup><col width="220" style="mso-width-source:userset;mso-width-alt:7040;width:165pt">
- <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
- width:64pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="220" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="left">Operating income</td>
-  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">187</td>
-  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">200.09</td>
-  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">214.1</td>
-  <td style="height:14.25pt;border-bottom:#f3f3ef 1px solid;border-left:none;border-right:none;background:#F3F3EF;font-size:10.0pt" align="right">229.08</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Net operating assets</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1214.45</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1299.46</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1390.42</td>
-  <td align="right" style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none">1487.75</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="220" style="width:165pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2r"></td>
+      <td id="td2r">2007</td>
+      <td id="td2r">2008</td>
+      <td id="td2r">2009</td>
+      <td id="td2r">2010</td>
+  </tr>
+  <tr>
+      <td id="td2l">Operating income</td>
+      <td id="td2r">187</td>
+      <td id="td2r">200.09</td>
+      <td id="td2r">214.1</td>
+      <td id="td2r">229.08</td>
+  </tr>
+  <tr>
+      <td id="td3l">Net operating assets</td>
+      <td id="td3">1214.45</td>
+      <td id="td3">1299.46</td>
+      <td id="td3">1390.42</td>
+      <td id="td3">1487.75</td>
+  </tr>
+</table>
 
 The required return for operations is 10.1%. Calculate the growth rate for net operating assets, return on net operating assets (RNOA),   residual operating income, abnormal operating income growth (in dollars) for each year 2008-2010.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 Calculating Residual Operating Income and Its Drivers.
 
-<table border="0" cellpadding="0" cellspacing="0" width="683" style="border-collapse:
- collapse;table-layout:fixed;width:465pt">
- <colgroup><col width="343" style="mso-width-source:userset;mso-width-alt:10976;width:257pt">
- <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
- width:64pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="343" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt" align="left">Operating income (OI)</td>
-  <td align="right">187</td>
-  <td align="right">200.09</td>
-  <td align="right">214.1</td>
-  <td align="right">229.08</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt" align="left">Net operating assets (NOA)</td>
-  <td align="right">1214.45</td>
-  <td align="right">1299.46</td>
-  <td align="right">1390.42</td>
-  <td align="right">1487.75</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt" align="left">RNOA<span style="mso-spacerun:yes">&nbsp; </span>(%)</td>
-  <td></td>
-  <td align="right">16.48</td>
-  <td align="right">16.48</td>
-  <td align="right">16.48</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt" align="left">Residual operating income (ReOI)</td>
-  <td></td>
-  <td align="right">77.48</td>
-  <td align="right">82.9</td>
-  <td align="right">88.71</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt" align="left">Abnormal operating income growth
-  (AOIG)<span style="mso-spacerun:yes">&nbsp;</span></td>
-  <td></td>
-  <td></td>
-  <td align="right">5.42</td>
-  <td align="right">5.81</td>
- </tr>
- <tr height="19" style="height:14.25pt;font-size:10.0pt">
-  <td height="19" style="height:14.25pt;border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none" align="left">Growth rate for NOA</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td class="xl65" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
-  <td class="xl65" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
-  <td class="xl65" align="right" style="border-top:none;border-right:none;
-  border-bottom:.5pt solid windowtext;border-left:none">7.00%</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="343" style="width:257pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+<table>
+  <tr>
+      <td id="td2"></td>
+      <td id="td2r">2007</td>
+      <td id="td2r">2008</td>
+      <td id="td2r">2009</td>
+      <td id="td2r">2010</td>
+  </tr>
+  <tr>
+      <td id="td2l">Operating income (OI)</td>
+      <td id="td2r">187</td>
+      <td id="td2r">200.09</td>
+      <td id="td2r">214.1</td>
+      <td id="td2r">229.08</td>
+  </tr>
+  <tr>
+      <td id="td1l">Net operating assets (NOA)</td>
+      <td id="td1">1214.45</td>
+      <td id="td1">1299.46</td>
+      <td id="td1">1390.42</td>
+      <td id="td1">1487.75</td>
+  </tr>
+  <tr>
+      <td id="td1l">RNOA  (%)</td>
+      <td id="td1"></td>
+      <td id="td1">16.48</td>
+      <td id="td1">16.48</td>
+      <td id="td1">16.48</td>
+  </tr>
+  <tr>
+      <td id="td1l">Residual operating income (ReOI)</td>
+      <td id="td1"></td>
+      <td id="td1">77.48</td>
+      <td id="td1">82.9</td>
+      <td id="td1">88.71</td>
+  </tr>
+  <tr>
+      <td id="td1l">Abnormal operating income growth (AOIG) </td>
+      <td id="td1"></td>
+      <td id="td1"></td>
+      <td id="td1">5.42</td>
+      <td id="td1">5.81</td>
+  </tr>
+  <tr>
+      <td id="td3l">Growth rate for NOA</td>
+      <td id="td3"></td>
+      <td id="td3">7.00%</td>
+      <td id="td3">7.00%</td>
+      <td id="td3">7.00%</td>
+  </tr>
+</table>
 
 Calculating Abnormal Operating Income Growth.
 
 The long-hand method:
 
-<table border="0" cellpadding="0" cellspacing="0" width="725" style="border-collapse:
- collapse;table-layout:fixed;width:500pt;font-size:10.0pt">
- <colgroup><col width="385" style="mso-width-source:userset;mso-width-alt:12320;width:289pt">
- <col width="85" span="4" style="mso-width-source:userset;mso-width-alt:2720;
- width:64pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" width="385" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none"></td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2007</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2008</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2009</td>
-  <td align="right" width="85" style="width:64pt;font-size:11.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:.5pt solid windowtext;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none">2010</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Operating income (OI)</td>
-  <td align="right">187</td>
-  <td align="right">200.09</td>
-  <td align="right">214.1</td>
-  <td align="right">229.08</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Net operating assets (NOA)</td>
-  <td align="right">1214.45</td>
-  <td align="right">1299.46</td>
-  <td align="right">1390.42</td>
-  <td align="right">1487.75</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Free cash flow (C-I = OI - changeNOA)</td>
-  <td class="xl66" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">&nbsp;107.55</td>
-  <td align="right">115.08</td>
-  <td align="right">123.31</td>
-  <td align="right">131.76</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Income from reinvested free cash flow
-  (at 10.1%)</td>
-  <td></td>
-  <td align="right">10.86</td>
-  <td align="right">11.62</td>
-  <td align="right">12.45</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Cum-dividend OI</td>
-  <td>&nbsp;&nbsp;</td>
-  <td align="right">210.95</td>
-  <td align="right">225.72</td>
-  <td align="right">241.53</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt" align="left">Normal OI</td>
-  <td></td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">205.89</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">220.3</td>
-  <td align="right" style="font-size:11.0pt;color:black;font-weight:400;
-  text-decoration:underline;text-underline-style:single;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134">235.72</td>
- </tr>
- <tr height="19" style="height:14.25pt">
-  <td height="19" style="height:14.25pt;font-size:11.0pt;color:#65A9D9;
-  font-weight:400;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:等线, sans-serif;mso-font-charset:134;border-top:none;
-  border-right:none;border-bottom:.5pt solid windowtext;border-left:none" align="left">Abnormal
-  OI Growth (AOIG)</td>
-  <td style="border-top:none;border-right:none;border-bottom:.5pt solid windowtext;
-  border-left:none"></td>
-  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
-  none;border-bottom:.5pt solid windowtext;border-left:none">5.06</td>
-  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
-  none;border-bottom:.5pt solid windowtext;border-left:none">5.42</td>
-  <td align="right" style="font-size:11.0pt;color:#65A9D9;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:等线, sans-serif;mso-font-charset:134;border-top:none;border-right:
-  none;border-bottom:.5pt solid windowtext;border-left:none">5.81</td>
- </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="385" style="width:289pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
-  <td width="85" style="width:64pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
-
+<table>
+  <tr>
+      <td id="td2"></td>
+      <td id="td2r">2007</td>
+      <td id="td2r">2008</td>
+      <td id="td2r">2009</td>
+      <td id="td2r">2010</td>
+  </tr>
+  <tr>
+      <td id="td2l">Operating income (OI)</td>
+      <td id="td2r">187</td>
+      <td id="td2r">200.09</td>
+      <td id="td2r">214.1</td>
+      <td id="td2r">229.08</td>
+  </tr>
+  <tr>
+      <td id="td1l">Net operating assets (NOA)</td>
+      <td id="td1">1214.45</td>
+      <td id="td1">1299.46</td>
+      <td id="td1">1390.42</td>
+      <td id="td1">1487.75</td>
+  </tr>
+  <tr>
+      <td id="td1l">Free cash flow (C-I = OI - changeNOA)</td>
+      <td id="td1"> 107.55</td>
+      <td id="td1">115.08</td>
+      <td id="td1">123.31</td>
+      <td id="td1">131.76</td>
+  </tr>
+  <tr>
+      <td id="td1l">Income from reinvested free cash flow (at 10.1%)</td>
+      <td id="td1"></td>
+      <td id="td1">10.86</td>
+      <td id="td1">11.62</td>
+      <td id="td1">12.45</td>
+  </tr>
+  <tr>
+      <td id="td1l">Cum-dividend OI</td>
+      <td id="td1">  </td>
+      <td id="td1">210.95</td>
+      <td id="td1">225.72</td>
+      <td id="td1">241.53</td>
+  </tr>
+  <tr>
+      <td id="td1l">Normal OI</td>
+      <td id="td1"></td>
+      <td id="td1">205.89</td>
+      <td id="td1">220.3</td>
+      <td id="td1">235.72</td>
+  </tr>
+  <tr>
+      <td id="td3l">Abnormal OI Growth (AOIG)</td>
+      <td id="td3"></td>
+      <td id="td3">5.06</td>
+      <td id="td3">5.42</td>
+      <td id="td3">5.81</td>
+  </tr>
+</table>
 
 $\textit{Residual operating Income (ReOI)} \\
 =OI_t-(\rho_{\color{red}{F}}-1)NOA_{t-1}$
@@ -3569,7 +2882,7 @@ An analyst calculates residual operating income of \$35.7 million from financial
 * c. What is the forward enterprise P/E ratio implied by the forecasts?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.
 
@@ -3596,7 +2909,7 @@ Constant ReOI (and a no-growth valuation) implies a normal P/E ratio for a 10% r
 An analyst forecasts that the current core return on net operating assets of 15.5 percent will continue indefinitely in the future with a 5 percent annual sales growth rate. She also forecasts that the current asset turnover ratio of 2.2 will persist. Calculate the enterprise price-to-book ratio if the required return for operations is 9.5 percent.
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 If RNOA is constant and ATO is also constant, the growth rate for ReOI is given by the sales growth rate. So, 
 
@@ -3644,7 +2957,7 @@ The Coca-Cola Company reported an after-tax profit margin of 20% on its sales of
 * b. What would Coke's residual operating income be if the asset turnover increased to 1. 7?
 
 <details>
-<summary style="width: 7.7em">Answers:</summary>
+<summary style="width: 7.7em">Answers:</summary><br>
 
 a.
 

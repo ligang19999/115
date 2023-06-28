@@ -11,13 +11,11 @@
 aaaaaaaaaaaaaaaaagdddddddddddddddddffffffffff
 </div>
 
-
 <body style="background-color: pink">
  aa
 </body>
 
 <span style="color:red">该区域</span>
-
 
 <h1>无底色的标题</h1>
 
@@ -33,20 +31,6 @@ aaaaaaaaaaaaaaaaagdddddddddddddddddffffffffff
 
 <p style="background:green">:briefcase: 底色为绿色的段落</p>
 
-
 <button-counter>aa</button-counter>
 
 $\color{orange}{\mathbf{\Large{Answers:}}}$
-
-</font>
-
-
-graph TB
-    id1(圆角矩形)--普通线-->id2[矩形]
-    subgraph 子图表
-        id2==粗线==>id3{菱形}
-        id3-.虚线.->id4>右向旗帜]
-        id3--无箭头---id5((圆形))
-    end
-
-aaa

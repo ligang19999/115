@@ -328,11 +328,26 @@
     font-size: 19px;
   }
 
+  /*设置表头*/
   th {
     background-color: #f3f3ef;
     color: rgb(108, 200, 240);
     font-weight: bold;
   }
+  #th1 {
+    background-color: #f3f3ef;
+    color: rgb(108, 200, 240);
+    text-align: right;
+    font-weight: bold;
+    border-top:#000001 2px solid;
+    border-bottom:#000001 2px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+  }
+
+
+
+
   .td {
     padding: 8px;
     border: 1px solid rgb(53, 88, 211);
@@ -344,41 +359,141 @@
     border-top:#f3f3ef 1px solid;
   }
 
+  /*中间表格*/
+  /*默认向右对齐*/
   #td1 {
+    padding: 8px;
+    border: 1px solid #f3f3ef;
+    text-align: right;
+    background-color: #f3f3ef;
+  }
+  #td1l {
     padding: 8px;
     border: 1px solid #f3f3ef;
     text-align: left;
     background-color: #f3f3ef;
   }
-  #td2 {
+  #td1c {
     padding: 8px;
+    border: 1px solid #f3f3ef;
+    text-align: center;
+    background-color: #f3f3ef;
+  }
+  #td11 {
+    padding: 8px;
+    border: 1px solid #f3f3ef;
+    color: blue;
     text-align: left;
     background-color: #f3f3ef;
-    border-top:#000001 1px solid;
+  }
+
+  /*第一行*/
+  /*默认居中*/
+  #td2 {
+    padding: 8px;
+    background-color: #f3f3ef;
+    border-top:#000001 2px solid;
     border-bottom:#f3f3ef 1px solid;
     border-left:#f3f3ef 1px solid;
     border-right:#f3f3ef 1px solid;
   }
-  #td3 {
+  #td2l {
     padding: 8px;
     text-align: left;
     background-color: #f3f3ef;
-    border-bottom:#000000 1px solid;
+    border-top:#000001 2px solid;
+    border-bottom:#f3f3ef 1px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+  }
+  #td2r {
+    padding: 8px;
+    text-align: right;
+    background-color: #f3f3ef;
+    border-top:#000001 2px solid;
+    border-bottom:#f3f3ef 1px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+  }
+
+  /*最后一行*/
+  /*默认向右对齐*/
+  #td3 {
+    padding: 8px;
+    text-align: right;
+    background-color: #f3f3ef;
+    border-bottom:#000000 2px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+    border-top:#f3f3ef 1px solid;
+  }
+  #td3l {
+    padding: 8px;
+    text-align: left;
+    background-color: #f3f3ef;
+    border-bottom:#000000 2px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+    border-top:#f3f3ef 1px solid;
+  }
+  #td3c {
+    padding: 8px;
+    text-align: center;
+    background-color: #f3f3ef;
+    border-bottom:#000000 2px solid;
     border-left:#f3f3ef 1px solid;
     border-right:#f3f3ef 1px solid;
     border-top:#f3f3ef 1px solid;
   }
 
+  /*设置标题*/
   caption {
     padding: 8px;
     text-align: center;
     background-color: #f3f3ef;
-    height:.01pt;
-    border-top:#000001 1px solid;
+    border-top:#000001 2px solid;
     border-bottom:#f3f3ef 1px solid;
     border-left:#f3f3ef 1px solid;
     border-right:#f3f3ef 1px solid;
   }
+
+  .caption1 {
+    padding: 8px;
+    text-align: center;
+    background-color: #f3f3ef;
+    border-top:#000001 2px solid;
+    border-bottom:#000001 2px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+  }
+
+  #tr1 {
+    background-color: #f3f3ef;
+  }
+
+
+
+  .table-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+  }
+
+  .fixed-row {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+  
+
+  
   
   
   
