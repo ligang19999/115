@@ -1,4 +1,4 @@
-# shrinking the cross-section 实证部分
+# Shrinking the cross-section 实证部分
 
 <font size = 5> **Journal:**</font>
 
