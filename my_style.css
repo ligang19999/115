@@ -165,7 +165,7 @@
 
   details {
     font: 16px "Open Sans", "Arial", sans-serif;
-    width: 720px;
+    width: 750px;
   }
   
   details > summary {
@@ -338,6 +338,16 @@
     background-color: #f3f3ef;
     color: rgb(108, 200, 240);
     text-align: right;
+    font-weight: bold;
+    border-top:#000001 2px solid;
+    border-bottom:#000001 2px solid;
+    border-left:#f3f3ef 1px solid;
+    border-right:#f3f3ef 1px solid;
+  }
+  #th1l {
+    background-color: #f3f3ef;
+    color: rgb(108, 200, 240);
+    text-align: left;
     font-weight: bold;
     border-top:#000001 2px solid;
     border-bottom:#000001 2px solid;

@@ -4,7 +4,7 @@
 
 <font size = 4>
 
-Journal of Finance (2023)
+Journal of Finance (2023.2)
 </font>
 
 <font size = 5> **Authors:**</font>

@@ -1,5 +1,29 @@
 # shrinking the cross-section 实证部分
 
+<font size = 5> **Journal:**</font>
+
+<font size = 4>
+
+Journal of Financial Economics (2020.2)
+</font>
+
+<font size = 5> **Authors:**</font>
+
+<font size = 4>
+
+* Serhiy Kozak:
+
+  University of Maryland, 7621 Mowatt Lane, College Park, MD 20742, United States
+
+* Stefan Nagel:
+  
+  University of Chicago, NBER, and CEPR, 5807 S Woodlawn Ave, Chicago, IL 60637, United States
+
+* Shrihari Santosh:
+  
+  University of Colorado at Boulder, 995 Regent Dr, Boulder, CO 80309, United States
+</font>
+
 [理论部分详解1](https://leetah666.github.io/Notes/#/papers/shrinking_the_cross-section) $\qquad$ [理论部分详解2](https://hbs2000.github.io/Gpaper/#/factor_zoo/Shrinkage)
 
 ## 4. Empirical analysis

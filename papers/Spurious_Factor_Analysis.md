@@ -4,7 +4,7 @@
 
 <font size = 4>
 
-Econometrica
+Econometrica (2021.3)
 </font>
 
 <font size = 5> **Authors:**</font>

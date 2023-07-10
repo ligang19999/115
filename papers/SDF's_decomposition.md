@@ -1,8 +1,20 @@
-# SDF’s permanent-transitory decomposition
+# Nonparametric Stochastic Discount Factor Decomposition
 
-Nonparametric Stochastic Discount Factor Decomposition.ECONOMETRICA
+<font size = 5> **Journal:**</font>
 
-Author: Timothy M. Christensen
+<font size = 4>
+
+Econometrica (2017.10)
+</font>
+
+<font size = 5> **Authors:**</font>
+
+<font size = 4>
+
+* Timothy M. Christensen:
+
+  Department of Economics, New York University
+</font>
 
 ## Abstract
 

@@ -6,7 +6,7 @@
 
 <font size = 4>
 
-Review of Finanical Studies
+Review of Finanical Studies (2020.5)
 </font>
 
 <font size = 5> **Authors:**</font>
@@ -79,17 +79,21 @@ $$
 \text{PCA}: \qquad \hat{F}_{PCA}, \hat{\land}_{PCA} = \mathop{argmin}\limits_{\land,F}  \frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T}  \big  ((X_{nt}-\overline{X}_n)-(F_t-\overline{F})\land_n^T \big)^2 \tag{3}
 $$
 
-这里其实是 $var(X) = E \big(X - E(X)\big)^2$的形式
+这里其实是 $var(X) = E \big(X - E(X)\big)^2$ 的方差形式
+
+$$
+\boxed{\mathop{argmin}\limits_{F}  \frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T}  \big  (X_{nt}-F_t\land_n^T \big)^2}
+$$
 
 对(3)式进行变形：
 
 $$
 \begin{array}{lll}
   \hat{F}_{PCA}, \hat{\land}_{PCA} & = & \mathop{argmin}\limits_{\land,F}  \frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T}  \big  ((X_{nt}-F_t\land_n^T) - (\overline{X}_n-\overline{F}\land_n^T)\big)^2 \\
-   & & \\
-   & = & \mathop{argmin}\limits_{\land,F} \frac{1}{N}\sum\limits_{n=1}^{N}  E \big(e_{nt} - E(e_{nt})\big)^2 \\
-   & & \\
-   & = & \mathop{argmin}\limits_{\land,F} \frac{1}{N}\sum\limits_{n=1}^{N} var(e_{n})
+  & & \\
+  & = & \mathop{argmin}\limits_{\land,F} \frac{1}{N}\sum\limits_{n=1}^{N}  E \big(e_{nt} - E(e_{nt})\big)^2 \\
+  & & \\
+  & = & \mathop{argmin}\limits_{\land,F} \frac{1}{N}\sum\limits_{n=1}^{N} var(e_{n})
 \end{array}
 $$
 
@@ -100,15 +104,19 @@ $$
 >$\qquad E(e_{nt}) = e_n = E(X_{nt}-F_t\land_n^T) = \overline{X}_n-\overline{F}\land_n^T ，e_n$ 代表第n个资产在所有时间段T期内的期望定价误差
 
 Conventional statistical factor analysis applies PCA to the **sample covariance** matrix:
-$$\Sigma_X = \frac{1}{T}X^TX-\overline{X}*\overline{X}^T$$
+
+$$
+\Sigma_X = \frac{1}{T}X^TX-\overline{X}*\overline{X}^T
+$$
+
 where $\overline{X}$ denotes the **sample mean** of excess returns
 
 $$
 \begin{bmatrix}
-{X_{11}}&{X_{21}}&{\cdots}&{X_{N1}}\\
-{X_{12}}&{X_{22}}&{\cdots}&{X_{N2}}\\
-{\vdots}&{\vdots}&{\ddots}&{\vdots}\\
-{X_{1T}}&{X_{2T}}&{\cdots}&{X_{NT}}\\
+  {X_{11}}&{X_{21}}&{\cdots}&{X_{N1}}\\
+  {X_{12}}&{X_{22}}&{\cdots}&{X_{N2}}\\
+  {\vdots}&{\vdots}&{\ddots}&{\vdots}\\
+  {X_{1T}}&{X_{2T}}&{\cdots}&{X_{NT}}\\
 \end{bmatrix}_{T\times N}
 $$
 
@@ -117,10 +125,10 @@ $\overline{X}_i = \frac{1}{T} \sum\limits_{j=1}^{T}X_{ji}$
 $$
 \overline{X} =
 \begin{bmatrix}
-{\frac{1}{T}(X_{11}+X_{12}+\dots + X_{1T})}\\
-{\vdots}\\
-{\vdots}\\
-{\frac{1}{T}(X_{N1}+X_{N2}+\dots + X_{NT})}\\
+  {\frac{1}{T}(X_{11}+X_{12}+\dots + X_{1T})}\\
+  {\vdots}\\
+  {\vdots}\\
+  {\frac{1}{T}(X_{N1}+X_{N2}+\dots + X_{NT})}\\
 \end{bmatrix}_{N\times 1}
 $$
 
@@ -150,8 +158,8 @@ $$=\begin{bmatrix}
 $$
 
 >[!TIP|label:提示]
->有的PCA做法是先对收益率矩阵X进行demean处理，然后求协方差矩阵，最后对协方差矩阵进行正交分解$\\$
->如果对X进行了demean处理，那么 $\overline{X}$ 在这里是一个0向量$\\$
+>有的PCA做法是先对收益率矩阵X进行demean处理，然后求协方差矩阵，最后对协方差矩阵进行正交分解<br>
+>如果对X进行了demean处理，那么 $\overline{X}$ 在这里是一个0向量<br>
 >此时 $\Sigma_X = \frac{1}{T}X^TX$
 
 ### 1.2 RP_PCA method
@@ -162,7 +170,7 @@ $$
 \hat{F}_{RP}, \hat{\land}_{RP} = \mathop{argmin}\limits_{\land,F}  \underbrace{\frac{1}{NT} \sum\limits_{n=1}^{N} \sum\limits_{t=1}^{T} (X_{nt}-F_t\land_n^T)^2}_{\text{unexplained TS variation}}    +  \gamma \ \underbrace{ \frac{1}{N} \sum\limits_{n=1}^{N}(\overline{X}_n- \overline{F}\land_n^T)^2}_{\text{cross-section pricing error}}  \tag{4}
 $$
 
-这里$\gamma \geqslant$ −1 ，它代表平均截面定价误差在整个目标函数中的权重，这也是RP_PCA方法和PCA方法的不同之处
+这里 $\gamma \geqslant$ −1 ，它代表平均截面定价误差在整个目标函数中的权重，这也是RP_PCA方法和PCA方法的不同之处
 
 **通过考虑平均超额收益 $\overline{X}$ 和模型计算的平均超额收益的差值 $E[\hat{F}_{t}] \hat{B}^n_{t}$，相当于把横截面上的定价误差加入到最优目标函数中**
 
@@ -204,7 +212,7 @@ $$
 \end{array}
 $$
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 #### 1.2.2 objective matrix
 
@@ -242,7 +250,7 @@ $$
 >[!NOTE|label:提示]
 >虽然OLS的时候对X和F进行了demean处理，$e_{nt}$ =0，但这只是为了用OLS来估计因子F。为了评估模型的好坏，我们需要用带有截距项的等式(10)，希望截距越接近0越好。而不是没有截距项的等式(9)
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 #### 1.2.4 A Summary for RP-PCA Method
 
@@ -264,7 +272,7 @@ $
 \end{array}
 $
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 #### 1.2.5 Some proofs
 
@@ -311,11 +319,11 @@ $$
 
 $$
 \begin{array}{ll}
- & \frac{1}{T} X^TX - \overline{X}*\overline{X}^T + m \overline{X}*\overline{X}^T \\
+ & \frac{1}{T} X^TX - \overline{X}\cdot \overline{X}^T + m \overline{X}\cdot \overline{X}^T \\
  & \\
-= & \frac{1}{T} X^TX + \text{\color{red}{(m-1)}} \overline{X}*\overline{X}^T\\
+= & \frac{1}{T} X^TX + \text{\color{red}{(m-1)}} \overline{X}\cdot \overline{X}^T\\
  & \\
-= & \frac{1}{T} X^TX + \textcolor{red}{ \gamma}\ \overline{X}*\overline{X}^T\\
+= & \frac{1}{T} X^TX + \textcolor{red}{ \gamma}\ \overline{X}\cdot \overline{X}^T\\
 \end{array}
 $$
 
@@ -325,7 +333,7 @@ $$
 >[!NOTE|label:特别注意]
 >$\overline{X}*\overline{X}^T$不是对角矩阵，虽然它的秩是1
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 #### 1.2.6 estimating SDF
 
@@ -449,7 +457,7 @@ settings implied by the theoretical results of the weak factor model (N=370 and 
 
 **原因是 reversal factor 捕获了平均收益差异的信息，因此在RP_PCA估计中被赋予了更高的权重**
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 ![](RP_PCA-figures/figure2.png)
 
@@ -527,13 +535,13 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 
 同样证实五个系统性因子
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 ![](RP_PCA-figures/figure6.png)
 
 前五个因子的样本外Sharpe Ratio逐渐增加，但添加其他因子对样本外SR的影响很小，这证实了RP_PCA提取了五个系统性因子
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 ![](RP_PCA-figures/table2.png)
 
@@ -557,7 +565,7 @@ for different number of factors and $\gamma$. **Left: Size/Accrual. Right: Size/
 * 个股收益的信噪比低于投资组合的信噪比，这使得共同因子的识别更加困难
 * 个股的因子结构可能不如投资组合稳定
 
-<hr align = "center" width="90%" size = 5 color = 'lightgreen'/>
+---
 
 ![](RP_PCA-figures/figure8.png)
 
